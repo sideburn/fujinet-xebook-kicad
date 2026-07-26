@@ -8,6 +8,8 @@ fp-info-cache
 *.lck
 *.000
 *.ratsnest
+*-backups/
+*.kicad_prl
 
 # KiCad plot/output directories (regenerate via kicad-cli, don't commit)
 /gerbers/
