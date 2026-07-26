@@ -5302,7 +5302,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "11a29c64-68b6-4f92-801b-02247e3ba7b4")
+		(uuid "f13e71e7-c35e-4427-bdf2-cdb0154f289a")
 		(property "Reference" "J_SIO"
 			(at 50.8 43.18 0)
 			(effects
@@ -5319,7 +5319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x06_P2.54mm_Latch_Horizontal"
+		(property "Footprint" "LocalOverrides:IDC-Header_2x06_P2.54mm_Latch_Horizontal"
 			(at 50.8 50.8 0)
 			(effects
 				(font
@@ -5338,40 +5338,40 @@
 			)
 		)
 		(pin "1"
-			(uuid "acac36bb-9f35-4573-8416-5e2921f51cb2")
+			(uuid "e02fa968-10f1-47d3-8456-c766e89a8535")
 		)
 		(pin "3"
-			(uuid "c128220c-3526-42cd-acb3-67989ccfd215")
+			(uuid "13a92d76-294e-4269-b51d-82d89b80652f")
 		)
 		(pin "5"
-			(uuid "e060717b-341b-4197-ab0b-b6c77980f24c")
+			(uuid "4c0cf725-cf9b-4c9c-b2cf-77b7ad0948a1")
 		)
 		(pin "7"
-			(uuid "cddc9a9e-aaba-4535-8552-4837c1a96422")
+			(uuid "e3a850e1-5b2b-4b40-916b-6cd1bf0f13f4")
 		)
 		(pin "9"
-			(uuid "c583bb53-70c3-419f-a01f-fe7aed4e5975")
+			(uuid "aa6b56ac-3cac-4345-abb5-084acd7fad55")
 		)
 		(pin "11"
-			(uuid "e6d5870f-6f42-4ae4-8276-5387c57c994c")
+			(uuid "38dc360b-fe07-4261-933e-8b9cc00f1e8d")
 		)
 		(pin "2"
-			(uuid "584b40c9-7184-4e7b-90ef-49237ecc24d0")
+			(uuid "f15483ca-d81f-4fe7-a16f-3ad6b8472f36")
 		)
 		(pin "4"
-			(uuid "68595ccd-aebd-4cff-ad2e-f4c15570b801")
+			(uuid "1cbcea38-f0c3-4a7a-8ee6-afa18ec8b9b6")
 		)
 		(pin "6"
-			(uuid "59922d3b-27e2-4397-b1e4-54356573967e")
+			(uuid "3cb4addc-8983-43cc-9706-cd7ddfa4a077")
 		)
 		(pin "8"
-			(uuid "17342730-263e-45d2-87a5-0c42ea5979bc")
+			(uuid "9bb3e69f-0907-47a7-bc94-006c52bae29d")
 		)
 		(pin "10"
-			(uuid "2d42a944-5aa0-4414-a5ff-d036276253bb")
+			(uuid "b99d978a-e944-47d4-a46b-608d7983e817")
 		)
 		(pin "12"
-			(uuid "c79a0389-eb0c-4055-a9f7-41f4752adc0d")
+			(uuid "5bd9c0c5-57e2-4789-bdeb-94aa5413d378")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -5390,7 +5390,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "4ed2b23e-fdd7-4516-9e53-220326e832cb")
+		(uuid "2a28501f-9990-4266-968c-b6c166b0450e")
 	)
 	(label "SIO_CKIN"
 		(at 40.64 45.72 180)
@@ -5400,7 +5400,7 @@
 			)
 			(justify right)
 		)
-		(uuid "6f19762a-06ec-4d4a-93d2-c03f2f610902")
+		(uuid "2e4ba0b9-3764-4954-8a21-d84a1dac2693")
 	)
 	(wire
 		(pts
@@ -5410,7 +5410,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "109866b3-1143-4200-9bdc-86658d78a92b")
+		(uuid "a0d4dd76-867a-4625-93a4-74b25ed1b37f")
 	)
 	(label "SIO_DATAIN"
 		(at 40.64 48.26 180)
@@ -5420,7 +5420,7 @@
 			)
 			(justify right)
 		)
-		(uuid "2aa46e09-d278-45cd-b0d4-e05faebc6ae2")
+		(uuid "d0ce63d4-c2f6-4ae1-aed6-b220fa0d0a69")
 	)
 	(wire
 		(pts
@@ -5430,7 +5430,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "9f18c5aa-8cab-4ccf-9b6c-5c459136ed3e")
+		(uuid "626425d8-07d2-451e-bba9-542357cc22b4")
 	)
 	(label "SIO_DATAOUT"
 		(at 40.64 50.8 180)
@@ -5440,7 +5440,7 @@
 			)
 			(justify right)
 		)
-		(uuid "f4d67357-1120-42f7-995f-dba2cdc55fed")
+		(uuid "a089735f-b0f3-4038-9620-f5be1b6e8fe8")
 	)
 	(wire
 		(pts
@@ -5450,7 +5450,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "cc0431f3-4b39-4f2d-9058-0dcc3b4ab99f")
+		(uuid "29d9bf36-516a-49a7-b72b-cdae602d2a05")
 	)
 	(label "SIO_MCTL"
 		(at 40.64 53.34 180)
@@ -5460,7 +5460,7 @@
 			)
 			(justify right)
 		)
-		(uuid "53feccc9-09d6-4317-a7c7-d6ff125c1569")
+		(uuid "dad64c06-4de6-4878-be64-e81834cf5e45")
 	)
 	(wire
 		(pts
@@ -5470,7 +5470,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "35028e73-f936-48d7-b3f0-a15005a20dea")
+		(uuid "d8351118-38c1-4dfe-8b98-89f4f0c0d7ee")
 	)
 	(label "SIO_5V"
 		(at 40.64 55.88 180)
@@ -5480,7 +5480,7 @@
 			)
 			(justify right)
 		)
-		(uuid "b2d1ee1b-04d5-43c7-84e3-3e7b51d3f6d6")
+		(uuid "472ab480-e690-43fc-82c9-9aeed72cccd2")
 	)
 	(wire
 		(pts
@@ -5490,7 +5490,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "51a046cb-a39a-4d9e-990c-b7adb15c7d77")
+		(uuid "71bcd1ec-06f4-4d5e-a3ad-602cfb6ac15d")
 	)
 	(label "SIO_INT"
 		(at 40.64 58.42 180)
@@ -5500,7 +5500,7 @@
 			)
 			(justify right)
 		)
-		(uuid "401c412c-faa4-44a1-89b3-ad9f90b4379c")
+		(uuid "f05013a0-4cd2-418e-aecd-115b76572f15")
 	)
 	(wire
 		(pts
@@ -5510,7 +5510,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "e5e52e9b-786e-45df-9ad8-47e8fca5d3ed")
+		(uuid "7a0f5c64-84e1-4286-a5c7-b50081853884")
 	)
 	(label "SIO_CKOUT"
 		(at 63.5 45.72 0)
@@ -5520,7 +5520,7 @@
 			)
 			(justify left)
 		)
-		(uuid "db18e8a6-7a2f-4632-882a-641dcff2791b")
+		(uuid "36154713-9ba2-4856-9e94-3ac7de71415c")
 	)
 	(wire
 		(pts
@@ -5530,7 +5530,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "ab2112ef-20cc-4a7e-b26c-f824a2959a97")
+		(uuid "864687bd-84a7-4a68-8507-75dd81c62684")
 	)
 	(label "GND"
 		(at 63.5 48.26 0)
@@ -5540,7 +5540,7 @@
 			)
 			(justify left)
 		)
-		(uuid "bf9b7a71-3a81-493b-b637-095b097c0325")
+		(uuid "1029af30-a612-4dd2-a5da-9c7d07ae5b18")
 	)
 	(wire
 		(pts
@@ -5550,7 +5550,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "85094c9c-f70e-4781-9387-3fffc510e3f5")
+		(uuid "5e0aca0f-13fd-425b-a77f-ac9d9dc730ea")
 	)
 	(label "SIO_CMD"
 		(at 63.5 50.8 0)
@@ -5560,7 +5560,7 @@
 			)
 			(justify left)
 		)
-		(uuid "6432e19e-5fd9-4fb0-ad9d-d558bc9e2142")
+		(uuid "12019b2f-8cf6-4acd-b5d4-7b775181d906")
 	)
 	(wire
 		(pts
@@ -5570,7 +5570,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "95b3f589-5ea8-4218-abb1-2b32288d34bc")
+		(uuid "c8caa3ad-2094-4a81-9cd0-36b032ce54ee")
 	)
 	(label "SIO_PROC"
 		(at 63.5 53.34 0)
@@ -5580,7 +5580,7 @@
 			)
 			(justify left)
 		)
-		(uuid "72a2ceba-1d8f-4561-842f-747f6315fe67")
+		(uuid "882d450c-81a3-4c9e-8d2f-cf8e4415e558")
 	)
 	(wire
 		(pts
@@ -5590,7 +5590,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "2a17a4e9-7f0e-4ad0-8c55-c1587d83a90b")
+		(uuid "c1a401df-2483-4c96-a3b3-3709d3c45b93")
 	)
 	(label "SIO_AUDIN"
 		(at 63.5 55.88 0)
@@ -5600,11 +5600,11 @@
 			)
 			(justify left)
 		)
-		(uuid "c810843a-c8a2-4054-b1d0-3aa978a67239")
+		(uuid "82d7aabe-9679-412e-acff-5cbbb196d3f0")
 	)
 	(no_connect
 		(at 58.42 58.42)
-		(uuid "a8a7e22e-878e-45b1-b01d-48f28eafc0be")
+		(uuid "0e322523-b707-4a36-944e-c5cea97e27a9")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
@@ -5614,7 +5614,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d57e6e15-d59a-4352-8b88-34db3d0099d9")
+		(uuid "c1e2f9dd-9354-493e-b8f8-006b08bfe0ee")
 		(property "Reference" "J_LED"
 			(at 101.6 43.18 0)
 			(effects
@@ -5650,16 +5650,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "32c567c0-7814-4676-a6eb-27c8679296b6")
+			(uuid "4dd52c10-82f4-4a6b-90af-b8382b9b3a21")
 		)
 		(pin "2"
-			(uuid "5523fd87-7835-4145-bfe2-b7ca6f1d366e")
+			(uuid "20b98281-80bb-4087-bab0-89e1b1ce21bd")
 		)
 		(pin "3"
-			(uuid "076d018e-5926-4e11-be4d-58044aa21e14")
+			(uuid "7ba16bcb-e5a3-49ad-bf02-b5ed5059ff80")
 		)
 		(pin "4"
-			(uuid "a4e710f1-fdde-4168-a665-8a07a780dc3b")
+			(uuid "2ba8ea23-14da-450b-8a8d-20d45cbc3f46")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -5678,7 +5678,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "0de7928f-5c21-4b19-950a-ae45ef75c0fe")
+		(uuid "f1bfa858-1f88-4298-bb38-2deec9bd5aa8")
 	)
 	(label "3V3"
 		(at 91.44 48.26 180)
@@ -5688,7 +5688,7 @@
 			)
 			(justify right)
 		)
-		(uuid "961c3efb-f913-4230-8036-6714a79d1c59")
+		(uuid "f2888bf7-7646-4ff1-a574-7b7f7306c5a4")
 	)
 	(wire
 		(pts
@@ -5698,7 +5698,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "1f49261f-5ddd-4944-9655-c9c6c1a842f8")
+		(uuid "5978f457-e560-48b8-8dfa-2ed686f39525")
 	)
 	(label "LED_WIFI"
 		(at 91.44 50.8 180)
@@ -5708,7 +5708,7 @@
 			)
 			(justify right)
 		)
-		(uuid "f5e450a5-79bf-42ec-9ece-d4a603de4b9e")
+		(uuid "5c5223ee-8994-4770-acfe-b8bc6e78b135")
 	)
 	(wire
 		(pts
@@ -5718,7 +5718,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "e6ac85c6-cec1-4d15-b8b5-6caf3c099731")
+		(uuid "d3922ec7-116f-45ec-ad41-db933f099bc2")
 	)
 	(label "LED_BT"
 		(at 91.44 53.34 180)
@@ -5728,7 +5728,7 @@
 			)
 			(justify right)
 		)
-		(uuid "60a13703-dc36-4194-94bf-7bc6d57c8a54")
+		(uuid "9b75480d-361f-4eb9-9d9f-56d60740ccc4")
 	)
 	(wire
 		(pts
@@ -5738,7 +5738,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "6f9aae99-e700-4fc9-9a63-07ca5a3e7988")
+		(uuid "9a62a58b-8961-40de-9cce-1d9825919600")
 	)
 	(label "LED_SIO"
 		(at 91.44 55.88 180)
@@ -5748,7 +5748,7 @@
 			)
 			(justify right)
 		)
-		(uuid "dee6438c-6bca-4bca-8912-57bdc939a94e")
+		(uuid "3600bbc8-0a07-4a7f-9d23-f479b68413e8")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
@@ -5758,7 +5758,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4001d301-91a5-4294-ac95-a04c39a23a05")
+		(uuid "27169552-52d7-49f5-9aa2-63380743aa70")
 		(property "Reference" "J_BTN"
 			(at 101.6 68.58 0)
 			(effects
@@ -5794,16 +5794,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "66f1b8cf-c6ff-4781-8b26-decc689ae94f")
+			(uuid "e6d38a6b-5039-4d30-a64a-3bba13ca6a3e")
 		)
 		(pin "2"
-			(uuid "304224e6-0af8-4f03-92f4-ba0752aa0f09")
+			(uuid "28e3b051-2a15-4b8e-976a-e9314b27737a")
 		)
 		(pin "3"
-			(uuid "56493b03-32e4-4e5f-8ee4-ffbec81f755c")
+			(uuid "3b2a2060-98c8-4e12-9570-26e77f122889")
 		)
 		(pin "4"
-			(uuid "bb61bb92-0b33-4804-af9d-f5afb5d71760")
+			(uuid "12f914cc-95fa-4daf-9e0e-7af2b785aa9b")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -5822,7 +5822,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "6e25c64f-7147-41c1-b375-6dd0b04a84da")
+		(uuid "97b4f46a-50b5-44ee-84fe-0edf63c3c9bd")
 	)
 	(label "GND"
 		(at 91.44 73.66 180)
@@ -5832,7 +5832,7 @@
 			)
 			(justify right)
 		)
-		(uuid "48e24fdf-d6cd-4a3b-adc6-322d838215c3")
+		(uuid "2ad3f1e2-7ee8-43e3-8626-351264f8e051")
 	)
 	(wire
 		(pts
@@ -5842,7 +5842,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "94112f0d-82ea-4a45-a527-a89939aca5e4")
+		(uuid "75b52f09-3b7b-481f-a9e8-ff65c074188d")
 	)
 	(label "BTN_SWAP"
 		(at 91.44 76.2 180)
@@ -5852,7 +5852,7 @@
 			)
 			(justify right)
 		)
-		(uuid "82e78f9b-8567-4f42-8544-c157c06ffcc5")
+		(uuid "8426ad6a-cab1-41c3-b6ac-882093a3eef4")
 	)
 	(wire
 		(pts
@@ -5862,7 +5862,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "1dde20c4-a3a2-4042-85ea-250c73a5113b")
+		(uuid "35870a82-0d83-4678-b36a-54d9828525e1")
 	)
 	(label "BTN_BT"
 		(at 91.44 78.74 180)
@@ -5872,7 +5872,7 @@
 			)
 			(justify right)
 		)
-		(uuid "a51f75cd-c204-4ab7-a700-f3a1430a8414")
+		(uuid "ae3b9410-f6ad-4f7f-855a-ba24506ab031")
 	)
 	(wire
 		(pts
@@ -5882,7 +5882,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "0f9cf3b6-a13a-405b-9927-cc4eb0be63b9")
+		(uuid "cda36215-34ca-4e4b-b7db-5e6469e6f90b")
 	)
 	(label "BTN_RST"
 		(at 91.44 81.28 180)
@@ -5892,7 +5892,7 @@
 			)
 			(justify right)
 		)
-		(uuid "749ac00c-1098-4531-a03a-4ee3735aa854")
+		(uuid "1d7d9db0-e3be-4e77-8103-a8aabb074a46")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x07")
@@ -5902,7 +5902,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "379a006a-1fed-4734-ada8-cdb665c22269")
+		(uuid "40a8fb6c-dc2c-4930-aaa9-9e89bab053cc")
 		(property "Reference" "J_SD"
 			(at 152.4 43.18 0)
 			(effects
@@ -5938,25 +5938,25 @@
 			)
 		)
 		(pin "1"
-			(uuid "e5e2476d-ddaa-4a61-95fb-a9cbfe72c000")
+			(uuid "572bc5a1-1dfe-4434-9b08-8097cfb95572")
 		)
 		(pin "2"
-			(uuid "58ed5526-80a1-4d4c-a9d5-ca431d536f22")
+			(uuid "331e4bba-3a9c-4df3-afd4-1fc9a7d86280")
 		)
 		(pin "3"
-			(uuid "89b4b033-4b64-4bb2-ad32-d79629148458")
+			(uuid "6b09be75-b2f7-4ffd-ac00-86a40386e69b")
 		)
 		(pin "4"
-			(uuid "6b12f361-1fe0-4863-851b-49be8312b4d6")
+			(uuid "4250b7bc-f8ca-4b88-8779-1eb886a864b6")
 		)
 		(pin "5"
-			(uuid "70d13204-874e-45fa-92c6-1838631bd70e")
+			(uuid "72f3c95f-e2df-48df-bafc-08e8d5d64eb0")
 		)
 		(pin "6"
-			(uuid "e7bba04b-6d2c-40fc-8dc7-dd1b322e5605")
+			(uuid "b6acaa4a-45f1-4356-b243-3d23307507cc")
 		)
 		(pin "7"
-			(uuid "6e180225-bcd0-4b38-842b-d340a4e55a79")
+			(uuid "f941805f-a961-40fc-a3bd-e1fbe3cbdb32")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -5975,7 +5975,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "cdafa957-6336-4b91-8660-289f7945ced6")
+		(uuid "c2b0cc1c-4783-4f4e-8c33-f6be4b9793fe")
 	)
 	(label "3V3"
 		(at 142.24 43.18 180)
@@ -5985,7 +5985,7 @@
 			)
 			(justify right)
 		)
-		(uuid "d0759f68-d974-456f-8c0c-22e69c63c163")
+		(uuid "824fe873-7702-43bc-b9fa-553053981063")
 	)
 	(wire
 		(pts
@@ -5995,7 +5995,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "6dc929d4-883c-466b-ada6-c638ae67db15")
+		(uuid "40d9e517-8044-4499-811a-09395d831e37")
 	)
 	(label "GND"
 		(at 142.24 45.72 180)
@@ -6005,7 +6005,7 @@
 			)
 			(justify right)
 		)
-		(uuid "f1ef29d5-be37-429a-9367-0ee14ac4342d")
+		(uuid "375b9d82-8251-4464-b949-260dbb33dc4f")
 	)
 	(wire
 		(pts
@@ -6015,7 +6015,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "4def35c2-52ac-439c-b5ba-8614bba57f58")
+		(uuid "63720a30-afa0-4586-93e0-16c893df95b2")
 	)
 	(label "IO18/SPI_CLK"
 		(at 142.24 48.26 180)
@@ -6025,7 +6025,7 @@
 			)
 			(justify right)
 		)
-		(uuid "51c60216-06f6-4e2d-b111-6a09f8f154d7")
+		(uuid "d852aad2-6790-4929-9ae9-dec0f7479140")
 	)
 	(wire
 		(pts
@@ -6035,7 +6035,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "7dc5f857-da72-4191-a3a8-eb40d86a26d9")
+		(uuid "0791544a-4a94-4833-b930-db3daf20db10")
 	)
 	(label "IO23/SPI_MOSI"
 		(at 142.24 50.8 180)
@@ -6045,7 +6045,7 @@
 			)
 			(justify right)
 		)
-		(uuid "7603c2f8-b269-4881-be20-41d46ee72fcb")
+		(uuid "c68429a1-9de2-4911-ab69-206ee2c5a3c6")
 	)
 	(wire
 		(pts
@@ -6055,7 +6055,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "ff6cb789-20f4-4c1e-bc2a-21ad96d2190e")
+		(uuid "8e30b1f5-4c83-45b1-bc05-b04553fb6fbb")
 	)
 	(label "IO19/SPI_MISO"
 		(at 142.24 53.34 180)
@@ -6065,7 +6065,7 @@
 			)
 			(justify right)
 		)
-		(uuid "e977504b-6a7b-4d56-a8d3-623eff410e89")
+		(uuid "6313c1c1-53d8-452f-86b0-302a26a97ee8")
 	)
 	(wire
 		(pts
@@ -6075,7 +6075,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "f0af744d-5607-4a4c-a2bb-8e969aecbb75")
+		(uuid "f62ea0ec-6b80-4922-b223-51ab8e5eed02")
 	)
 	(label "IO5/SPI_CS"
 		(at 142.24 55.88 180)
@@ -6085,7 +6085,7 @@
 			)
 			(justify right)
 		)
-		(uuid "ed4cb1ff-e714-4509-a075-d320019d9446")
+		(uuid "8d844ae0-df7a-477e-a137-cdd9be7a5afe")
 	)
 	(wire
 		(pts
@@ -6095,7 +6095,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "207863d5-c6f8-40d8-805b-528e8646990b")
+		(uuid "ba5d9d03-e0b1-4778-a359-38f828b2ef8f")
 	)
 	(label "IO15/TDO"
 		(at 142.24 58.42 180)
@@ -6105,7 +6105,7 @@
 			)
 			(justify right)
 		)
-		(uuid "6c577723-24fd-4b22-97f0-6ff902281ee0")
+		(uuid "578880b4-3dee-40b5-9237-295a8863c3fc")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
@@ -6115,7 +6115,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "31da25ec-7207-4b20-808c-26ce53c5359c")
+		(uuid "14b1fe60-ed2a-465e-91ec-08313844d161")
 		(property "Reference" "J_PWR"
 			(at 152.4 68.58 0)
 			(effects
@@ -6151,10 +6151,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce909259-eeaf-45dc-8017-5090aec213fd")
+			(uuid "ad8e7480-c85e-4c00-bc60-f1684339f2d5")
 		)
 		(pin "2"
-			(uuid "8449b84c-ddb0-418a-8a75-12e8ee7a0c4e")
+			(uuid "b6421f67-db91-4517-bb41-9788554805ca")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -6173,7 +6173,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "e62ef513-032a-41e9-a22e-a172fdffff62")
+		(uuid "47e21024-207e-4bc4-aab7-7e1a286fd880")
 	)
 	(label "PWR_SW_VCC"
 		(at 142.24 76.2 180)
@@ -6183,7 +6183,7 @@
 			)
 			(justify right)
 		)
-		(uuid "47c4b54e-8a59-4698-b886-1faa91d1eacb")
+		(uuid "52cba46c-1c67-42f3-ac9d-112fb5eb68fc")
 	)
 	(wire
 		(pts
@@ -6193,7 +6193,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "f172995e-8a17-45bf-ab35-c476a0ad6083")
+		(uuid "0dc55ec3-48fd-4b04-bace-dd9ed5767180")
 	)
 	(label "PWR_SW_EN"
 		(at 142.24 78.74 180)
@@ -6203,7 +6203,7 @@
 			)
 			(justify right)
 		)
-		(uuid "a249224e-7233-463a-b0f8-67e3fb968337")
+		(uuid "ac536690-026d-4688-bf74-ab22a92d9e17")
 	)
 	(symbol
 		(lib_id "Espressif:ESP32-WROVER-E")
@@ -6213,7 +6213,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e6fdf8a8-79da-45ea-9364-6c2e9b582b4e")
+		(uuid "b3e3a64d-3bc8-470f-bec1-faef5a6e5386")
 		(property "Reference" "U1"
 			(at 127 246.38 0)
 			(effects
@@ -6249,94 +6249,94 @@
 			)
 		)
 		(pin "3"
-			(uuid "ad79a675-6150-4423-8a7b-a7bc2a12f4c9")
+			(uuid "131f6709-2984-405f-8d84-879c567a80a1")
 		)
 		(pin "8"
-			(uuid "d87f7134-679d-482f-a3ed-9bb20054585e")
+			(uuid "897b1079-01ee-4f89-a513-5d4df017d6ea")
 		)
 		(pin "9"
-			(uuid "773c2a07-3731-407f-a558-711ce3e16a78")
+			(uuid "81151334-8fb2-46ef-b2ac-bce87bbe0785")
 		)
 		(pin "14"
-			(uuid "a3df8bcf-086e-4730-bd0c-5c4f0e2a88bd")
+			(uuid "dc19ade2-baac-486e-821d-82f2eeb377d2")
 		)
 		(pin "16"
-			(uuid "2c71c026-6f09-439c-970a-d02ce61bd53b")
+			(uuid "8a4b6272-d87a-4ce1-9f46-0f6b341578b4")
 		)
 		(pin "13"
-			(uuid "cc087a02-1a5e-4c22-ac61-6e7b9acf6cfa")
+			(uuid "277482ee-89f2-4da9-85b4-49a23f9407e4")
 		)
 		(pin "23"
-			(uuid "a7bcfd2e-2d0c-495d-8baf-fdf7fc28e6c1")
+			(uuid "7792b80e-298f-4924-bb3c-147adbba088e")
 		)
 		(pin "6"
-			(uuid "292f9ec7-05e5-479a-aab9-127279585b86")
+			(uuid "2760704c-b350-482a-9efd-f22eb00908e8")
 		)
 		(pin "7"
-			(uuid "3d38ba7b-db9c-4b8e-97f7-78065887c5d0")
+			(uuid "a31a3e9b-5775-48dd-ace4-168f417452c6")
 		)
 		(pin "4"
-			(uuid "2b7ec69b-2f49-46b6-b01b-67c39f109e95")
+			(uuid "dc6ea543-f724-4487-89c2-5476fd66bfb0")
 		)
 		(pin "5"
-			(uuid "fc5afc0f-a2b6-4b77-958e-f7480667026b")
+			(uuid "817e00eb-cde0-46f0-9ed4-078c18f20fca")
 		)
 		(pin "2"
-			(uuid "e91a65c9-22c9-4b63-83b6-cf891510d9f5")
+			(uuid "958871db-138e-431d-949b-f218869a0771")
 		)
 		(pin "1"
-			(uuid "60a098f3-9b8e-4cc5-a218-f17ab7c4e4ab")
+			(uuid "cbc7665e-077c-4c1d-97a9-3764ba1be992")
 		)
 		(pin "15"
-			(uuid "3f4cb87d-ea53-4fca-9ad8-1bab30e6c5ce")
+			(uuid "37fd76f3-9dad-4c1c-8656-d8b6d14624f2")
 		)
 		(pin "38"
-			(uuid "b47df078-cb64-4315-874c-f11a7dcffb31")
+			(uuid "c6496f95-6172-4034-b762-e54aa6916afc")
 		)
 		(pin "39"
-			(uuid "502db0a2-f4b1-465f-855d-a078f023e38d")
+			(uuid "e86371ab-43fa-4ddb-a9ad-70a6c56c3fb3")
 		)
 		(pin "35"
-			(uuid "938d0223-8044-42dd-b81e-914b556d4e04")
+			(uuid "57714dbd-03e1-4197-a30c-13ee3fea8a0e")
 		)
 		(pin "34"
-			(uuid "d4341be4-c18d-4cff-b41e-96d683b07bc0")
+			(uuid "dc81165d-e19b-4673-8e31-09de672855e8")
 		)
 		(pin "25"
-			(uuid "e127d448-96f1-41de-be74-bba9bc25423b")
+			(uuid "025edec6-7f66-4ced-8b05-85a8756932b4")
 		)
 		(pin "24"
-			(uuid "b7d84743-a731-4ce8-9924-f246eec4cfd5")
+			(uuid "8ad7df67-27ed-43f2-86b8-09bd41eb0b06")
 		)
 		(pin "26"
-			(uuid "b6df342f-1fbc-4968-9f40-5ae415551fa6")
+			(uuid "3a5ee984-c2cc-424c-87b0-0843d8b72763")
 		)
 		(pin "29"
-			(uuid "b85101e4-1674-4fa7-bf10-47ff2f736d77")
+			(uuid "11bebd86-e0ff-48ad-9e6b-10e3317edbcc")
 		)
 		(pin "30"
-			(uuid "397f8f36-e89c-4e05-8ce4-76b88b1e41c7")
+			(uuid "0baf16d6-3f17-4546-9994-b4bc08ed60e1")
 		)
 		(pin "31"
-			(uuid "cc5a567c-03e1-4e9b-9d7d-34d6e56b39c2")
+			(uuid "8952895f-b751-428e-90dd-35623e546b82")
 		)
 		(pin "33"
-			(uuid "e2aa02b9-9e7d-4f98-a705-4550b13ffeef")
+			(uuid "94ea5c5b-fdf7-42e0-a609-f5178a78d8e8")
 		)
 		(pin "36"
-			(uuid "be7c7942-4f9d-43df-a708-f925687be7d0")
+			(uuid "bd49970f-b550-4afa-bbd3-f3e6c420fc80")
 		)
 		(pin "37"
-			(uuid "7d33509e-c537-46eb-9995-f4e41bf0978f")
+			(uuid "c02d2deb-71bb-4fdd-a5d3-4fc72011d8a4")
 		)
 		(pin "10"
-			(uuid "5c1ec586-bdee-4b42-a516-fee2f5c7d4b4")
+			(uuid "b5a262e8-4d80-4c2b-ba4a-e7c6805dd322")
 		)
 		(pin "11"
-			(uuid "c016aee6-7d39-46b6-8253-e1a87e0c82fb")
+			(uuid "ed80aa5c-c7ad-4759-a3af-915e175c4a95")
 		)
 		(pin "12"
-			(uuid "72b41de7-75ba-4a22-9e81-0fe2aede6181")
+			(uuid "dd0376d2-0c04-4cc0-8765-23d99ea377ac")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -6355,7 +6355,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "9ed05554-a018-4c02-bf6a-7bb25c73d1a8")
+		(uuid "e5cea7f6-bd5c-469a-8c54-ddec8a10c1d1")
 	)
 	(label "EN"
 		(at 86.36 236.22 180)
@@ -6365,7 +6365,7 @@
 			)
 			(justify right)
 		)
-		(uuid "399e1aaf-cf46-4b8e-8b8a-e609886b6bec")
+		(uuid "ffbf462a-1629-40dd-9f0f-ac98e5fbd79a")
 	)
 	(wire
 		(pts
@@ -6375,7 +6375,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "b93ac0d4-96dc-45dc-bbd3-882eff45e5e8")
+		(uuid "800a357f-7ad9-45b5-ae2d-ee5d4a18e371")
 	)
 	(label "IO32/CKOUT"
 		(at 86.36 241.3 180)
@@ -6385,7 +6385,7 @@
 			)
 			(justify right)
 		)
-		(uuid "71ba517c-af7d-474d-abc6-77ee811ae18b")
+		(uuid "05080880-84a6-4a1d-9c98-35b5737ee847")
 	)
 	(wire
 		(pts
@@ -6395,7 +6395,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "4f37f4e4-21c1-46aa-8065-8f67690074cf")
+		(uuid "ab5ba6de-7c41-40d2-9acd-501996fa85a9")
 	)
 	(label "IO33/DATOUT"
 		(at 86.36 243.84 180)
@@ -6405,7 +6405,7 @@
 			)
 			(justify right)
 		)
-		(uuid "9270b05f-18e2-47a9-9cdb-bea005b39782")
+		(uuid "359d159e-ff13-4c79-ab0c-38689922942f")
 	)
 	(wire
 		(pts
@@ -6415,7 +6415,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "1999fa6a-6864-447f-a43b-6d61445eacba")
+		(uuid "c5e3b19c-f379-4524-a9ef-99a431e6ab5f")
 	)
 	(label "IO12/TDI"
 		(at 86.36 248.92 180)
@@ -6425,7 +6425,7 @@
 			)
 			(justify right)
 		)
-		(uuid "eacc7da9-2791-4c03-b7a5-e9a298ea47b3")
+		(uuid "aa9b09f1-23d5-44bc-a380-3e52b3aa0cf5")
 	)
 	(wire
 		(pts
@@ -6435,7 +6435,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "6e904b78-c458-494d-a884-4532eaa8ee24")
+		(uuid "cb95d747-d8f2-420c-b72a-327ffee383ef")
 	)
 	(label "IO13/LED3/TCK"
 		(at 86.36 251.46 180)
@@ -6445,7 +6445,7 @@
 			)
 			(justify right)
 		)
-		(uuid "bd3f6b9d-e86b-4216-ba6b-1cd507ecceee")
+		(uuid "bae4f51a-838f-4378-b85e-a0c8230eb6df")
 	)
 	(wire
 		(pts
@@ -6455,7 +6455,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "fdb3e8bc-f1fe-4d86-95aa-e616efa6aa0a")
+		(uuid "064f4733-ed44-4f21-8eea-6b208d4c5a07")
 	)
 	(label "BTN_RST"
 		(at 86.36 254 180)
@@ -6465,7 +6465,7 @@
 			)
 			(justify right)
 		)
-		(uuid "6261aedb-c770-47b3-9626-215ec4f5abe5")
+		(uuid "f74fb035-e0f6-4f7d-9ea7-766bc6c43bed")
 	)
 	(wire
 		(pts
@@ -6475,7 +6475,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "3d3e5642-9f9f-4cca-b4ab-c590856721ed")
+		(uuid "61b2672e-33b9-4a91-a56f-a432a9d4517c")
 	)
 	(label "IO15/TDO"
 		(at 86.36 256.54 180)
@@ -6485,7 +6485,7 @@
 			)
 			(justify right)
 		)
-		(uuid "ce7c6e22-1dbe-4a45-b363-a46b5708c006")
+		(uuid "574566f7-d5c1-4549-b29a-2ed105db3436")
 	)
 	(wire
 		(pts
@@ -6495,7 +6495,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "c19d6edb-d664-43db-9651-940474ca2216")
+		(uuid "5d383adb-efc6-47b7-8be9-788ada31b149")
 	)
 	(label "BTN_BT"
 		(at 86.36 261.62 180)
@@ -6505,7 +6505,7 @@
 			)
 			(justify right)
 		)
-		(uuid "81741b3e-18d6-4943-9816-4bcaf1746c68")
+		(uuid "36f80849-a51f-4b26-9e54-4ae4ddcc212b")
 	)
 	(wire
 		(pts
@@ -6515,7 +6515,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "66e75ccb-baee-4c3b-be1f-cc341c9385a1")
+		(uuid "95e38c7b-a7c9-4e37-b3c4-630b94ff851d")
 	)
 	(label "IO35"
 		(at 86.36 264.16 180)
@@ -6525,7 +6525,7 @@
 			)
 			(justify right)
 		)
-		(uuid "7abd70fc-2d45-45df-baa0-d1b0ca8713f4")
+		(uuid "d1e24cb7-fa83-4561-b113-1136b7d5b456")
 	)
 	(wire
 		(pts
@@ -6535,7 +6535,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "b882a123-7605-444e-b45c-3e60e2cd7e88")
+		(uuid "4a365aac-6c8b-4e0f-9955-9b56a028e224")
 	)
 	(label "IO36/MCTRL"
 		(at 86.36 266.7 180)
@@ -6545,7 +6545,7 @@
 			)
 			(justify right)
 		)
-		(uuid "692b74ec-09e7-44c4-aa50-ce11524b4f90")
+		(uuid "ff976e52-3f5e-4ab3-8329-b1e8bab880af")
 	)
 	(wire
 		(pts
@@ -6555,7 +6555,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "89957223-ccc1-467b-a8a9-f5b19e55061c")
+		(uuid "a0a23062-34e6-4209-9f83-9005e27f8f75")
 	)
 	(label "IO39/CMD"
 		(at 86.36 269.24 180)
@@ -6565,7 +6565,7 @@
 			)
 			(justify right)
 		)
-		(uuid "e2271f67-f0d0-413c-97e1-6afd7cbeed4a")
+		(uuid "8e629dc4-b8c5-456e-825a-15063d5bb7b5")
 	)
 	(wire
 		(pts
@@ -6575,7 +6575,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "5d1cb560-5c79-4c10-9973-91bee728c09e")
+		(uuid "15a1aecc-39ad-4dfe-babb-37278a58d67a")
 	)
 	(label "3V3"
 		(at 127 226.06 270)
@@ -6585,7 +6585,7 @@
 			)
 			(justify right)
 		)
-		(uuid "cd21c327-f66d-4c70-8ccb-3bc0faf66efe")
+		(uuid "ae04aa34-692a-4de7-a761-1452afc89c5d")
 	)
 	(wire
 		(pts
@@ -6595,7 +6595,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "39fd2edc-b52d-464e-833c-0a6a966209d5")
+		(uuid "a35a7c2a-1ced-425b-9319-9c42991c923a")
 	)
 	(label "GND"
 		(at 127 281.94 90)
@@ -6605,7 +6605,7 @@
 			)
 			(justify left)
 		)
-		(uuid "023f256c-b707-4de5-84b7-115d7634672a")
+		(uuid "f51cea00-ae79-4115-bacf-1b8c96c1d267")
 	)
 	(wire
 		(pts
@@ -6615,7 +6615,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "97b7dac5-ffae-4518-803b-63f05a1487f0")
+		(uuid "21142233-1622-4990-bc7c-646682b7c75d")
 	)
 	(label "GND"
 		(at 127 281.94 90)
@@ -6625,7 +6625,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2350ede2-4348-4ea4-a82f-7f353dd0aa21")
+		(uuid "36a786e3-0319-47b7-ac55-c7ec3e2f26e6")
 	)
 	(wire
 		(pts
@@ -6635,7 +6635,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "b4110b19-2954-4156-933b-d0b89946adb4")
+		(uuid "fcc0500f-0a9c-4da4-af6d-a837b0b3c3e7")
 	)
 	(label "GND"
 		(at 127 281.94 90)
@@ -6645,7 +6645,7 @@
 			)
 			(justify left)
 		)
-		(uuid "93b62c64-4f25-4e02-ba6f-68939a570b37")
+		(uuid "90a73f7b-6d93-4017-a0b6-49528ae9a5e9")
 	)
 	(wire
 		(pts
@@ -6655,7 +6655,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "14ed18b2-483c-4da0-b6e6-54316fb2b883")
+		(uuid "a05e3941-9835-4e81-9d3e-515f328b5b33")
 	)
 	(label "GND"
 		(at 129.54 281.94 90)
@@ -6665,7 +6665,7 @@
 			)
 			(justify left)
 		)
-		(uuid "d9cff265-f034-45af-8174-36181141da27")
+		(uuid "a4f54806-d377-41d0-8ffa-7e6c3360ce3b")
 	)
 	(wire
 		(pts
@@ -6675,7 +6675,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "ca7cd829-0154-44a7-af22-112e77c19f40")
+		(uuid "da26577b-a33f-4962-b757-e32ef379661b")
 	)
 	(label "USB_RXI"
 		(at 167.64 236.22 0)
@@ -6685,7 +6685,7 @@
 			)
 			(justify left)
 		)
-		(uuid "a23fe97d-e59a-4b6b-aa20-dc316c8e072b")
+		(uuid "ad0f6391-ef62-495a-8031-411eaf3e1b89")
 	)
 	(wire
 		(pts
@@ -6695,7 +6695,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "fd9f7c8f-0f4e-4c35-b87f-fd6e8bc9a37f")
+		(uuid "ce911711-dfaf-4d20-91c3-eaf81707e184")
 	)
 	(label "USB_TXO"
 		(at 167.64 238.76 0)
@@ -6705,7 +6705,7 @@
 			)
 			(justify left)
 		)
-		(uuid "8795d0c4-b2b7-48ab-a4cc-b828eff6cade")
+		(uuid "c2d538fb-3e71-4bf3-9157-847e90d9e0fc")
 	)
 	(wire
 		(pts
@@ -6715,7 +6715,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "4bd62950-225f-49a7-afb5-94683c093f3c")
+		(uuid "13ad66b2-8084-4814-b0ba-3f9b4f57cdeb")
 	)
 	(label "BTN_SWAP"
 		(at 167.64 243.84 0)
@@ -6725,7 +6725,7 @@
 			)
 			(justify left)
 		)
-		(uuid "ca092f3f-988e-45fd-853f-569c39135069")
+		(uuid "e3212dc4-da69-4e5f-8dfb-451e1add9f3c")
 	)
 	(wire
 		(pts
@@ -6735,7 +6735,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "d9a38230-f3aa-47cf-981a-b2a642d09596")
+		(uuid "27f30a3e-ee05-4641-9a2b-e9ab029b153b")
 	)
 	(label "IO2/LED1"
 		(at 167.64 246.38 0)
@@ -6745,7 +6745,7 @@
 			)
 			(justify left)
 		)
-		(uuid "0ffd83e0-b1be-4cda-ad14-445589259804")
+		(uuid "a2c7396e-ba21-4bf4-a397-0ed128865335")
 	)
 	(wire
 		(pts
@@ -6755,7 +6755,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "93635e42-d248-4bdb-a7ec-5ceed820f7b5")
+		(uuid "ecb99ee7-ff54-4b53-9140-49c7c43ca0eb")
 	)
 	(label "IO4/LED2"
 		(at 167.64 248.92 0)
@@ -6765,7 +6765,7 @@
 			)
 			(justify left)
 		)
-		(uuid "f88026b9-91e0-4ee8-8cdf-c341418d14df")
+		(uuid "bc6a6d39-d798-4cc9-8764-d5e19392c702")
 	)
 	(wire
 		(pts
@@ -6775,7 +6775,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "2c53aa77-607a-4097-aba6-306832ceb31d")
+		(uuid "d7b1b66b-0451-4b26-be35-e6a2b05f186e")
 	)
 	(label "IO5/SPI_CS"
 		(at 167.64 251.46 0)
@@ -6785,7 +6785,7 @@
 			)
 			(justify left)
 		)
-		(uuid "6f7b3162-545b-44a4-a1b0-1118eca6dd35")
+		(uuid "4cff8f76-2553-4e92-b2ca-4a4c33bc5a64")
 	)
 	(wire
 		(pts
@@ -6795,7 +6795,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "b276960f-ac59-4e6e-ac3e-5890b92b7510")
+		(uuid "2f0dc58e-7517-4c41-b314-eafc4f0c33b3")
 	)
 	(label "IO18/SPI_CLK"
 		(at 167.64 254 0)
@@ -6805,7 +6805,7 @@
 			)
 			(justify left)
 		)
-		(uuid "323a41cf-3148-46f2-83e7-03784549b96c")
+		(uuid "6f14c2d7-f05f-4168-8e11-b4f5a2c052d1")
 	)
 	(wire
 		(pts
@@ -6815,7 +6815,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "e2cbfbd2-89c3-4813-833a-13347bff13aa")
+		(uuid "64dfe85a-2087-4117-9f5b-c7967a7503b7")
 	)
 	(label "IO19/SPI_MISO"
 		(at 167.64 256.54 0)
@@ -6825,7 +6825,7 @@
 			)
 			(justify left)
 		)
-		(uuid "f7ba53dc-84b9-45b2-a22c-fe05d66204a7")
+		(uuid "e73b6c9b-16ef-48be-843c-015dc8cf7df9")
 	)
 	(wire
 		(pts
@@ -6835,7 +6835,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "74eb0ea4-5d08-4119-a277-c570c06fcd67")
+		(uuid "7f0ee355-caf7-439b-a1f4-1a006a778cf1")
 	)
 	(label "IO21/DATIN"
 		(at 167.64 259.08 0)
@@ -6845,7 +6845,7 @@
 			)
 			(justify left)
 		)
-		(uuid "d84a18bb-19c0-491d-803f-d7e560faffd6")
+		(uuid "56542103-f49f-4c50-a6d8-fbb396ed3955")
 	)
 	(wire
 		(pts
@@ -6855,7 +6855,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "a95a2fda-9b22-422c-896c-4b89cd10fd3a")
+		(uuid "5d0c8abc-c2ff-4b4f-a6d1-6a1a5033f80e")
 	)
 	(label "IO22/PROC"
 		(at 167.64 261.62 0)
@@ -6865,7 +6865,7 @@
 			)
 			(justify left)
 		)
-		(uuid "1dd97647-9454-4849-a16f-8f59d53ea6ac")
+		(uuid "566db82c-a194-4830-951c-8186e9b55882")
 	)
 	(wire
 		(pts
@@ -6875,7 +6875,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "716bc1ea-2f80-434f-849f-396f071b5ff8")
+		(uuid "028d7b09-e4ad-484b-83d1-9b9fa1f88d86")
 	)
 	(label "IO23/SPI_MOSI"
 		(at 167.64 264.16 0)
@@ -6885,7 +6885,7 @@
 			)
 			(justify left)
 		)
-		(uuid "6508eff9-b096-48f2-bb9e-d5a058448601")
+		(uuid "6d5ab3c7-2e93-4114-832d-79b941aadf3a")
 	)
 	(wire
 		(pts
@@ -6895,7 +6895,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "1502b31d-fd01-4a1c-9809-e6efa3ef621f")
+		(uuid "81bb9675-3eec-420f-96ac-523beb6a938a")
 	)
 	(label "IO25_DAC"
 		(at 167.64 266.7 0)
@@ -6905,7 +6905,7 @@
 			)
 			(justify left)
 		)
-		(uuid "479cd97e-2365-4737-96b1-785c4d8910af")
+		(uuid "e01d6209-4e71-4d89-aba4-09eb2b787536")
 	)
 	(wire
 		(pts
@@ -6915,7 +6915,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "2d2da24c-d3ca-4b9e-b7e3-90f6dbaa1f1a")
+		(uuid "e7b7031b-7a96-4366-b1b7-497d6a527dbf")
 	)
 	(label "IO26/INT"
 		(at 167.64 269.24 0)
@@ -6925,7 +6925,7 @@
 			)
 			(justify left)
 		)
-		(uuid "da87205f-8f3a-4f35-99c6-593de2ac762b")
+		(uuid "af1f36f9-9b7e-4488-9e62-f83be2dd47e6")
 	)
 	(wire
 		(pts
@@ -6935,7 +6935,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "21589962-e6bb-49d9-8488-214533d3cb02")
+		(uuid "24ee2e79-09b5-4efa-9cc7-3928bc8bc1c6")
 	)
 	(label "IO27/CKIN"
 		(at 167.64 271.78 0)
@@ -6945,7 +6945,7 @@
 			)
 			(justify left)
 		)
-		(uuid "b8664b7e-5057-4930-ae32-d89a14a0ffcd")
+		(uuid "a695a3d5-e3fa-4493-9bd6-a745ebd696c2")
 	)
 	(symbol
 		(lib_id "74xx:74LCX07")
@@ -6955,7 +6955,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f92214ae-cd40-4c4f-a1fa-dd10abae6971")
+		(uuid "12c2a812-4794-4503-878b-17bea841a205")
 		(property "Reference" "U3"
 			(at 228.6 246.38 0)
 			(effects
@@ -6991,10 +6991,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bab8a19b-c9d5-476a-9723-a36241b81cb8")
+			(uuid "f6362231-4a2b-4772-856d-5ea28f70da11")
 		)
 		(pin "2"
-			(uuid "3e3ebfec-1441-4a9f-90fb-25c430470e1e")
+			(uuid "d03cc584-86c0-4012-b3d2-cfb9bf36daf6")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -7013,7 +7013,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "7f83874b-ce45-4817-b6a8-e90c0c22e88b")
+		(uuid "3ea15c0d-bd05-4903-bfb6-401b04a57668")
 	)
 	(label "SIO_CMD"
 		(at 215.9 254 180)
@@ -7023,7 +7023,7 @@
 			)
 			(justify right)
 		)
-		(uuid "f58d02f8-41fe-448a-8f37-b8d69e4771f5")
+		(uuid "8697573b-2a0d-4f7b-8044-2b9ac068bb6d")
 	)
 	(wire
 		(pts
@@ -7033,7 +7033,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "8cba8ca9-79ee-41eb-ad77-623f9af538af")
+		(uuid "07cf34f7-486d-4619-9306-515777944d88")
 	)
 	(label "IO39/CMD"
 		(at 241.3 254 0)
@@ -7043,7 +7043,7 @@
 			)
 			(justify left)
 		)
-		(uuid "e98ed5ba-c6fa-4565-af06-6c9272aa585f")
+		(uuid "b44a0e26-165b-4c4a-ae2f-51f2ca5b89d2")
 	)
 	(symbol
 		(lib_id "74xx:74LCX07")
@@ -7053,7 +7053,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ce099b4a-67f2-4eb0-891f-1c7ec0c36281")
+		(uuid "d72291f4-e61f-40d4-aac1-ea1ac29d5c7d")
 		(property "Reference" "U3"
 			(at 228.6 231.14 0)
 			(effects
@@ -7089,10 +7089,10 @@
 			)
 		)
 		(pin "3"
-			(uuid "1c3c5577-6d1f-4c33-b612-cb0e2cfae8da")
+			(uuid "806d7775-8272-49ce-8ebf-662e208d2b8f")
 		)
 		(pin "4"
-			(uuid "49e1d67b-583c-4417-a93c-5c7cca7899b5")
+			(uuid "4d2f36b2-1741-4753-95ea-e1cc684658b4")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -7111,7 +7111,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "d5c043df-bb65-4751-884a-ddc9ea279b3d")
+		(uuid "6ada4897-4571-4053-8073-7671f517d7de")
 	)
 	(label "SIO_MCTL"
 		(at 215.9 238.76 180)
@@ -7121,7 +7121,7 @@
 			)
 			(justify right)
 		)
-		(uuid "0bb91a0f-d39a-40a5-be92-cd86aa540f77")
+		(uuid "1426ee28-58e1-4cff-bc56-4765f7325d6c")
 	)
 	(wire
 		(pts
@@ -7131,7 +7131,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "424545cd-485f-47e6-9b47-a4d3b885ac91")
+		(uuid "04b09309-d401-4b76-84ed-c8a353b53599")
 	)
 	(label "IO36/MCTRL"
 		(at 241.3 238.76 0)
@@ -7141,7 +7141,7 @@
 			)
 			(justify left)
 		)
-		(uuid "50569b3f-be89-4733-83c0-5404bf68283d")
+		(uuid "970f4708-b060-41c2-9d91-5f10f6e93274")
 	)
 	(symbol
 		(lib_id "74xx:74LCX07")
@@ -7151,7 +7151,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "831294f0-704a-4890-9b51-b3c861eef646")
+		(uuid "cd5437c1-367b-4844-8090-02def39be562")
 		(property "Reference" "U3"
 			(at 228.6 215.9 0)
 			(effects
@@ -7187,10 +7187,10 @@
 			)
 		)
 		(pin "5"
-			(uuid "aabb2206-21fd-4766-8bfc-e0591432fe18")
+			(uuid "4d60f96a-98d5-4bdd-904b-24152e50021d")
 		)
 		(pin "6"
-			(uuid "1bcfec45-4490-4ec5-a2d3-e8fa118fec2b")
+			(uuid "be64eeac-f0a6-434c-a632-7882a516fcf8")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -7209,7 +7209,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "fd8dee48-94fd-4b4f-a181-9e61740d48ec")
+		(uuid "317cd945-b4ba-4ab6-bacc-2d618cd0a7f8")
 	)
 	(label "IO22/PROC"
 		(at 215.9 223.52 180)
@@ -7219,7 +7219,7 @@
 			)
 			(justify right)
 		)
-		(uuid "894d3de7-144f-4973-a6fd-cb2830982539")
+		(uuid "7468a6b2-beaf-425b-ba49-8ce77809cd89")
 	)
 	(wire
 		(pts
@@ -7229,7 +7229,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "268bf10e-5ddb-4876-b8ac-86b37042ab74")
+		(uuid "e1c61420-a21f-48ed-828f-472260643657")
 	)
 	(label "SIO_PROC"
 		(at 241.3 223.52 0)
@@ -7239,7 +7239,7 @@
 			)
 			(justify left)
 		)
-		(uuid "44b62131-c558-4d72-80a4-15632a963ff0")
+		(uuid "67885e15-ad21-4ea7-804a-61970b1f4952")
 	)
 	(symbol
 		(lib_id "74xx:74LCX07")
@@ -7249,7 +7249,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9191a6ed-1daf-46a1-b70f-1a810c415212")
+		(uuid "fa233fa7-dfed-47ce-a231-04c58e7a94a4")
 		(property "Reference" "U3"
 			(at 228.6 200.66 0)
 			(effects
@@ -7285,10 +7285,10 @@
 			)
 		)
 		(pin "9"
-			(uuid "c3c9dc12-f677-452c-b7db-325b02717650")
+			(uuid "62466a02-50b3-4af0-811b-0d83d4743833")
 		)
 		(pin "8"
-			(uuid "67e3f448-a569-46ec-b629-fd36f1580c6d")
+			(uuid "79d3ab3b-b4d8-4daf-b673-fc2b292fc3cc")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -7307,7 +7307,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "b4374d48-275c-4523-9e2b-2df73ede9da4")
+		(uuid "b95ed5ef-6082-4ba8-9be1-f5093925a1c1")
 	)
 	(label "IO26/INT"
 		(at 215.9 208.28 180)
@@ -7317,7 +7317,7 @@
 			)
 			(justify right)
 		)
-		(uuid "84e3f1b3-d77d-47e1-aec4-7482c3976535")
+		(uuid "94853ef6-f9b2-42e7-b389-7fbf58bcfcfd")
 	)
 	(wire
 		(pts
@@ -7327,7 +7327,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "c9815eff-2e2b-40f6-8fe0-0474c10c3e3a")
+		(uuid "e1ea770b-08b7-415b-b5ed-0fb29a761c60")
 	)
 	(label "SIO_INT"
 		(at 241.3 208.28 0)
@@ -7337,7 +7337,7 @@
 			)
 			(justify left)
 		)
-		(uuid "f8ec2fc8-7b8a-4747-9825-0ff426a3b5ad")
+		(uuid "fec194cb-f65d-4585-ae3f-a8cb60979ed8")
 	)
 	(symbol
 		(lib_id "74xx:74LCX07")
@@ -7347,7 +7347,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7345aaee-3dbe-43ec-ac37-5c8a9a70a341")
+		(uuid "db83427e-49e6-4b51-8188-9b36753a80f9")
 		(property "Reference" "U3"
 			(at 228.6 185.42 0)
 			(effects
@@ -7383,10 +7383,10 @@
 			)
 		)
 		(pin "11"
-			(uuid "9c411130-2897-45ca-bba2-03982c814de7")
+			(uuid "77b3e35e-f435-4c47-a74e-a6f0b65ff4ed")
 		)
 		(pin "10"
-			(uuid "3d9b1434-1df5-4010-92f0-85422ab1d505")
+			(uuid "80552403-b5f3-43b5-b634-832cdc0113c3")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -7405,7 +7405,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "3cdbba1b-bfcb-4991-91ab-f7818e7c46b4")
+		(uuid "67bc28c8-942c-4c0c-a89a-8a57c09db9a9")
 	)
 	(label "GND"
 		(at 215.9 193.04 180)
@@ -7415,11 +7415,11 @@
 			)
 			(justify right)
 		)
-		(uuid "6496ae23-b30b-452c-a308-f001ba7dd938")
+		(uuid "2729d939-eeff-4633-9902-24291afd32da")
 	)
 	(no_connect
 		(at 236.22 193.04)
-		(uuid "12cfefe0-3bfc-469e-af26-c1f08cf161e2")
+		(uuid "7dcda4dc-54c1-4cb5-8156-070c169dafd8")
 	)
 	(symbol
 		(lib_id "74xx:74LCX07")
@@ -7429,7 +7429,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3a27ff8d-a994-43f4-9b9d-aa6e44c8cb69")
+		(uuid "37d38b87-b5cd-4095-b7eb-0dbe363b4b02")
 		(property "Reference" "U3"
 			(at 228.6 170.18 0)
 			(effects
@@ -7465,10 +7465,10 @@
 			)
 		)
 		(pin "13"
-			(uuid "6c81a782-de3c-453f-9fdd-8d397fd788f2")
+			(uuid "3f03376f-12d0-4a2a-93b3-6d0cd2884fb5")
 		)
 		(pin "12"
-			(uuid "1dcdfbcf-4403-4fa2-8b6d-366aba5f28d1")
+			(uuid "44c96301-a037-48bf-a740-8bdd487a92d4")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -7487,7 +7487,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "43200ce9-eee3-4271-91b9-f4f6b210f9bf")
+		(uuid "ab80d506-c9b2-4496-b502-3e78f5384b50")
 	)
 	(label "GND"
 		(at 215.9 177.8 180)
@@ -7497,11 +7497,11 @@
 			)
 			(justify right)
 		)
-		(uuid "2df5e40f-d4c8-4f2e-a67a-98ed0fc9faf4")
+		(uuid "0e0c5c66-49ca-4f77-a86d-67ffb79ee86c")
 	)
 	(no_connect
 		(at 236.22 177.8)
-		(uuid "b5e5da13-738a-486d-aa2f-08ac4e51ae2d")
+		(uuid "5269fb30-fc08-4414-8f81-73c27c5408dd")
 	)
 	(symbol
 		(lib_id "74xx:74LCX07")
@@ -7511,7 +7511,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c07cc044-ce7d-44f3-9917-372ca83a7c63")
+		(uuid "0d65b982-adcd-42a4-8a9d-3b7dedbadbc8")
 		(property "Reference" "U3"
 			(at 248.92 208.28 0)
 			(effects
@@ -7547,10 +7547,10 @@
 			)
 		)
 		(pin "14"
-			(uuid "2a6eebb9-f695-48d5-bb89-db38305bfc7d")
+			(uuid "830281cc-bf19-4578-b041-5d8c44f07659")
 		)
 		(pin "7"
-			(uuid "25f5485d-47c8-4feb-b6fb-bb80679ab78b")
+			(uuid "c8b1e735-5192-4f61-a5d9-0a45338d1587")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -7569,7 +7569,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "bb90bf9b-8019-4e0a-9fb8-1bcd88bc2dd8")
+		(uuid "80b73f77-d32d-45bd-866f-f0e5a42d5866")
 	)
 	(label "VCC_BUF"
 		(at 248.92 198.12 270)
@@ -7579,7 +7579,7 @@
 			)
 			(justify right)
 		)
-		(uuid "ce4dee42-d462-4ed0-a8be-c7c6326952a7")
+		(uuid "724f0221-aafd-4679-b2a7-6747cbb56d29")
 	)
 	(wire
 		(pts
@@ -7589,7 +7589,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "24eb29e9-3dda-4abe-aeb2-6a33f1eec4a6")
+		(uuid "993dd919-33c6-4478-a3fe-7407114f0d1e")
 	)
 	(label "GND"
 		(at 248.92 233.68 90)
@@ -7599,7 +7599,7 @@
 			)
 			(justify left)
 		)
-		(uuid "9ce5ce2a-a2c5-4ce1-a1ac-104c37626794")
+		(uuid "020163b9-3a7a-413b-a7af-d6b25fb2bb30")
 	)
 	(symbol
 		(lib_id "74xx:74LCX07")
@@ -7609,7 +7609,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "908b77b9-1076-4b32-b165-9b185acbc2b9")
+		(uuid "192fcbef-c117-4aa8-bc57-6415600c2401")
 		(property "Reference" "U4"
 			(at 279.4 246.38 0)
 			(effects
@@ -7645,10 +7645,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4a335b1f-22b1-4704-9022-3970f3bf22ca")
+			(uuid "05ba9e0f-eba5-43f0-9c13-14c9e05c850b")
 		)
 		(pin "2"
-			(uuid "8163c786-1337-439b-9f0c-d448b62a51dd")
+			(uuid "91f09f38-18cd-4558-8b6f-0ab89a12629a")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -7667,7 +7667,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "8454d178-7203-4804-93d5-80663082aa7c")
+		(uuid "46795025-87b3-4743-b1da-bc25fb8c989e")
 	)
 	(label "IO27/CKIN"
 		(at 266.7 254 180)
@@ -7677,7 +7677,7 @@
 			)
 			(justify right)
 		)
-		(uuid "93731b83-981c-4ead-87c7-ac72d5580fde")
+		(uuid "5835f554-3f0e-4773-8c95-4c634a1c6888")
 	)
 	(wire
 		(pts
@@ -7687,7 +7687,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "180fe649-19bd-4061-a8e5-3a43b9383778")
+		(uuid "e9dd1c42-1cb9-4087-8bfc-92d9d767c078")
 	)
 	(label "SIO_CKIN"
 		(at 292.1 254 0)
@@ -7697,7 +7697,7 @@
 			)
 			(justify left)
 		)
-		(uuid "452172de-99ad-468e-b016-5df409e5aba4")
+		(uuid "3c3d1699-1732-4b8c-8f7d-fe369c96fb2e")
 	)
 	(symbol
 		(lib_id "74xx:74LCX07")
@@ -7707,7 +7707,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8d6bb240-32a4-4ffd-95db-3f25311f53ee")
+		(uuid "f7c7c8b6-44c5-4ff4-aa01-9e78cc4c28b1")
 		(property "Reference" "U4"
 			(at 279.4 231.14 0)
 			(effects
@@ -7743,10 +7743,10 @@
 			)
 		)
 		(pin "3"
-			(uuid "1cae267f-04e8-42b3-9be0-d758da66c59c")
+			(uuid "d4b8f0b0-6961-418b-98b0-c75af8a62061")
 		)
 		(pin "4"
-			(uuid "babce1c8-a7ea-41c2-b334-dee613969284")
+			(uuid "80838993-580b-4ce3-983d-84dda1944787")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -7765,7 +7765,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "cbd97d8f-13a2-43f0-93e6-946a2da0843d")
+		(uuid "cd7608cc-51de-4612-a0f9-b8442c95bbf0")
 	)
 	(label "SIO_CKOUT"
 		(at 266.7 238.76 180)
@@ -7775,7 +7775,7 @@
 			)
 			(justify right)
 		)
-		(uuid "78495f6e-9d1d-4e9c-b689-3fbe3fb7ea29")
+		(uuid "d6ade9fc-8e86-495a-b3fa-83602851d7bb")
 	)
 	(wire
 		(pts
@@ -7785,7 +7785,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "118b82f4-8eee-4229-a60e-e5e6b24440f4")
+		(uuid "e4e8e307-5dfb-49e2-9f4e-9cd6b9592d13")
 	)
 	(label "IO32/CKOUT"
 		(at 292.1 238.76 0)
@@ -7795,7 +7795,7 @@
 			)
 			(justify left)
 		)
-		(uuid "921ddba8-1272-4f27-8ffe-bb33ac259f70")
+		(uuid "356383f4-ba84-4226-b116-f581b3db4e69")
 	)
 	(symbol
 		(lib_id "74xx:74LCX07")
@@ -7805,7 +7805,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cfecf6ae-28e7-4f2a-8035-47b5da6fe4a8")
+		(uuid "7ea41aa0-9bb9-4b01-9f4a-8eb9341f7d1b")
 		(property "Reference" "U4"
 			(at 279.4 215.9 0)
 			(effects
@@ -7841,10 +7841,10 @@
 			)
 		)
 		(pin "5"
-			(uuid "cf85cb75-b42e-45a0-af61-efd022e7d487")
+			(uuid "e49bf230-a1c0-4ea4-87eb-f18c8c01f0cf")
 		)
 		(pin "6"
-			(uuid "d7e49862-7bda-4593-a32b-54a299157b3e")
+			(uuid "41762e4c-3b76-4d8d-b735-f532bbd0a231")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -7863,7 +7863,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "a8072aef-a764-4c6f-b223-985f8fb90f42")
+		(uuid "dd232571-620a-4c14-8bd3-550126009204")
 	)
 	(label "IO21/DATIN"
 		(at 266.7 223.52 180)
@@ -7873,7 +7873,7 @@
 			)
 			(justify right)
 		)
-		(uuid "a9c6851c-ec33-464f-93e5-614c1244cca7")
+		(uuid "5ef7a7c4-d2bd-4281-9033-9c24980b11f1")
 	)
 	(wire
 		(pts
@@ -7883,7 +7883,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "ad47225b-293a-47e1-9287-2bfb9e897ddf")
+		(uuid "f38856d4-e4e1-4bf1-ba42-8832991ffa52")
 	)
 	(label "SIO_DATAIN"
 		(at 292.1 223.52 0)
@@ -7893,7 +7893,7 @@
 			)
 			(justify left)
 		)
-		(uuid "df92a619-40cb-494f-ae68-7dc1a03b5fb4")
+		(uuid "d1375e4d-9ceb-4597-a192-f5e441f3aa92")
 	)
 	(symbol
 		(lib_id "74xx:74LCX07")
@@ -7903,7 +7903,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6467904b-b0a4-48b7-ab1a-3016a688578c")
+		(uuid "f1e9934a-848e-4b14-9c52-b10ee8cc7c47")
 		(property "Reference" "U4"
 			(at 279.4 200.66 0)
 			(effects
@@ -7939,10 +7939,10 @@
 			)
 		)
 		(pin "9"
-			(uuid "1b00b12b-6c36-46c9-b39d-a8c4da1294dc")
+			(uuid "19892f88-d99b-43f5-880e-0b5f32e853d8")
 		)
 		(pin "8"
-			(uuid "45d83828-4336-408d-97d8-bca03605a32e")
+			(uuid "e69b47e6-118e-46d8-94a6-cdf0a400fff1")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -7961,7 +7961,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "9327b0d2-7317-42ed-92cf-f305c2d1eba5")
+		(uuid "6ae645b5-063f-43c8-aeb7-591181bb6dc3")
 	)
 	(label "SIO_DATAOUT"
 		(at 266.7 208.28 180)
@@ -7971,7 +7971,7 @@
 			)
 			(justify right)
 		)
-		(uuid "bfe5a0bb-d698-419b-9174-800d9d20f0b1")
+		(uuid "66245947-fda1-4e87-9b65-5a98f65e306d")
 	)
 	(wire
 		(pts
@@ -7981,7 +7981,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "136a1bbb-9684-4a45-a871-914af005955a")
+		(uuid "0f0d8134-bb2d-47f0-8a5b-92c7c08756a3")
 	)
 	(label "IO33/DATOUT"
 		(at 292.1 208.28 0)
@@ -7991,7 +7991,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c63b4c6e-573f-4ba7-8ec6-fcab4835c581")
+		(uuid "68afb25e-7a2e-4597-9bcf-10408f9c845e")
 	)
 	(symbol
 		(lib_id "74xx:74LCX07")
@@ -8001,7 +8001,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1c75baf8-32d5-41c6-9e05-fe860c501122")
+		(uuid "b757bfc8-6ab0-46dc-8e7c-e0de51e7875e")
 		(property "Reference" "U4"
 			(at 279.4 185.42 0)
 			(effects
@@ -8037,10 +8037,10 @@
 			)
 		)
 		(pin "11"
-			(uuid "419ee447-13e3-4f63-bc10-b4a1e329d0f6")
+			(uuid "ff8fda3a-2501-4203-8e12-7fbb5b3f2d09")
 		)
 		(pin "10"
-			(uuid "6c56d169-b7ae-42e8-9f29-538b08124020")
+			(uuid "636655e0-67f0-4d02-aad9-a6c250cc3cfc")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -8059,7 +8059,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "632955ec-b0de-44e7-b8be-c55f96561036")
+		(uuid "3794b591-c16a-4999-9658-9e23741ad484")
 	)
 	(label "GND"
 		(at 266.7 193.04 180)
@@ -8069,11 +8069,11 @@
 			)
 			(justify right)
 		)
-		(uuid "12c1e393-d318-47df-914f-e5dc6cf2fb82")
+		(uuid "f35f8573-0249-407b-833d-b68f875e24fe")
 	)
 	(no_connect
 		(at 287.02 193.04)
-		(uuid "e434fca4-e4c6-4403-a377-4243ae7d25b5")
+		(uuid "fad55e1d-08c9-4866-8f06-b4a08adbca46")
 	)
 	(symbol
 		(lib_id "74xx:74LCX07")
@@ -8083,7 +8083,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "edd71054-dc2c-4634-8305-4d4ba9d3693a")
+		(uuid "f7e8b752-5651-4a07-9fac-e29da0ab097c")
 		(property "Reference" "U4"
 			(at 279.4 170.18 0)
 			(effects
@@ -8119,10 +8119,10 @@
 			)
 		)
 		(pin "13"
-			(uuid "e87ac1b7-aa21-4752-9ea0-f67c08b496e2")
+			(uuid "18ceeb01-aef2-451f-a493-3cbda905a9fc")
 		)
 		(pin "12"
-			(uuid "abe4c5b0-0949-40c4-b50d-3acf6e61a766")
+			(uuid "95da1384-92cf-440f-8643-b9298c83408b")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -8141,7 +8141,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "6345f9cd-c3cd-4b1b-ad04-876cf90bae69")
+		(uuid "dde63c2c-1a6c-409d-b087-f7564ce16226")
 	)
 	(label "GND"
 		(at 266.7 177.8 180)
@@ -8151,11 +8151,11 @@
 			)
 			(justify right)
 		)
-		(uuid "d480b94c-78dc-4372-a886-988aa47fc58e")
+		(uuid "fc93c6df-488f-46bd-843e-e2a42362177d")
 	)
 	(no_connect
 		(at 287.02 177.8)
-		(uuid "4cbb94c3-a7c3-4405-9535-d64736e4e82a")
+		(uuid "4b2db702-b337-4371-b579-8302a3d67167")
 	)
 	(symbol
 		(lib_id "74xx:74LCX07")
@@ -8165,7 +8165,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a97d2d51-fa9e-46e7-b712-8f51d584c601")
+		(uuid "35b6eb3a-0fc3-495c-b1ac-1a6531e44eb2")
 		(property "Reference" "U4"
 			(at 299.72 208.28 0)
 			(effects
@@ -8201,10 +8201,10 @@
 			)
 		)
 		(pin "14"
-			(uuid "7fb8f297-b35c-4763-a259-f72ac288a3dd")
+			(uuid "3ca656b3-a3af-45cf-9dfa-d9cfd0d90c17")
 		)
 		(pin "7"
-			(uuid "06191bb9-3229-4689-b3de-5ebba5b1e2be")
+			(uuid "f15a45b5-f02c-4eb5-be7e-71377359dc19")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -8223,7 +8223,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "3dd5e3a9-2e35-4d67-9249-5ee813168547")
+		(uuid "ffe9fe61-0ec4-4b0e-93f1-9f0e0eb08889")
 	)
 	(label "VCC_BUF"
 		(at 299.72 198.12 270)
@@ -8233,7 +8233,7 @@
 			)
 			(justify right)
 		)
-		(uuid "8b9806da-2682-4cab-9f39-bb7c4d986c36")
+		(uuid "25f90149-43af-4e53-9072-2627db3632bd")
 	)
 	(wire
 		(pts
@@ -8243,7 +8243,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "8d92a8a7-b4a2-495c-a778-c8b174574a1e")
+		(uuid "2bb0c9c2-39d5-4d8f-be41-13b9a566e1b9")
 	)
 	(label "GND"
 		(at 299.72 233.68 90)
@@ -8253,7 +8253,7 @@
 			)
 			(justify left)
 		)
-		(uuid "35b441b6-1b9b-4bb6-a076-ecc6071b1e20")
+		(uuid "6e564eb6-992f-4cbd-8698-d7d99aa3fa5f")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -8263,7 +8263,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6eb84320-5576-4317-9059-039fcb26bf3d")
+		(uuid "2fda51db-5f3f-423d-a04a-f5ed0d7704cf")
 		(property "Reference" "R1"
 			(at 50.8 144.78 0)
 			(effects
@@ -8299,10 +8299,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "70cc64a2-7847-41b0-9563-a7240fff1ac2")
+			(uuid "19da4997-21ad-4031-8e44-2575bb362e53")
 		)
 		(pin "2"
-			(uuid "db76e965-8623-414d-9708-9c4d28ee4535")
+			(uuid "1a4a49f6-eb84-4f43-8e52-6424c0ae9656")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -8321,7 +8321,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "79ab47e5-3195-42be-99d6-77b9018773fe")
+		(uuid "2bf43ed3-c2bf-4db9-ae90-79be4a6f37af")
 	)
 	(label "3V3"
 		(at 50.8 143.51 270)
@@ -8331,7 +8331,7 @@
 			)
 			(justify right)
 		)
-		(uuid "598d72d5-fcf7-479b-a1df-8526b48f346f")
+		(uuid "2ef308d9-986c-41a4-8a00-1e11204f5904")
 	)
 	(wire
 		(pts
@@ -8341,7 +8341,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "22bc32a8-e429-42e0-8fae-378c032c754f")
+		(uuid "5f8a2c54-8643-4efe-97dc-06699b3750cc")
 	)
 	(label "BTN_BT"
 		(at 50.8 161.29 90)
@@ -8351,7 +8351,7 @@
 			)
 			(justify left)
 		)
-		(uuid "df6b00fd-77d2-4109-9eb7-8492615e067c")
+		(uuid "47b1321b-8df3-4cc5-b04d-d55c6d86a68b")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -8361,7 +8361,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7d7e54b2-7a92-4e20-9151-b4a485eaff5a")
+		(uuid "04d28b4c-d580-4d6e-83c4-08302f947276")
 		(property "Reference" "R2"
 			(at 101.6 144.78 0)
 			(effects
@@ -8397,10 +8397,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d32c694-a671-4c09-9ee3-c2202cc5e4c3")
+			(uuid "6c572cc7-2c54-436d-817a-f59572c1a4c1")
 		)
 		(pin "2"
-			(uuid "213bb6d9-4e83-4362-bf56-57b75726f684")
+			(uuid "8579a7da-6420-4453-8f5e-5950c72eaf9a")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -8419,7 +8419,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "fe8fbbac-b947-4994-8d1a-fcab9659d0ce")
+		(uuid "2e032aa2-ea40-4b96-835b-7da5b3e486c9")
 	)
 	(label "IO36/MCTRL"
 		(at 101.6 143.51 270)
@@ -8429,7 +8429,7 @@
 			)
 			(justify right)
 		)
-		(uuid "86c7cdb9-075c-494f-accf-63eb3b588494")
+		(uuid "777fd774-1fce-464f-8c35-4c4765adba80")
 	)
 	(wire
 		(pts
@@ -8439,7 +8439,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "08e75409-f69a-4d54-9969-b97d27583510")
+		(uuid "a7e879eb-a5b9-458c-b7a3-2a543daf5e75")
 	)
 	(label "3V3"
 		(at 101.6 161.29 90)
@@ -8449,7 +8449,7 @@
 			)
 			(justify left)
 		)
-		(uuid "a9734907-8d17-42b1-bc25-7836a1d94ccb")
+		(uuid "6d592078-7e8a-4b64-8c35-34c0e0ccb9bd")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -8459,7 +8459,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3141043e-f89f-4d94-af68-f2cc64adce52")
+		(uuid "cf789a1f-b816-4ece-905c-d55b50964c91")
 		(property "Reference" "R4"
 			(at 50.8 182.88 0)
 			(effects
@@ -8495,10 +8495,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d1af3300-e632-4c38-8cd8-f8857935e901")
+			(uuid "5dd8fc6a-f58d-4b40-8866-1fc60acc7d18")
 		)
 		(pin "2"
-			(uuid "c3340f7e-3f3d-43b1-a49c-344357b455b5")
+			(uuid "e53244b0-6f7b-4856-ad9b-cda8cae19103")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -8517,7 +8517,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "00f4be64-c56b-4e63-9439-8b9a7f8773de")
+		(uuid "2a8da6e9-68b7-402d-b4ce-67320b03a2f7")
 	)
 	(label "SIO_5V"
 		(at 50.8 181.61 270)
@@ -8527,7 +8527,7 @@
 			)
 			(justify right)
 		)
-		(uuid "3f4c2823-136d-439d-a7d5-592b5fb24cf4")
+		(uuid "23acc1b4-5b89-47d6-9c7d-0565ec631a3b")
 	)
 	(wire
 		(pts
@@ -8537,7 +8537,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "7e3f87a0-e48e-4580-8849-3fedcdcedd7a")
+		(uuid "5d903748-78a7-4f6c-bde7-e6f726ed3b64")
 	)
 	(label "IO35"
 		(at 50.8 199.39 90)
@@ -8547,7 +8547,7 @@
 			)
 			(justify left)
 		)
-		(uuid "d710f7b5-de4b-4149-8367-dd8c01ea95fd")
+		(uuid "199ca259-a6f4-4ee6-a4e9-3984ffb1b7a3")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -8557,7 +8557,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "33dbf6ee-3f93-4683-830f-6b0ef077a1e1")
+		(uuid "ab611ef0-7304-4457-b243-46587d259e96")
 		(property "Reference" "R7"
 			(at 101.6 182.88 0)
 			(effects
@@ -8593,10 +8593,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "19b85888-a977-4f5c-aefc-376e4620260e")
+			(uuid "d2ce31fe-de88-40da-89c1-a4e09b226700")
 		)
 		(pin "2"
-			(uuid "3f7cfb2d-b5c6-4c70-86a2-1601fbd1f322")
+			(uuid "436b6700-9b92-4f0d-9dc9-64552ca41227")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -8615,7 +8615,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "6619ed3f-f8f3-4651-9f56-cc031a161258")
+		(uuid "7982bfd9-05a5-41b2-9219-4e98909df58d")
 	)
 	(label "GND"
 		(at 101.6 181.61 270)
@@ -8625,7 +8625,7 @@
 			)
 			(justify right)
 		)
-		(uuid "8704469e-d1c7-4ed5-979c-907067412f5f")
+		(uuid "c1d3a4dc-1a59-428f-b298-10874e5ec70b")
 	)
 	(wire
 		(pts
@@ -8635,7 +8635,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "fd31ae8e-08b8-4897-9f69-5f0aaa103c34")
+		(uuid "82c6b690-e3d5-40cc-8210-2a61c662f8d2")
 	)
 	(label "IO35"
 		(at 101.6 199.39 90)
@@ -8645,7 +8645,7 @@
 			)
 			(justify left)
 		)
-		(uuid "a19a5dba-320f-413c-adf8-c585b7568283")
+		(uuid "5f409a62-3cbe-481c-ab6f-60044da2ed6a")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -8655,7 +8655,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "377e558c-34a5-4c45-80af-b6c649406f6e")
+		(uuid "17d681a4-431d-4e5b-a233-0ab98003c924")
 		(property "Reference" "R8"
 			(at 50.8 220.98 0)
 			(effects
@@ -8691,10 +8691,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "38c61334-84ba-4791-b6d8-19b0e8e31b77")
+			(uuid "10dd3e5c-23a7-4fda-83bf-311120d36394")
 		)
 		(pin "2"
-			(uuid "0d28d218-7457-45db-9af7-adb20a3934ad")
+			(uuid "5dd6acb0-c1b9-47bd-813c-295593c105b8")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -8713,7 +8713,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "39c84ff1-952c-49dd-a3fa-890acecd89ef")
+		(uuid "5b7d634d-b798-433b-a5e4-6b60d72a8c32")
 	)
 	(label "AUDIOIN_RC"
 		(at 50.8 219.71 270)
@@ -8723,7 +8723,7 @@
 			)
 			(justify right)
 		)
-		(uuid "86844c7d-4b0c-4607-a8c6-4cd25fe13139")
+		(uuid "5fd56df4-ac77-4ff8-967c-02825d4a03f1")
 	)
 	(wire
 		(pts
@@ -8733,7 +8733,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "75895cad-7ad2-4f7c-9b70-d121014843b8")
+		(uuid "a70807bb-430f-4d69-a79f-1735848d9d59")
 	)
 	(label "IO25_DAC"
 		(at 50.8 237.49 90)
@@ -8743,7 +8743,7 @@
 			)
 			(justify left)
 		)
-		(uuid "4b27b13a-0f54-4bdd-91b4-e5dac0390284")
+		(uuid "4a472905-b9db-4e13-ba53-6f212dbdb2ed")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -8753,7 +8753,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5d597525-9230-4e4d-a96f-8d558da01eb7")
+		(uuid "1bd5b80c-4a2d-430f-a607-5c89ac34902b")
 		(property "Reference" "C3"
 			(at 101.6 220.98 0)
 			(effects
@@ -8789,10 +8789,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a403d573-71d0-4a5a-92be-714ac1f7cebc")
+			(uuid "4ec4c828-4b7c-4657-97dc-60cef4bee69b")
 		)
 		(pin "2"
-			(uuid "4be7a1f5-5e20-42a8-9a38-c7e158cd9823")
+			(uuid "d071db8b-a9a8-414f-bdda-e552762260ad")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -8811,7 +8811,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "133cc2f8-2d36-4696-9913-e37690187aed")
+		(uuid "96879340-71e9-4008-b004-1f34ea2eba8d")
 	)
 	(label "SIO_AUDIN"
 		(at 101.6 219.71 270)
@@ -8821,7 +8821,7 @@
 			)
 			(justify right)
 		)
-		(uuid "a2ef7844-3ba4-49fb-b7ff-7b31956f5e8d")
+		(uuid "b106cb5e-d59f-4b1a-bedd-a9ed5c7864cd")
 	)
 	(wire
 		(pts
@@ -8831,7 +8831,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "ff8bfae6-099c-4530-a7ed-b046ed4ff84f")
+		(uuid "0ffd6f49-ece8-4d91-a07f-1cb0b150e5db")
 	)
 	(label "AUDIOIN_RC"
 		(at 101.6 237.49 90)
@@ -8841,7 +8841,7 @@
 			)
 			(justify left)
 		)
-		(uuid "8f1faebc-d358-42c2-a994-c1d10c4621cf")
+		(uuid "f18d527e-9786-4db0-8fe6-084d2c569d30")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -8851,7 +8851,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dee3c1d2-4deb-4d21-8e47-5d23980f6517")
+		(uuid "102cac94-05cf-4504-8047-94ad034bb15e")
 		(property "Reference" "R12"
 			(at 152.4 144.78 0)
 			(effects
@@ -8887,10 +8887,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ab490d16-2cbd-43da-9b67-ac6d2607e952")
+			(uuid "37515990-68cd-483c-a102-d94b8aa66ff5")
 		)
 		(pin "2"
-			(uuid "92f07444-506d-4d1a-b113-956a624ffcf8")
+			(uuid "3d54a655-ee25-4cee-bee7-7e44c0126670")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -8909,7 +8909,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "65073fc6-1ade-4618-b35c-123685d2dbec")
+		(uuid "0cf95875-d6d4-4291-9a45-361ac4d5be8f")
 	)
 	(label "IO39/CMD"
 		(at 152.4 143.51 270)
@@ -8919,7 +8919,7 @@
 			)
 			(justify right)
 		)
-		(uuid "8dc62c8d-8e37-4f0b-b0b9-ffd3d71c534c")
+		(uuid "6afd9207-3930-4c71-82a2-07804fe78d4c")
 	)
 	(wire
 		(pts
@@ -8929,7 +8929,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "16797b94-3d81-44bc-aa31-330ac6ec7bf7")
+		(uuid "caff3558-ab27-4797-8c1c-28cf9dc3c49c")
 	)
 	(label "3V3"
 		(at 152.4 161.29 90)
@@ -8939,7 +8939,7 @@
 			)
 			(justify left)
 		)
-		(uuid "f2655327-14ca-44b7-a713-89c50f4f3db5")
+		(uuid "4540b151-2eb5-4f33-b409-1f6b066d62a5")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -8949,7 +8949,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4c52a04a-0d8b-4306-9f6d-ea8966a66a50")
+		(uuid "1dba210f-eae3-43eb-95c2-78152bf8703f")
 		(property "Reference" "R24"
 			(at 203.2 144.78 0)
 			(effects
@@ -8985,10 +8985,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "cbd06ee1-d9b7-4a25-8343-4a6e83842183")
+			(uuid "ad2a2ca6-d564-4d7f-b22b-e29597762571")
 		)
 		(pin "2"
-			(uuid "193791ce-3026-4483-b7bc-5afe1afbcca2")
+			(uuid "59c557a5-ad75-4351-85cd-934579e60191")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -9007,7 +9007,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "458be7d7-30a4-435a-8fad-3987dcd7fadc")
+		(uuid "1e60b5cf-b908-459d-9ece-85b59913cea0")
 	)
 	(label "SIO_MCTL"
 		(at 203.2 143.51 270)
@@ -9017,7 +9017,7 @@
 			)
 			(justify right)
 		)
-		(uuid "c47fd944-fa7b-4f64-9aca-0d4d381e6880")
+		(uuid "ea493490-53de-4431-9327-48ad8ba99bc7")
 	)
 	(wire
 		(pts
@@ -9027,7 +9027,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "831c9d5a-9fa6-4bc6-b0ac-57fc7fff9c97")
+		(uuid "88d4340c-457e-4834-8a6f-cf0cc4951bc6")
 	)
 	(label "GND"
 		(at 203.2 161.29 90)
@@ -9037,7 +9037,7 @@
 			)
 			(justify left)
 		)
-		(uuid "5f415a00-1f72-45d6-97b9-7a80ca417eee")
+		(uuid "1b50071d-c10b-4b69-8fdb-7bb744248165")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -9047,7 +9047,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2afb919b-b702-4942-bf82-28aa079ea9ca")
+		(uuid "a9ff38f4-223e-4b43-be38-c37b3bd9e97d")
 		(property "Reference" "R16"
 			(at 152.4 182.88 0)
 			(effects
@@ -9083,10 +9083,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd287bb6-378c-4a54-b90a-0562387de5b7")
+			(uuid "9c00a026-0af5-4694-a332-cae638e2476c")
 		)
 		(pin "2"
-			(uuid "dad2966b-191e-4a9c-98a6-5adccca958b8")
+			(uuid "d49524fc-d079-4a8e-b483-ef9ac1138e25")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -9105,7 +9105,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "71750765-81f0-4976-997e-536ed4e95b27")
+		(uuid "bb1dc6e8-2e88-4f82-9563-82ee8278ecbb")
 	)
 	(label "SIO_5V"
 		(at 152.4 181.61 270)
@@ -9115,7 +9115,7 @@
 			)
 			(justify right)
 		)
-		(uuid "e9cdd7b8-0b56-407e-92b6-7d53297ffc28")
+		(uuid "301a82f7-87fb-42e9-bf0f-cd2e09cd4b11")
 	)
 	(wire
 		(pts
@@ -9125,7 +9125,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "e3efce3a-0729-42ab-a9cf-b1506c9a7d60")
+		(uuid "534a81bc-dd7f-435a-a1a4-70c4a15efae7")
 	)
 	(label "SIO_DATAIN"
 		(at 152.4 199.39 90)
@@ -9135,7 +9135,7 @@
 			)
 			(justify left)
 		)
-		(uuid "99bec0e2-162a-49c0-897f-28c01dab77c6")
+		(uuid "75eaeeff-6e58-4a24-9798-1e3458cdfca5")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -9145,7 +9145,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bee8058a-c23b-40bb-94ca-727293383568")
+		(uuid "a2db6376-a0e9-45d7-9bd3-03011b3e97e5")
 		(property "Reference" "C1"
 			(at 254 144.78 0)
 			(effects
@@ -9181,10 +9181,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e7a99e51-d6bb-4316-8d13-66ef6c00504b")
+			(uuid "a3fc9b08-5344-479f-b04a-8b90081f75ae")
 		)
 		(pin "2"
-			(uuid "6fa93156-0e3e-46ec-aaed-c7d7940e8f05")
+			(uuid "04e84a40-a039-43ae-b7d9-8cec48a38cf4")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -9203,7 +9203,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "3cb3a245-7505-4dfe-956f-e4e9c1b67357")
+		(uuid "56ade875-3342-47cb-aee1-c91a7acb2fbc")
 	)
 	(label "3V3"
 		(at 254 143.51 270)
@@ -9213,7 +9213,7 @@
 			)
 			(justify right)
 		)
-		(uuid "1c7c8c2b-28a8-472a-b577-8cf46e1f89a2")
+		(uuid "72c31405-54f6-4871-88c0-1fed2926aba6")
 	)
 	(wire
 		(pts
@@ -9223,7 +9223,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "9da80601-c911-44a8-9205-9db275d6656f")
+		(uuid "5783a640-34f9-4061-b53c-9f09c33159f4")
 	)
 	(label "GND"
 		(at 254 161.29 90)
@@ -9233,7 +9233,7 @@
 			)
 			(justify left)
 		)
-		(uuid "599c1c00-d3bf-459c-8267-bb029f9cc1ea")
+		(uuid "a23c99ff-938b-4c65-a5ac-a5c220b8b61d")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -9243,7 +9243,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e7de6f4d-01ee-4c32-b506-160c708ea471")
+		(uuid "b6a38712-e4fa-44e3-8640-11022ba863f3")
 		(property "Reference" "C6"
 			(at 228.6 182.88 0)
 			(effects
@@ -9279,10 +9279,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e203c91a-8059-4e6d-95f0-5332fcd10c57")
+			(uuid "6b577feb-4888-43c8-9b0d-9759139c4539")
 		)
 		(pin "2"
-			(uuid "6b0e6657-c09c-4a54-83dc-26b8e5bfb379")
+			(uuid "b345b73c-308e-4221-8fe8-2a041c5ef9ed")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -9301,7 +9301,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "474dbf37-cf5e-4495-8263-60ec59070d43")
+		(uuid "a5c7337d-5905-4bd4-8c2e-1e8262dea127")
 	)
 	(label "GND"
 		(at 228.6 181.61 270)
@@ -9311,7 +9311,7 @@
 			)
 			(justify right)
 		)
-		(uuid "acc16cfe-194a-4030-b028-9548cadffd8b")
+		(uuid "d4c0d78e-99b6-4603-98a6-ddaae74dd887")
 	)
 	(wire
 		(pts
@@ -9321,7 +9321,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "4c95966c-8daa-4437-9f26-429397d6a6c0")
+		(uuid "d262703c-feb9-455b-8e18-07869edb15b1")
 	)
 	(label "VCC_BUF"
 		(at 228.6 199.39 90)
@@ -9331,7 +9331,7 @@
 			)
 			(justify left)
 		)
-		(uuid "82db2e4f-33da-4f07-a704-1ffc4e3909d6")
+		(uuid "e1a2ea05-c4f3-49da-bf7d-94700534e2ef")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -9341,7 +9341,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8c34dd11-2f3e-4e6c-bc86-79e3a05f6e1f")
+		(uuid "ee3c3236-aadd-45bd-b4ae-a959757aba54")
 		(property "Reference" "C9"
 			(at 279.4 182.88 0)
 			(effects
@@ -9377,10 +9377,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fec8d715-88b5-47d3-8ace-0d62ccd242d1")
+			(uuid "bed06f6b-a186-4daa-8904-9c8165b7f781")
 		)
 		(pin "2"
-			(uuid "c454321b-f14b-4a02-88d5-86192c8e9330")
+			(uuid "4109075f-a0d0-4701-8537-db1dc7226c37")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -9399,7 +9399,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "5271ed62-3e55-49b3-86f5-8516015748c7")
+		(uuid "0fcb92f6-66ec-4e6d-afc1-9e80e0f7c7f9")
 	)
 	(label "GND"
 		(at 279.4 181.61 270)
@@ -9409,7 +9409,7 @@
 			)
 			(justify right)
 		)
-		(uuid "375ace20-99de-419e-840f-7a5bd004705e")
+		(uuid "548a0085-efe1-4703-aa9d-9c3905bfd9d0")
 	)
 	(wire
 		(pts
@@ -9419,7 +9419,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "37ae56a0-d409-4910-8cce-5c522a0b6532")
+		(uuid "bbeee4ce-a288-492d-bb7f-6f0e090cf013")
 	)
 	(label "VCC_BUF"
 		(at 279.4 199.39 90)
@@ -9429,7 +9429,7 @@
 			)
 			(justify left)
 		)
-		(uuid "1ebecccf-64d3-4bbc-90f5-3bc6471742d2")
+		(uuid "f6ef6f5d-75e2-49ba-8937-f43a42a61242")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -9439,7 +9439,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "321320bf-20a2-4ef9-b2e6-d871b11e4691")
+		(uuid "93decae7-4183-4af7-8102-c2c7a94cbe02")
 		(property "Reference" "R3"
 			(at 50.8 259.08 0)
 			(effects
@@ -9475,10 +9475,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "85f8a7c7-8cf3-41ae-88e7-22274e708783")
+			(uuid "b1745622-0905-4cc7-872b-3539aabe8e62")
 		)
 		(pin "2"
-			(uuid "0b4888ce-036b-4d8f-88a1-38ad3e48657d")
+			(uuid "05ebd8b1-452a-4f2d-b0c6-230449aebd9b")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -9497,7 +9497,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "4034dd39-fbd5-4bde-ac0a-b4d87abc193d")
+		(uuid "608d3b4f-7a76-4a79-834b-6e6bb863f17d")
 	)
 	(label "3V3"
 		(at 50.8 257.81 270)
@@ -9507,7 +9507,7 @@
 			)
 			(justify right)
 		)
-		(uuid "49b2c9aa-dc08-4d32-bb7b-5e8a7d5878c9")
+		(uuid "7678a302-cfc4-4914-a321-7e75c76b0641")
 	)
 	(wire
 		(pts
@@ -9517,7 +9517,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "37589695-0de2-491f-bd8b-a4d5c0c704a8")
+		(uuid "9b3207dc-1ef6-4da8-adad-aa1da76ac127")
 	)
 	(label "BTN_RST"
 		(at 50.8 275.59 90)
@@ -9527,7 +9527,7 @@
 			)
 			(justify left)
 		)
-		(uuid "053a8e4e-27a1-4a3d-add1-beb8806adb09")
+		(uuid "0f7b4cfa-ebe7-4d8b-850b-4d24f9b33d14")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -9537,7 +9537,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "45c44b34-d81e-485e-a6db-d3a447cabf07")
+		(uuid "8541d562-0c3f-4e29-9f44-ef256b03d5a1")
 		(property "Reference" "R6"
 			(at 101.6 259.08 0)
 			(effects
@@ -9573,10 +9573,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7527e544-13af-465b-9699-776006b9e623")
+			(uuid "19f0c6ef-0867-409e-bf31-14c1aa4cb926")
 		)
 		(pin "2"
-			(uuid "b382108b-c2d6-4431-865d-9f0a1d4c83b0")
+			(uuid "844dbe5b-18fe-48fb-8295-a7af10619b38")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -9595,7 +9595,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "73a42430-f5fa-4ac6-938e-bccc3bb7bcdc")
+		(uuid "051d3133-8a3f-4e36-9d16-d0d7d7d21e37")
 	)
 	(label "3V3"
 		(at 101.6 257.81 270)
@@ -9605,7 +9605,7 @@
 			)
 			(justify right)
 		)
-		(uuid "88400e24-f423-405d-ac84-f1835e724a9d")
+		(uuid "44fe43a7-541e-4350-9b52-161c4b702f48")
 	)
 	(wire
 		(pts
@@ -9615,7 +9615,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "f8e760d6-8be3-4410-b257-85e898c533dc")
+		(uuid "fd9b9f2e-3bb8-4f1e-8307-6c6626f9e290")
 	)
 	(label "BTN_SWAP"
 		(at 101.6 275.59 90)
@@ -9625,7 +9625,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2c6cadfd-ce63-4d05-9545-be54630d5443")
+		(uuid "ca3809d7-b65b-4a58-83d8-00cd6bafacdf")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -9635,7 +9635,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a559dab0-300d-4cc4-bff5-c2b6175b478c")
+		(uuid "12a7deda-ab20-4065-b37e-155bf4e18919")
 		(property "Reference" "R13"
 			(at 152.4 259.08 0)
 			(effects
@@ -9671,10 +9671,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0daa2568-012d-40ec-9fcd-e9930e6fcb74")
+			(uuid "622c1939-bc52-4a6d-8e41-f9edbd5d51aa")
 		)
 		(pin "2"
-			(uuid "522f187a-b753-43dc-8d89-e08a7d1d4f11")
+			(uuid "607e7080-0869-4ae8-9ab0-a517febe3d81")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -9693,7 +9693,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "ec743db4-19d1-4bd2-b8fa-9b56cb1ccfa5")
+		(uuid "1f99ca17-6ccf-426b-9c8a-0d83e9f34b3c")
 	)
 	(label "LED_WIFI"
 		(at 152.4 257.81 270)
@@ -9703,7 +9703,7 @@
 			)
 			(justify right)
 		)
-		(uuid "15eaf24f-07fb-4ea5-9b64-2b589e583993")
+		(uuid "23d63540-eafd-4094-ac67-c7808d223833")
 	)
 	(wire
 		(pts
@@ -9713,7 +9713,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "bb5e50d0-9872-435a-8405-383b69df4498")
+		(uuid "937d7ee8-e777-4ccd-9b99-f602b411f319")
 	)
 	(label "IO2/LED1"
 		(at 152.4 275.59 90)
@@ -9723,7 +9723,7 @@
 			)
 			(justify left)
 		)
-		(uuid "e9a786e8-6d4d-4cff-aa53-1a725a413a9d")
+		(uuid "1195c1ad-e35f-4383-9a18-7c7265931668")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -9733,7 +9733,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1832f331-9285-44b3-8bea-504876b24ec8")
+		(uuid "ef24ef37-b7f4-49cd-b220-a496d7661abf")
 		(property "Reference" "R14"
 			(at 203.2 259.08 0)
 			(effects
@@ -9769,10 +9769,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "412621d8-f5f4-425e-845a-5ccf1710197c")
+			(uuid "b6191963-2b85-47b1-8d09-4cb38f8ad5ad")
 		)
 		(pin "2"
-			(uuid "51f2d764-e3cf-413f-8ec1-4feb19fef24e")
+			(uuid "1e292777-0220-41af-bb5b-4d50b54ed68d")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -9791,7 +9791,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "52efe016-6000-4375-bca8-80a55c1a5631")
+		(uuid "58b64963-07e5-4a46-96cd-f0eb57c33a8a")
 	)
 	(label "LED_BT"
 		(at 203.2 257.81 270)
@@ -9801,7 +9801,7 @@
 			)
 			(justify right)
 		)
-		(uuid "02f05d68-cc2e-4211-85eb-37417cb5f35b")
+		(uuid "59c3e876-9ccd-4eed-ab71-cea3d93f64e9")
 	)
 	(wire
 		(pts
@@ -9811,7 +9811,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "53ec0a6c-9a65-409c-bd34-11061207abb4")
+		(uuid "a5df81b9-b75c-45a5-a467-4083b176fd6a")
 	)
 	(label "IO13/LED3/TCK"
 		(at 203.2 275.59 90)
@@ -9821,7 +9821,7 @@
 			)
 			(justify left)
 		)
-		(uuid "4f0f24f0-bfe0-467c-b601-df4a2c6318a2")
+		(uuid "ca8f8cd9-b5d0-4edf-9376-04bb7f6514c6")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -9831,7 +9831,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "285f95e8-e6db-4526-95d2-92110023fa9f")
+		(uuid "390b291f-d3c1-41a7-8edd-1f2d4240426b")
 		(property "Reference" "R15"
 			(at 254 259.08 0)
 			(effects
@@ -9867,10 +9867,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3839e585-b3ca-42b9-bdfc-7edf369ac63f")
+			(uuid "4bf109a5-0825-4521-84b4-28c8806c5bfd")
 		)
 		(pin "2"
-			(uuid "bb219c9c-02b1-4fd4-9ffd-6c61813fe9ad")
+			(uuid "05b48295-3ff7-433b-8f72-93f30e000840")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -9889,7 +9889,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "45750b1a-637b-4abb-a756-3faf1ce93e87")
+		(uuid "f2cfa7c7-9abc-441d-8667-a28ee1fe6252")
 	)
 	(label "LED_SIO"
 		(at 254 257.81 270)
@@ -9899,7 +9899,7 @@
 			)
 			(justify right)
 		)
-		(uuid "2eaaec79-2568-4370-a179-a52f9c7d23dc")
+		(uuid "121f83c3-cc7b-4bed-a085-c5c1264c0199")
 	)
 	(wire
 		(pts
@@ -9909,7 +9909,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "9ecc7292-b483-41b4-8cab-5d04dff5bd15")
+		(uuid "348c5948-e273-48c0-8ca1-615b017a023b")
 	)
 	(label "IO4/LED2"
 		(at 254 275.59 90)
@@ -9919,7 +9919,7 @@
 			)
 			(justify left)
 		)
-		(uuid "953cdb9f-384c-450e-91b1-9d309858bcc5")
+		(uuid "4d72ef35-c6a7-4ec2-9a63-49a47fef6a9d")
 	)
 	(symbol
 		(lib_id "Connector:Micro_SD_Card_Det2")
@@ -9929,7 +9929,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e7838f29-ac07-4735-844f-f9b67460d406")
+		(uuid "2a7c599d-c936-410f-ac0e-9e11870d8935")
 		(property "Reference" "SD1"
 			(at 330.2 144.78 0)
 			(effects
@@ -9965,37 +9965,37 @@
 			)
 		)
 		(pin "1"
-			(uuid "54ec9a8b-2bf9-438e-ba1d-5b232290efc5")
+			(uuid "6ac783d6-1905-4cb2-b4ff-d85505513289")
 		)
 		(pin "2"
-			(uuid "2df7ca88-164b-455b-b5c7-69981c9ca2b0")
+			(uuid "c44ddc92-2a35-4ad6-aaac-c393e9ee8f95")
 		)
 		(pin "3"
-			(uuid "63be91ab-21d5-4b80-849b-775da9b3c664")
+			(uuid "78c1f89c-4f20-43f4-890d-d43216caa1aa")
 		)
 		(pin "4"
-			(uuid "78188eb1-3421-42ee-a842-bbcfcbfec841")
+			(uuid "adfcf2b6-01e8-4819-8cde-919fbe682730")
 		)
 		(pin "5"
-			(uuid "92933a84-7d88-4d70-b089-ffb27f2d7cec")
+			(uuid "5f4749ca-3606-4f54-bdbe-a81e79174705")
 		)
 		(pin "6"
-			(uuid "3701df1f-37b9-464c-91d5-62003cda7207")
+			(uuid "8063d212-24b1-44e7-bcc6-ab2145517223")
 		)
 		(pin "7"
-			(uuid "0cfc8319-062c-468e-8d6f-1396064c57f6")
+			(uuid "dd24a01a-ef0c-48d0-aa37-500aade78ca9")
 		)
 		(pin "8"
-			(uuid "eeb10733-622f-451d-a352-2731da1263cc")
+			(uuid "732ccdbd-dc3d-4f03-9cde-a28dc19497a1")
 		)
 		(pin "9"
-			(uuid "3caf9661-e6b9-4590-b230-69c61b7ff4c1")
+			(uuid "c1ea137c-fe48-4993-9cc6-87d443d12b47")
 		)
 		(pin "10"
-			(uuid "c4444c67-f748-44de-8451-be913a18779c")
+			(uuid "92c3a2e3-c030-4fa5-af71-f2000b2f9665")
 		)
 		(pin "11"
-			(uuid "0bba6971-bdc4-47c6-8744-8c58fcf3ec0b")
+			(uuid "2004195c-8897-40b3-9c85-9cdbf0b56dda")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -10014,7 +10014,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "b7c4d076-b976-4c17-bd37-354bbe7c6c39")
+		(uuid "668487e6-1cef-4431-a545-62b8146f2390")
 	)
 	(label "SD_DAT2"
 		(at 302.26 142.24 180)
@@ -10024,7 +10024,7 @@
 			)
 			(justify right)
 		)
-		(uuid "e95c7992-1d9f-4701-82d3-1dd028aea7c8")
+		(uuid "84fb4de4-3a17-4c77-b2b0-9eb26260f137")
 	)
 	(wire
 		(pts
@@ -10034,7 +10034,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "367557b3-1488-43cd-b464-7883b0b99037")
+		(uuid "4226a84b-53ea-42de-9041-64251de91519")
 	)
 	(label "IO5/SPI_CS"
 		(at 302.26 144.78 180)
@@ -10044,7 +10044,7 @@
 			)
 			(justify right)
 		)
-		(uuid "6d6eabc8-e925-44fc-aa34-da889a28f393")
+		(uuid "c9e5d0f3-e2da-4f28-aefc-fe803098fabc")
 	)
 	(wire
 		(pts
@@ -10054,7 +10054,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "5a1686b1-b4a7-4f26-bbd8-d54ce160d986")
+		(uuid "3e22f210-352e-4213-8d1c-c7c9f750844c")
 	)
 	(label "IO23/SPI_MOSI"
 		(at 302.26 147.32 180)
@@ -10064,7 +10064,7 @@
 			)
 			(justify right)
 		)
-		(uuid "628f23e3-ed18-407c-b433-ad859e5d5dc7")
+		(uuid "5285ed58-1017-47fd-8f5f-0015665ff1cb")
 	)
 	(wire
 		(pts
@@ -10074,7 +10074,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "09e62778-d2f7-49b1-8412-c3e2e65e1942")
+		(uuid "d32f27fa-91cd-42ca-a13c-24fbf1f0908a")
 	)
 	(label "3V3"
 		(at 302.26 149.86 180)
@@ -10084,7 +10084,7 @@
 			)
 			(justify right)
 		)
-		(uuid "b55981ba-90d7-4812-b2f4-64c4e8f78f4c")
+		(uuid "f98b4944-b579-4000-b3e8-c914235e4b66")
 	)
 	(wire
 		(pts
@@ -10094,7 +10094,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "ff943e03-0182-4732-a8c4-a0ef5a574c09")
+		(uuid "ecb6cc14-732d-44e1-9441-ea2bdd02a204")
 	)
 	(label "IO18/SPI_CLK"
 		(at 302.26 152.4 180)
@@ -10104,7 +10104,7 @@
 			)
 			(justify right)
 		)
-		(uuid "70767e9f-f164-476e-8045-23b4994720ad")
+		(uuid "3ac21d93-87a9-4170-93c3-45f4302d8865")
 	)
 	(wire
 		(pts
@@ -10114,7 +10114,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "d625676d-520e-43f5-afa7-e9f94f5d722f")
+		(uuid "5b4b416d-0f31-4ad8-a865-ba530990ff79")
 	)
 	(label "GND"
 		(at 302.26 154.94 180)
@@ -10124,7 +10124,7 @@
 			)
 			(justify right)
 		)
-		(uuid "3f907556-9190-455c-be66-3972b7d67104")
+		(uuid "398107fb-c5c8-44c8-b596-016128cdd45c")
 	)
 	(wire
 		(pts
@@ -10134,7 +10134,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "95b269b9-0b14-4d7d-a157-98a70da4cbbb")
+		(uuid "18d42603-dfbd-4565-aaa6-0e5f18a595c6")
 	)
 	(label "IO19/SPI_MISO"
 		(at 302.26 157.48 180)
@@ -10144,7 +10144,7 @@
 			)
 			(justify right)
 		)
-		(uuid "50a11571-0dbd-4f06-9c34-013cefa25e23")
+		(uuid "79ffc5dc-14a8-4188-9029-96ab83b5db39")
 	)
 	(wire
 		(pts
@@ -10154,7 +10154,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "cb2e813e-de2d-45e7-88f4-19a955d9f27d")
+		(uuid "f84e4a91-eedf-4d10-aca7-7e71ade4759a")
 	)
 	(label "SD_DAT1"
 		(at 302.26 160.02 180)
@@ -10164,7 +10164,7 @@
 			)
 			(justify right)
 		)
-		(uuid "2635a47a-529b-4f62-8c96-f89a112a2270")
+		(uuid "d3539bea-bb90-4284-bbc6-bd80e4087333")
 	)
 	(wire
 		(pts
@@ -10174,7 +10174,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "044f5938-7992-46ee-a6d2-08f9579fde0a")
+		(uuid "780bbbe5-a158-4d89-92b5-24e6d5784f18")
 	)
 	(label "IO15/TDO"
 		(at 302.26 165.1 180)
@@ -10184,7 +10184,7 @@
 			)
 			(justify right)
 		)
-		(uuid "8f778763-c4f6-40e3-abf4-efca51770fa8")
+		(uuid "9dcbce68-d93a-4b8e-b623-83f00beda658")
 	)
 	(wire
 		(pts
@@ -10194,7 +10194,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "51e21a31-2cc2-48d6-8bd5-5ea61af83443")
+		(uuid "561a272e-2332-4d25-bec8-bb0f82e62ac8")
 	)
 	(label "GND"
 		(at 302.26 162.56 180)
@@ -10204,7 +10204,7 @@
 			)
 			(justify right)
 		)
-		(uuid "7dd81964-5ab8-4020-b26a-e732d37d57b8")
+		(uuid "69f7baa0-6cb5-4167-aa4c-3e6fe12bc1b8")
 	)
 	(wire
 		(pts
@@ -10214,7 +10214,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "389f3e49-efcc-4b20-9163-47c537ace5a4")
+		(uuid "22859dd5-827f-43b8-bd6f-3085f2082cbb")
 	)
 	(label "GND"
 		(at 355.6 165.1 0)
@@ -10224,7 +10224,7 @@
 			)
 			(justify left)
 		)
-		(uuid "b6cdec69-07f3-4dfc-9681-173a35410bf1")
+		(uuid "51531654-604f-4ac7-859d-1c034567462e")
 	)
 	(symbol
 		(lib_id "Interface_USB:CP2102N-Axx-xQFN24")
@@ -10234,7 +10234,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "16d15131-4bfc-42ee-a186-d11206445610")
+		(uuid "402e2f17-6a9c-4300-bcf7-c3b12fc7218b")
 		(property "Reference" "U2"
 			(at 457.2 246.38 0)
 			(effects
@@ -10270,79 +10270,79 @@
 			)
 		)
 		(pin "9"
-			(uuid "38d1ae56-487a-4e5d-9330-173600ac9c26")
+			(uuid "91349ae3-5a61-48c8-ac6a-bc9412f8c8e7")
 		)
 		(pin "8"
-			(uuid "a94dd316-49e3-4831-9906-e11458af1940")
+			(uuid "591d8ac2-7bf9-41ca-97dc-c43f6ecaf512")
 		)
 		(pin "4"
-			(uuid "4d570bc5-de93-46d9-b1c3-23bea02c5a07")
+			(uuid "bfea4389-3a54-453b-9c31-bbdd61f250db")
 		)
 		(pin "3"
-			(uuid "f6b75c9d-88a1-4a31-b7d5-fe6703ea0cd6")
+			(uuid "b93b5e20-53f8-496b-bd76-a681a056e6bf")
 		)
 		(pin "10"
-			(uuid "a5eb345f-3686-498d-98d0-ee790b5e62c4")
+			(uuid "7e81d579-ad14-4962-adcf-7c01cf0fa2e3")
 		)
 		(pin "7"
-			(uuid "b3193fc5-9e19-4f51-8bca-eec43d942c30")
+			(uuid "9a2d2900-fb64-41d3-b6d8-5263b6670155")
 		)
 		(pin "6"
-			(uuid "281677b1-991d-4b0f-b59c-ef8d349c843e")
+			(uuid "0c789028-4bb4-4231-a439-b7d25c1ca767")
 		)
 		(pin "2"
-			(uuid "d45608aa-339e-41e2-8cee-db9842788e96")
+			(uuid "5f08cb34-074c-4ac0-bcf2-10f6f5a68f46")
 		)
 		(pin "25"
-			(uuid "0c738e4c-05ff-4f13-8e6e-9a52978faa7c")
+			(uuid "1c61f71e-5898-4ab9-860a-a68eefe410af")
 		)
 		(pin "5"
-			(uuid "89bb0a60-c907-4678-a0b1-5fefe2c96bdd")
+			(uuid "b1f17b66-b8b7-4949-ac7a-219d7eb436dc")
 		)
 		(pin "16"
-			(uuid "f6583995-f290-43ad-a377-f2eb2027e9d0")
+			(uuid "684495f9-06f4-47ce-bbb7-ead46b07d995")
 		)
 		(pin "21"
-			(uuid "bc403c86-bfc4-4c17-b8ec-93c96836e285")
+			(uuid "0345a770-626b-4c9f-82f4-10b22d1b10ae")
 		)
 		(pin "20"
-			(uuid "b427e0e0-e66c-425f-acb1-e54682c6b95f")
+			(uuid "f8b04bd6-623b-4832-97f6-a1cbcb6610fc")
 		)
 		(pin "19"
-			(uuid "63a604f3-5cbc-470a-b3d0-92e3c62150fa")
+			(uuid "2be755ea-faec-45d7-9e2f-0c8a9b802e7e")
 		)
 		(pin "18"
-			(uuid "19789f94-4ee5-43da-900e-1a411e92353e")
+			(uuid "56bd2a81-4cd6-40b4-95e1-4569795d6ddc")
 		)
 		(pin "22"
-			(uuid "7af5cfb4-842b-4dd8-bc54-fbf49cb12c42")
+			(uuid "dd3c4411-3284-4b6f-b5b2-b9a8438d9dd9")
 		)
 		(pin "23"
-			(uuid "144bd3b0-bc16-4333-8ad0-c0d84513193d")
+			(uuid "5ca97bd4-a5d2-4274-aee4-7f96390a269e")
 		)
 		(pin "24"
-			(uuid "4cace3c6-80f8-4d31-96f1-d31f06e39e50")
+			(uuid "7557de67-7a21-46d9-ac50-b9d08f41cc78")
 		)
 		(pin "1"
-			(uuid "cd61a8c3-ee56-4e3c-962f-d1ae1db64412")
+			(uuid "6a9ee730-4c46-438a-a163-1ed5856fac11")
 		)
 		(pin "17"
-			(uuid "85e6908b-fa0d-4f3e-a5b1-530c34990e1d")
+			(uuid "b1400dc0-9d0a-4bbd-bff6-c1eacb872c3c")
 		)
 		(pin "15"
-			(uuid "5b9da867-01ba-485e-8b49-4793202fe5cd")
+			(uuid "183d150f-da3d-412c-95fd-1317e4aff6d6")
 		)
 		(pin "14"
-			(uuid "8707b3f7-1935-48c6-8034-bb593c643129")
+			(uuid "a4aa3b24-c5cd-4f1e-a6a4-ed08aa7ac977")
 		)
 		(pin "13"
-			(uuid "7bedddf9-5a6e-449d-88f9-aff124ed2ba1")
+			(uuid "ef7f20d0-881f-4aef-adda-41e7ed68ab5d")
 		)
 		(pin "12"
-			(uuid "0ac7807d-b9cd-4f7b-93cd-86c06ab1d33e")
+			(uuid "c5dbee6c-bb43-41b8-bea8-31888f88e4da")
 		)
 		(pin "11"
-			(uuid "cf9474b4-222d-41ad-9e48-f933f8ee657b")
+			(uuid "bf792050-e62f-4ab2-a8dc-af3280b738f2")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -10361,7 +10361,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "f2bb1154-9802-4fc1-bfe9-502e75c16a86")
+		(uuid "24410851-d66c-4124-8bd7-de604c9b34d8")
 	)
 	(label "CP2102_RESET"
 		(at 439.42 231.14 180)
@@ -10371,7 +10371,7 @@
 			)
 			(justify right)
 		)
-		(uuid "0e5abc05-a12a-4258-ae34-ed298aae960b")
+		(uuid "eb4fd8a3-2d63-49c0-95d8-52ac8d90f3ad")
 	)
 	(wire
 		(pts
@@ -10381,7 +10381,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "90bcf889-5e32-4e98-a3fb-cc046fecaa30")
+		(uuid "a91fa4e8-4182-4109-8c2b-6147fa9cdded")
 	)
 	(label "CP2102_VBUS_SENSE"
 		(at 439.42 243.84 180)
@@ -10391,7 +10391,7 @@
 			)
 			(justify right)
 		)
-		(uuid "812797fe-780d-46e9-b7ef-01c7631e0ce6")
+		(uuid "a17e8a63-ff4a-4ab1-8fd7-4df7dcb12f06")
 	)
 	(wire
 		(pts
@@ -10401,7 +10401,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "c275f8ec-3a00-4274-990d-815b12ada661")
+		(uuid "8b52ded3-3e7d-48e9-93f1-311ad0060a0a")
 	)
 	(label "USB_D-"
 		(at 439.42 246.38 180)
@@ -10411,7 +10411,7 @@
 			)
 			(justify right)
 		)
-		(uuid "05fb9138-818b-4bfb-957b-4326ddb75692")
+		(uuid "930ad302-cbcc-4699-a675-b16eb52dc250")
 	)
 	(wire
 		(pts
@@ -10421,7 +10421,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "f99dc936-07cc-435a-acfe-71dd19c86dbb")
+		(uuid "56f2f8e0-7843-41ca-82b8-d899192fbc4d")
 	)
 	(label "USB_D+"
 		(at 439.42 248.92 180)
@@ -10431,11 +10431,11 @@
 			)
 			(justify right)
 		)
-		(uuid "77fb846b-a695-4efe-9535-e0c0b1c3739a")
+		(uuid "bce0eaea-6d9b-43ff-9f0d-bc8a1ccd8427")
 	)
 	(no_connect
 		(at 447.04 276.86)
-		(uuid "1fe7995c-d1f5-4886-afed-f71f0cbe3b4a")
+		(uuid "7e4c2e22-ff47-4516-bf0e-e1856694a816")
 	)
 	(wire
 		(pts
@@ -10445,7 +10445,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "c16adcaa-1f23-454a-9e4b-74f5161c87f4")
+		(uuid "0018a4fb-ef19-4f8e-b794-8aef4aeed584")
 	)
 	(label "USB_5V"
 		(at 454.66 220.98 270)
@@ -10455,7 +10455,7 @@
 			)
 			(justify right)
 		)
-		(uuid "9cd5ce75-85bf-471d-af91-7ee02237ebc2")
+		(uuid "e2c235b5-1694-4470-9343-c17a7c7cdf7b")
 	)
 	(wire
 		(pts
@@ -10465,7 +10465,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "d5c2a11b-ad57-4e78-a91c-504be3d30879")
+		(uuid "afec665b-6aaa-460b-a2ee-f6e071b25128")
 	)
 	(label "VDD"
 		(at 457.2 220.98 270)
@@ -10475,7 +10475,7 @@
 			)
 			(justify right)
 		)
-		(uuid "6d65bce8-4982-4316-b046-e489f6a68fec")
+		(uuid "8491e188-b5f2-45f3-b8fd-d14d9dc7e331")
 	)
 	(wire
 		(pts
@@ -10485,7 +10485,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "706daf81-0714-46b4-af45-f000a3f0a0b0")
+		(uuid "2bbba1de-e9e0-4e4c-a55d-1b03fc3b5a2f")
 	)
 	(label "GND"
 		(at 457.2 287.02 90)
@@ -10495,7 +10495,7 @@
 			)
 			(justify left)
 		)
-		(uuid "4fafe603-8769-4d83-857d-cbc19960ad85")
+		(uuid "ad037c1d-f38c-41ae-b9d8-542906252864")
 	)
 	(wire
 		(pts
@@ -10505,7 +10505,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "ed6d095d-518a-4bcc-a77c-0ed4d5f7d07e")
+		(uuid "7931a0be-85be-4414-bf94-176628f6dfcd")
 	)
 	(label "GND"
 		(at 457.2 287.02 90)
@@ -10515,7 +10515,7 @@
 			)
 			(justify left)
 		)
-		(uuid "466d44f2-1276-49f5-866c-4d96a7e9a715")
+		(uuid "5bd1278c-6df8-40d0-8473-a4403b3fa0fe")
 	)
 	(wire
 		(pts
@@ -10525,7 +10525,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "d31a9f8b-f7e0-4c27-8a3d-a91c92c5afb7")
+		(uuid "39766978-81b3-4426-ad5d-83ae57b72452")
 	)
 	(label "VDD"
 		(at 459.74 220.98 270)
@@ -10535,11 +10535,11 @@
 			)
 			(justify right)
 		)
-		(uuid "2999a04f-caf8-46c4-9361-64c8903b8ffc")
+		(uuid "9e2671d7-a95d-4823-86d7-9d4fa6628cb9")
 	)
 	(no_connect
 		(at 467.36 276.86)
-		(uuid "4dcad728-7c10-45f2-9682-a4268f5e5e4a")
+		(uuid "2a4eebc9-8c69-47a9-a34a-6709e1650d0a")
 	)
 	(wire
 		(pts
@@ -10549,7 +10549,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "7b39a5a6-246e-4bf7-86a8-f24beff68a75")
+		(uuid "53f0d0b7-ee98-49c9-abb2-15c47ae6c59a")
 	)
 	(label "USB_TXO"
 		(at 474.98 231.14 0)
@@ -10559,7 +10559,7 @@
 			)
 			(justify left)
 		)
-		(uuid "799e7cf3-06e1-4e9d-8ee6-332c8444661d")
+		(uuid "040bc00e-ff16-4b12-8b54-3ec48cd7e94c")
 	)
 	(wire
 		(pts
@@ -10569,7 +10569,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "c74d7a0b-6715-4671-a95a-9404a982bac7")
+		(uuid "1328608f-6c53-4c1c-955c-24ae4459c8cc")
 	)
 	(label "USB_RXI"
 		(at 474.98 233.68 0)
@@ -10579,7 +10579,7 @@
 			)
 			(justify left)
 		)
-		(uuid "eb83bd56-c0bb-4a69-b528-97abfc91dd31")
+		(uuid "894a9da2-3927-4e3f-87e8-34a7000d0f48")
 	)
 	(wire
 		(pts
@@ -10589,7 +10589,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "99bba162-bda7-4b26-a5d3-7f1dec1cd6b1")
+		(uuid "6d2700ba-4cc4-4c41-ba5a-0fdddde61e60")
 	)
 	(label "RTS"
 		(at 474.98 236.22 0)
@@ -10599,15 +10599,15 @@
 			)
 			(justify left)
 		)
-		(uuid "d0837ae9-9208-4a4f-893c-19044f73ba9b")
+		(uuid "546f1ccd-3116-4679-a422-18b73473dd80")
 	)
 	(no_connect
 		(at 469.9 238.76)
-		(uuid "1568dda7-3849-4e1f-b77a-304daae85543")
+		(uuid "fc9ffa09-9025-4c76-a086-6dad4295dcdd")
 	)
 	(no_connect
 		(at 469.9 241.3)
-		(uuid "a9cf65dc-4338-495f-a1a6-3e7589e83ce6")
+		(uuid "747bab7e-b07d-4a75-9573-99aa281c1cf2")
 	)
 	(wire
 		(pts
@@ -10617,7 +10617,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "4819839d-7fee-4c36-9f18-8c4a35b6fbaa")
+		(uuid "0981d205-8dec-497f-baa7-7fa63fd770da")
 	)
 	(label "DTR"
 		(at 474.98 243.84 0)
@@ -10627,39 +10627,39 @@
 			)
 			(justify left)
 		)
-		(uuid "e633e5ac-c7bc-4b9d-8ca0-60bc2952107a")
+		(uuid "017c6527-2b3e-44ac-a837-972c09ff43c4")
 	)
 	(no_connect
 		(at 469.9 246.38)
-		(uuid "4360d842-6914-417e-ae78-837dd8aee6bf")
+		(uuid "d8a00af5-af4d-4af0-aef2-e0c7e13e5c20")
 	)
 	(no_connect
 		(at 469.9 248.92)
-		(uuid "5be9ebf9-c495-4c26-b94c-0085c2b3f900")
+		(uuid "bb8a537b-64d0-4041-9d8d-72c21e863271")
 	)
 	(no_connect
 		(at 469.9 254)
-		(uuid "0798b6e3-48e4-4b5f-8d05-bace969df2be")
+		(uuid "7cfc4e10-c323-4c17-aafc-8614d9e13f10")
 	)
 	(no_connect
 		(at 469.9 256.54)
-		(uuid "7040bcad-c539-4e33-8b73-4007df885681")
+		(uuid "83a9ee24-f41e-4fb1-8690-d46ece9607af")
 	)
 	(no_connect
 		(at 469.9 261.62)
-		(uuid "64f96c2f-0163-4ca4-bf23-ebee4fafa2b9")
+		(uuid "e1ae17cb-3246-45cf-b68c-5c52f4d6cd6c")
 	)
 	(no_connect
 		(at 469.9 264.16)
-		(uuid "24a6fb08-170a-4ae4-905e-51023eadac38")
+		(uuid "9b300a14-8a7c-4fe5-949a-4def0fe976bf")
 	)
 	(no_connect
 		(at 469.9 266.7)
-		(uuid "a3466794-7c57-471a-87f5-941a995a2fb6")
+		(uuid "eb7e8d13-4aae-4c2a-9231-703780843972")
 	)
 	(no_connect
 		(at 469.9 269.24)
-		(uuid "af93d57b-f7e0-478c-a37d-1efffe7e4e74")
+		(uuid "31793b36-36b2-4a8e-94df-a3eda7051862")
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
@@ -10669,7 +10669,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2fbf7adb-040b-4837-8a8f-a1188a6696ec")
+		(uuid "6b63d7f4-5a78-41fe-b0df-21c6183b276e")
 		(property "Reference" "J2"
 			(at 508 246.38 0)
 			(effects
@@ -10686,7 +10686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A"
+		(property "Footprint" "LocalOverrides:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A"
 			(at 508 254 0)
 			(effects
 				(font
@@ -10705,55 +10705,55 @@
 			)
 		)
 		(pin "S1"
-			(uuid "15cf4c15-5c5d-48cb-9e44-fce23ead28de")
+			(uuid "847c32be-abbb-4d1d-b807-54a46dab0eec")
 		)
 		(pin "A1"
-			(uuid "561445cb-edfd-4a37-b523-662b35afc150")
+			(uuid "cbfae280-b908-4df5-afa1-041689861ab1")
 		)
 		(pin "A12"
-			(uuid "cd55e8d2-b23d-4ea8-8efa-bdba88c9c6b6")
+			(uuid "0560ee57-7174-43c2-bac4-18d740a56419")
 		)
 		(pin "B1"
-			(uuid "4f0ab334-ae75-47e8-bae6-409e883e6f18")
+			(uuid "01b6348e-f35e-4ede-a8bb-21a223cdc247")
 		)
 		(pin "B12"
-			(uuid "df549e12-bcd1-4cb2-867c-a3a0825bc0d5")
+			(uuid "7780a523-5f5d-4ae4-b8e7-331d5a31ae0a")
 		)
 		(pin "A4"
-			(uuid "6532a906-2123-4043-a82f-51dd4be570df")
+			(uuid "553076cf-5903-4479-bc4f-c97f63511f33")
 		)
 		(pin "A9"
-			(uuid "a62f6cb3-ebca-4707-a0a2-e5810c3fec1a")
+			(uuid "c66fd777-aff3-449a-8853-ef763039ad04")
 		)
 		(pin "B4"
-			(uuid "4e206646-337b-4f02-88ea-bb299799fd39")
+			(uuid "30bfae9a-0571-4ff4-8c16-aa8b8c97972d")
 		)
 		(pin "B9"
-			(uuid "f56d1a54-02af-4c24-b9fa-1c9928ccf0a2")
+			(uuid "46c65d36-6f83-458d-ab47-880bc4b6aef7")
 		)
 		(pin "A5"
-			(uuid "bc1a2e17-af44-4f54-bc89-4fb9ec14ab20")
+			(uuid "6b3ed67d-7b2b-4811-942e-6aede7b106e7")
 		)
 		(pin "B5"
-			(uuid "a0f02b5d-f049-433a-83e3-3ff80f4ebe05")
+			(uuid "99660c01-e4da-4417-b2b2-7c9ad2a51295")
 		)
 		(pin "A7"
-			(uuid "25154297-8a3d-4f99-bea3-527420b73196")
+			(uuid "d8b669d0-57dd-4aea-b2a8-a817f2c887e2")
 		)
 		(pin "B7"
-			(uuid "579ae913-419e-4abd-b4b5-5d09aac74209")
+			(uuid "b73b8fb6-8193-480b-ac90-a347a3f38db7")
 		)
 		(pin "A6"
-			(uuid "1a505505-d718-47fc-ad7d-9c146217181e")
+			(uuid "cc99c757-93a4-40f2-b7e6-e349f4fd8945")
 		)
 		(pin "B6"
-			(uuid "2a75053f-e136-46df-84fc-9ac6f8079e74")
+			(uuid "ab7df6cc-fa3d-46b6-8799-5042c8ce5773")
 		)
 		(pin "A8"
-			(uuid "17feebe4-b004-4f31-b715-16192b5f37d0")
+			(uuid "92006e1b-77c1-4767-bad7-3ad9c5080cff")
 		)
 		(pin "B8"
-			(uuid "730e9595-a8ec-4b77-a1e6-baef25d927a5")
+			(uuid "2fe5866b-13dc-45d0-a024-6981fc1f8421")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -10772,7 +10772,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "e0be59f6-f8a7-4026-a5b0-af039879f77c")
+		(uuid "a0a92e8e-2e0b-45ce-9f1e-e8e7bf1cd936")
 	)
 	(label "GND"
 		(at 500.38 281.94 90)
@@ -10782,7 +10782,7 @@
 			)
 			(justify left)
 		)
-		(uuid "be5906bf-b0fb-4f47-8f08-97a195488e7b")
+		(uuid "36e5616b-ad7c-4ac0-af68-029f8aebb692")
 	)
 	(wire
 		(pts
@@ -10792,7 +10792,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "06e7c621-5a66-4bbc-b2ea-f5aa07fc33ef")
+		(uuid "e515a972-093b-467b-b95e-e6264409f480")
 	)
 	(label "GND"
 		(at 508 281.94 90)
@@ -10802,7 +10802,7 @@
 			)
 			(justify left)
 		)
-		(uuid "8a31749a-a6ae-4c3e-86be-3942446dfb3a")
+		(uuid "81edb74d-318f-4823-9e30-4c474cc54e55")
 	)
 	(wire
 		(pts
@@ -10812,7 +10812,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "7edd2083-8432-4bd4-9484-f87c51544622")
+		(uuid "b3340b33-156e-4704-99f1-874019c36f4f")
 	)
 	(label "GND"
 		(at 508 281.94 90)
@@ -10822,7 +10822,7 @@
 			)
 			(justify left)
 		)
-		(uuid "079fdae5-c59d-4351-9adc-d8a2d37daab8")
+		(uuid "14f7617b-b33b-48a0-b3ae-c0b960d52f7d")
 	)
 	(wire
 		(pts
@@ -10832,7 +10832,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "a7d10a0c-f43f-42e2-b6ad-61cf28e9b31c")
+		(uuid "1f979874-2820-4e1b-9cac-22e0b9163d37")
 	)
 	(label "GND"
 		(at 508 281.94 90)
@@ -10842,7 +10842,7 @@
 			)
 			(justify left)
 		)
-		(uuid "a2b22106-528f-4226-8181-dbbd91fef43f")
+		(uuid "cd162aff-136f-45c7-b807-67d623f07a7b")
 	)
 	(wire
 		(pts
@@ -10852,7 +10852,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "bacf7fdc-bfe9-4614-8696-eb2cbeed8eff")
+		(uuid "1683470d-0731-44e3-ae1f-b69f08e1cbc6")
 	)
 	(label "GND"
 		(at 508 281.94 90)
@@ -10862,7 +10862,7 @@
 			)
 			(justify left)
 		)
-		(uuid "e8abbdd4-0ea6-4a26-a4f9-1e40579a314b")
+		(uuid "91cb3f89-22fa-4e0b-97f2-b68219cbcaf2")
 	)
 	(wire
 		(pts
@@ -10872,7 +10872,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "93b5672e-4087-4ae9-aa4e-085a955e8463")
+		(uuid "9dc1fd3a-6eb9-414c-8acb-93810282b06f")
 	)
 	(label "USB_5V"
 		(at 528.32 238.76 0)
@@ -10882,7 +10882,7 @@
 			)
 			(justify left)
 		)
-		(uuid "4983694c-59f5-4df6-80e1-3250a9d34cfa")
+		(uuid "66707b76-16e8-44e0-9380-e0778fa2fd63")
 	)
 	(wire
 		(pts
@@ -10892,7 +10892,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "4667cae4-cbff-40cd-8a53-79a21a53ee4e")
+		(uuid "8ddfc4fc-e574-4c4a-a366-64192c544bcd")
 	)
 	(label "USB_5V"
 		(at 528.32 238.76 0)
@@ -10902,7 +10902,7 @@
 			)
 			(justify left)
 		)
-		(uuid "b552ac4b-7d15-452b-879f-0d72fadb117e")
+		(uuid "4dba1b0f-6f51-4a8c-8e9b-adeaf140fa70")
 	)
 	(wire
 		(pts
@@ -10912,7 +10912,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "ff330044-515f-4faf-b035-446f70057827")
+		(uuid "f1f3bb07-a840-46ef-a9ee-41a68404161c")
 	)
 	(label "USB_5V"
 		(at 528.32 238.76 0)
@@ -10922,7 +10922,7 @@
 			)
 			(justify left)
 		)
-		(uuid "b3a65395-cfd7-4d35-8620-96b6df9c45fc")
+		(uuid "59690cac-3ade-49f7-9713-ce66c38dddeb")
 	)
 	(wire
 		(pts
@@ -10932,7 +10932,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "423fc253-3911-4306-8fc9-f6b8ff4b980f")
+		(uuid "c72d5c37-7329-410f-902f-1020f783e7ac")
 	)
 	(label "USB_5V"
 		(at 528.32 238.76 0)
@@ -10942,7 +10942,7 @@
 			)
 			(justify left)
 		)
-		(uuid "506e594e-8ec2-4b06-abd6-a994b178eb17")
+		(uuid "d37653d8-a2db-4c17-b3c5-37e86e069bfe")
 	)
 	(wire
 		(pts
@@ -10952,7 +10952,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "a5989e28-b37c-4d3d-8aa6-5734374a8139")
+		(uuid "50b4b15e-86be-4e31-98cb-7ee0b3c601e5")
 	)
 	(label "USB_CC1"
 		(at 528.32 243.84 0)
@@ -10962,7 +10962,7 @@
 			)
 			(justify left)
 		)
-		(uuid "f04ba4b4-4bc5-404a-970d-deb384c17fc8")
+		(uuid "0567a84a-cfb4-4641-9f41-5607d1990903")
 	)
 	(wire
 		(pts
@@ -10972,7 +10972,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "00b45444-8c41-4444-9d54-9f9ea5805130")
+		(uuid "f6da7ec3-9d95-4b31-81dd-8b923b13eb72")
 	)
 	(label "USB_CC2"
 		(at 528.32 246.38 0)
@@ -10982,7 +10982,7 @@
 			)
 			(justify left)
 		)
-		(uuid "d8297161-8ae2-44fd-9a2d-a69d133eab81")
+		(uuid "903651e2-c952-4184-9ccb-8a68be1ddb3a")
 	)
 	(wire
 		(pts
@@ -10992,7 +10992,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "5ad898b8-6e3c-40d3-9507-576cccc73374")
+		(uuid "abd02185-582a-4bd7-b0f0-1627b148e0ea")
 	)
 	(label "USB_D-"
 		(at 528.32 251.46 0)
@@ -11002,7 +11002,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2f525d12-0c8d-4cb2-b98c-a5b73c72ca8f")
+		(uuid "23c73145-ad9e-4f08-9e87-8771ef936a4b")
 	)
 	(wire
 		(pts
@@ -11012,7 +11012,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "cb8b7220-3725-41cc-88d1-562ae15fb325")
+		(uuid "3eb7db27-ec2c-4edc-a06b-174ea9a46a10")
 	)
 	(label "USB_D-"
 		(at 528.32 254 0)
@@ -11022,7 +11022,7 @@
 			)
 			(justify left)
 		)
-		(uuid "4cbde7c9-e68d-4750-a3bd-56b5dbcfd4b7")
+		(uuid "0af6ceff-681d-4c44-bbc5-fddf06fd6ea4")
 	)
 	(wire
 		(pts
@@ -11032,7 +11032,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "7c793e64-1145-4ecf-8e1e-abe453d50cf3")
+		(uuid "c8a2dadf-cb54-4945-9589-769fe3124c92")
 	)
 	(label "USB_D+"
 		(at 528.32 256.54 0)
@@ -11042,7 +11042,7 @@
 			)
 			(justify left)
 		)
-		(uuid "9c4daef2-1c58-473a-b3d7-4f4116ee15a2")
+		(uuid "a9e5f858-7bc3-4f71-8eaf-244cebe5c789")
 	)
 	(wire
 		(pts
@@ -11052,7 +11052,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "a05c7226-0ac8-40e5-a492-11a3c102fe2e")
+		(uuid "e31d462c-c86f-4e72-82f8-f249cd4fcd28")
 	)
 	(label "USB_D+"
 		(at 528.32 259.08 0)
@@ -11062,15 +11062,15 @@
 			)
 			(justify left)
 		)
-		(uuid "56b269fd-6e8f-4dc9-b0aa-3a27bd615f49")
+		(uuid "be5fb1f5-1b02-4d0e-b57b-4cf2ba542c17")
 	)
 	(no_connect
 		(at 523.24 266.7)
-		(uuid "a8ad1b36-1a57-413b-9b21-e605c9389650")
+		(uuid "829a84ea-2ccd-46af-8fac-429d39c49f68")
 	)
 	(no_connect
 		(at 523.24 269.24)
-		(uuid "4268f4b6-7d64-48e4-9b1f-2d5ab83c4cbc")
+		(uuid "c045607e-27b8-42ba-9407-41d058b66833")
 	)
 	(symbol
 		(lib_id "Device:D")
@@ -11080,7 +11080,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c81ccedb-46fb-4c48-8505-e58cd1dfb0dd")
+		(uuid "1213fd09-bb55-41e0-8402-6e3e0c4c87cb")
 		(property "Reference" "D4"
 			(at 457.2 284.48 0)
 			(effects
@@ -11116,10 +11116,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c8eef78f-f53e-48b0-8af7-a17384546484")
+			(uuid "143d5ad5-c929-4e29-b784-0fb40bad5bb7")
 		)
 		(pin "2"
-			(uuid "559c4d4e-8d12-4e02-ba9c-5ed0d96cdefc")
+			(uuid "c1115b9a-50bf-4c8e-9019-42008bcda4fd")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -11138,7 +11138,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "1c4e9131-9cc1-40f7-9dfc-43457dd4bff8")
+		(uuid "a0faf353-02d6-4820-b03c-66229e6d5b2a")
 	)
 	(label "USB_D+"
 		(at 448.31 292.1 180)
@@ -11148,7 +11148,7 @@
 			)
 			(justify right)
 		)
-		(uuid "9437ef50-51d7-4bed-89c7-cbb4514a48cb")
+		(uuid "9ba15378-551d-4ddd-a5b4-baa1cb32ed64")
 	)
 	(wire
 		(pts
@@ -11158,7 +11158,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "07f3a7fa-b9ba-460c-ad4a-11472905739b")
+		(uuid "68beaeb0-de65-456a-8142-894312f62cdd")
 	)
 	(label "GND"
 		(at 466.09 292.1 0)
@@ -11168,7 +11168,7 @@
 			)
 			(justify left)
 		)
-		(uuid "4575bc61-1ad1-4718-9353-015ef31c6101")
+		(uuid "0391119a-ea2f-4fcc-828f-cf395bcb9b82")
 	)
 	(symbol
 		(lib_id "Device:D")
@@ -11178,7 +11178,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "35fc52bc-76cb-46cd-8063-73e3f7d40c1d")
+		(uuid "297a6f68-e622-425d-b0cf-305eb623d52d")
 		(property "Reference" "D5"
 			(at 482.6 284.48 0)
 			(effects
@@ -11214,10 +11214,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "58e6808c-6c03-4edb-b66b-437e3ec86eab")
+			(uuid "3f84a349-252d-4148-a6e1-4cdd35217083")
 		)
 		(pin "2"
-			(uuid "06eaac2f-5ef1-4b6c-b269-d0d039a3c57d")
+			(uuid "801bfb52-2754-4625-beb2-117806dd492c")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -11236,7 +11236,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "3d65536e-cd1d-4c43-be14-0c0e34c6ea8a")
+		(uuid "2f3684b7-d2b4-4ca2-9015-aabae626fa2c")
 	)
 	(label "USB_D-"
 		(at 473.71 292.1 180)
@@ -11246,7 +11246,7 @@
 			)
 			(justify right)
 		)
-		(uuid "e3a86d43-7b70-4a72-83b9-1ecb2f9eb294")
+		(uuid "093de1d7-9f97-466f-bb1c-bf9ae72fb245")
 	)
 	(wire
 		(pts
@@ -11256,7 +11256,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "7b8c0727-1401-45b0-9296-b271c665117c")
+		(uuid "9e218145-2459-4723-acd1-cd27a2264691")
 	)
 	(label "GND"
 		(at 491.49 292.1 0)
@@ -11266,7 +11266,7 @@
 			)
 			(justify left)
 		)
-		(uuid "1e7f3829-8143-44c6-a3bc-9012eb329c1b")
+		(uuid "ed4db3c1-3648-41af-8f76-861b3fe8e36c")
 	)
 	(symbol
 		(lib_id "Device:D")
@@ -11276,7 +11276,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "30e1f3a5-b988-4ea6-8791-a3f2e136e528")
+		(uuid "90416e0b-b5ec-446e-8d2f-7c8fed221a99")
 		(property "Reference" "D6"
 			(at 508 284.48 0)
 			(effects
@@ -11312,10 +11312,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "663dbdfe-3075-41db-8c73-447ee8b3e0b2")
+			(uuid "2e7aaf64-ad4f-4736-a432-02829ac25651")
 		)
 		(pin "2"
-			(uuid "79777830-03a1-454b-a67f-bd55a8f0da3c")
+			(uuid "5651adeb-a8c2-414e-8884-d87313f599cf")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -11334,7 +11334,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "16202578-1c89-46f0-a740-caef73e99e26")
+		(uuid "4272c13a-3b1f-46ca-b053-90c5f63bacd4")
 	)
 	(label "USB_5V"
 		(at 499.11 292.1 180)
@@ -11344,7 +11344,7 @@
 			)
 			(justify right)
 		)
-		(uuid "4e2cef3d-d5ad-4c26-93ca-4c9784d02ef0")
+		(uuid "34aa25cd-891a-4e49-b792-2d8c307151d7")
 	)
 	(wire
 		(pts
@@ -11354,7 +11354,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "8076b7c2-c5f6-434a-9873-94f049301c3c")
+		(uuid "4ab553ec-074b-4579-9d51-f6823b88de75")
 	)
 	(label "GND"
 		(at 516.89 292.1 0)
@@ -11364,7 +11364,7 @@
 			)
 			(justify left)
 		)
-		(uuid "24b034b5-71df-4834-9bec-d098162d31fb")
+		(uuid "bcfef4dd-fbda-4b38-b8fd-195c477be772")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -11374,7 +11374,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "492f0661-05c5-40ec-bf34-fb1dcb4c4de3")
+		(uuid "eff07660-320d-4b0c-afc3-5f0acc5fc4e9")
 		(property "Reference" "R9"
 			(at 419.1 220.98 0)
 			(effects
@@ -11410,10 +11410,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e5156328-faf1-461c-bbb2-10cf2e5a3b95")
+			(uuid "4ac7810e-7192-4388-81fc-1c334105eae7")
 		)
 		(pin "2"
-			(uuid "53b13ac2-852b-425f-8aa6-4ef1c044fa70")
+			(uuid "5c325b59-e0cc-4320-be1e-b8c20b380060")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -11432,7 +11432,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "f867140d-2fa1-4665-8b89-380348ab78e3")
+		(uuid "8c7445ff-61bf-4790-9cff-93b747dd881c")
 	)
 	(label "GND"
 		(at 419.1 219.71 270)
@@ -11442,7 +11442,7 @@
 			)
 			(justify right)
 		)
-		(uuid "954bbea9-306c-402c-83ab-3c949b77d462")
+		(uuid "94b97f29-b5b1-4674-b0fd-5b6c99109204")
 	)
 	(wire
 		(pts
@@ -11452,7 +11452,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "54081638-be56-4f05-970c-a7db763a9ba6")
+		(uuid "09b8d7b5-3b9e-4960-b38c-7350d39b5090")
 	)
 	(label "CP2102_VBUS_SENSE"
 		(at 419.1 237.49 90)
@@ -11462,7 +11462,7 @@
 			)
 			(justify left)
 		)
-		(uuid "ec0e827c-c546-4f76-8696-725268c566bf")
+		(uuid "2ca86169-a948-4104-a43b-efa8fe1bbe5f")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -11472,7 +11472,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "16d80ead-22ce-4b65-a56b-182117dbb77a")
+		(uuid "2c956bc7-f7a9-460a-86f2-12173782fefd")
 		(property "Reference" "R11"
 			(at 419.1 195.58 0)
 			(effects
@@ -11508,10 +11508,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd4abd5b-6cf0-4ff6-bbf4-a8cbc3b3c637")
+			(uuid "4419e54b-d463-4477-b2b7-108a8cfad867")
 		)
 		(pin "2"
-			(uuid "f5929548-78ee-4d51-a712-a63c149e4a6b")
+			(uuid "01995e5a-c672-4f3a-9cd1-5f1bcb6e4d3c")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -11530,7 +11530,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "fec5e357-ac7d-43f1-9420-74f64f09ec11")
+		(uuid "cf515b5a-2bd8-4467-932a-53a0bad53240")
 	)
 	(label "CP2102_VBUS_SENSE"
 		(at 419.1 194.31 270)
@@ -11540,7 +11540,7 @@
 			)
 			(justify right)
 		)
-		(uuid "6581e9e1-c9d5-42f3-aceb-9cd9c338c834")
+		(uuid "454de99c-106a-42eb-8edd-cebfb4f0c020")
 	)
 	(wire
 		(pts
@@ -11550,7 +11550,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "d8e7deaa-27b5-4133-8e0e-4945027085b8")
+		(uuid "672df40e-b836-446d-8dea-1f966a16954c")
 	)
 	(label "USB_5V"
 		(at 419.1 212.09 90)
@@ -11560,7 +11560,7 @@
 			)
 			(justify left)
 		)
-		(uuid "bab76516-8d97-4649-beab-b741b7efc568")
+		(uuid "856046b8-f15e-4037-924c-bbcfcc2478ba")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -11570,7 +11570,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0c4ea95b-10d9-4070-b519-81d57b27bf48")
+		(uuid "561683d4-d0bf-4b42-a391-bd662c4ec99d")
 		(property "Reference" "R10"
 			(at 406.4 220.98 0)
 			(effects
@@ -11606,10 +11606,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e8f0eb3e-f377-413e-ac10-7fe97efddb76")
+			(uuid "baba157f-660f-41c0-8444-42cc20a09720")
 		)
 		(pin "2"
-			(uuid "69494d40-d64a-4adc-88f8-c895647aba49")
+			(uuid "83eb5f52-adc8-40af-9574-1b1d5c206b81")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -11628,7 +11628,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "28a01f89-8aba-480e-90d8-dfe0376463e6")
+		(uuid "b4733db2-8c95-4a69-8396-d222c32eaf1a")
 	)
 	(label "CP2102_RESET"
 		(at 406.4 219.71 270)
@@ -11638,7 +11638,7 @@
 			)
 			(justify right)
 		)
-		(uuid "4150a4b0-4171-4262-a6b0-280d8b71c9dd")
+		(uuid "0bf10c6f-e8df-4056-b87b-71db200950b3")
 	)
 	(wire
 		(pts
@@ -11648,7 +11648,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "89ebc488-813d-444d-a9f7-25537d92cdc0")
+		(uuid "6403731e-4492-4090-8826-1ceabeb89256")
 	)
 	(label "VDD"
 		(at 406.4 237.49 90)
@@ -11658,7 +11658,7 @@
 			)
 			(justify left)
 		)
-		(uuid "59d929e9-58ad-4825-b279-44b868b0e46f")
+		(uuid "4196c2b0-447b-4e8a-a6d9-55b6f92f16ab")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -11668,7 +11668,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4a5cbb73-292e-4ec2-968b-193ca4b47482")
+		(uuid "5dd515d4-9246-4d69-b147-faf7e9638171")
 		(property "Reference" "R25"
 			(at 533.4 246.38 0)
 			(effects
@@ -11704,10 +11704,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "acc276c0-4ec7-4b1c-9ae2-c44ab9887180")
+			(uuid "5db0d941-39e6-49ee-a1bf-db9c5945c2da")
 		)
 		(pin "2"
-			(uuid "4773772a-11f3-44d9-bb49-139d57dba381")
+			(uuid "ddcbb328-59f2-4eb3-9b30-786d5aba4de5")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -11726,7 +11726,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "f4719909-2932-4dd5-a32b-fa47ec488476")
+		(uuid "7e2299b4-f4e2-45c2-88d4-3758765e6da3")
 	)
 	(label "GND"
 		(at 533.4 245.11 270)
@@ -11736,7 +11736,7 @@
 			)
 			(justify right)
 		)
-		(uuid "564ea7b4-04c6-4073-85dc-45684c8529d7")
+		(uuid "efa28b05-4093-4b96-869e-d393c1356710")
 	)
 	(wire
 		(pts
@@ -11746,7 +11746,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "e35adf22-66da-4602-8b76-940dc1ca9698")
+		(uuid "430af793-0477-4029-9b5e-62066544d2f7")
 	)
 	(label "USB_CC2"
 		(at 533.4 262.89 90)
@@ -11756,7 +11756,7 @@
 			)
 			(justify left)
 		)
-		(uuid "af88c6bc-d909-4270-beb1-7f69e55f73c6")
+		(uuid "57101d3a-8c25-4c27-b243-71a8151cda3d")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -11766,7 +11766,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "064ee0b5-d324-4ab7-a35b-b698d40a80cf")
+		(uuid "9990a158-caf5-4407-97f4-0260a6816aef")
 		(property "Reference" "R26"
 			(at 546.1 246.38 0)
 			(effects
@@ -11802,10 +11802,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "39b8df87-b305-4176-89dd-0a6f53da6e18")
+			(uuid "b392628c-dbd4-422d-a25b-4153cf176eab")
 		)
 		(pin "2"
-			(uuid "4ecccc14-b162-4ef3-9361-dcc1414f2ec6")
+			(uuid "bd5f79f0-b34b-434e-a9f5-5064f7321df5")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -11824,7 +11824,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "1489e2e7-fb2f-4a06-a4b4-50b6edcd0524")
+		(uuid "5e2e0b67-326a-41c7-b1bb-bfaaaaa34f76")
 	)
 	(label "GND"
 		(at 546.1 245.11 270)
@@ -11834,7 +11834,7 @@
 			)
 			(justify right)
 		)
-		(uuid "1950382e-bede-4744-b873-e0cca4db4727")
+		(uuid "2a06f8c0-c7a2-4897-a5ae-5104925b188a")
 	)
 	(wire
 		(pts
@@ -11844,7 +11844,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "bd33f5a6-f6f8-4eed-a46f-bfe56c751ef5")
+		(uuid "9e1e0914-b0d3-4221-bb3a-8d0bed5b14c3")
 	)
 	(label "USB_CC1"
 		(at 546.1 262.89 90)
@@ -11854,7 +11854,7 @@
 			)
 			(justify left)
 		)
-		(uuid "27a5c622-f6e4-4568-a7e9-f88e403b0eee")
+		(uuid "032a5626-b79f-4a11-b5a3-b5db5d256dd0")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -11864,7 +11864,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1a92b000-4b9e-4927-b0c4-7c1f86a90d6f")
+		(uuid "87c853a7-48a9-416e-82c8-4fb113e0c97f")
 		(property "Reference" "C4"
 			(at 431.8 220.98 0)
 			(effects
@@ -11900,10 +11900,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f6409af6-5590-4033-9622-24a96e551682")
+			(uuid "fde58fd6-4c5e-49e3-86fb-9dd3e77e0552")
 		)
 		(pin "2"
-			(uuid "d574e182-fb26-400a-9c02-8910927f5142")
+			(uuid "4e016971-2d0a-465e-84ab-7aa9ca892600")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -11922,7 +11922,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "6a847674-cd79-4ef4-a256-c6bd8f48b43e")
+		(uuid "53ae3848-8e1d-461d-8b28-48386d7f643b")
 	)
 	(label "GND"
 		(at 431.8 219.71 270)
@@ -11932,7 +11932,7 @@
 			)
 			(justify right)
 		)
-		(uuid "a9f239d5-0e5a-4704-b973-90e6356cf1a7")
+		(uuid "39d214f1-14ee-4fd3-8f9f-654bd4c44442")
 	)
 	(wire
 		(pts
@@ -11942,7 +11942,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "6b6024fc-34cf-49f5-b728-c83531b9a38b")
+		(uuid "0dc2c7a2-0984-4e17-9f36-f905c29035e9")
 	)
 	(label "VDD"
 		(at 431.8 237.49 90)
@@ -11952,7 +11952,7 @@
 			)
 			(justify left)
 		)
-		(uuid "fe8e4624-2d27-480f-837f-77e2524bc6e4")
+		(uuid "2ed22425-42f0-4a26-81ac-7c9b37c78afe")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -11962,7 +11962,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "57837774-e2b7-4c5e-9836-9bf8e3669268")
+		(uuid "adb6c40b-d3cb-47eb-8ce4-96cdd68c4ecb")
 		(property "Reference" "C5"
 			(at 444.5 220.98 0)
 			(effects
@@ -11998,10 +11998,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3680051-2b9d-44b7-b690-0ebf787e641f")
+			(uuid "e6df0c1a-e585-4921-8974-c86cb5d66c35")
 		)
 		(pin "2"
-			(uuid "46d0ec2f-b78e-4961-8cd1-7872a6e48c84")
+			(uuid "73d7a4f0-834f-4e0d-8cc4-ff12d6bbf686")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -12020,7 +12020,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "fde616c2-ace2-4b71-acc5-41272c5d75c6")
+		(uuid "9d351844-a1f6-4af2-89b9-ebfc96fd073b")
 	)
 	(label "GND"
 		(at 444.5 219.71 270)
@@ -12030,7 +12030,7 @@
 			)
 			(justify right)
 		)
-		(uuid "2a3d7e8a-a2ca-4575-98fe-78c79b042432")
+		(uuid "a96fdc9b-553a-4aab-a42f-922ef90c298b")
 	)
 	(wire
 		(pts
@@ -12040,7 +12040,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "5fe69924-c791-49b1-ac6e-115ab58a91d9")
+		(uuid "2355f6a0-7bc5-4aab-9e33-28a48be2cd40")
 	)
 	(label "VDD"
 		(at 444.5 237.49 90)
@@ -12050,7 +12050,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2256d078-1d65-4b28-a399-d7c580e15473")
+		(uuid "f3717584-311b-4891-8de4-771bc66875cb")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -12060,7 +12060,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3801e54e-e047-47c0-8f7f-32e39e28dbaa")
+		(uuid "8fa72e0e-242d-4540-9c9c-6f6f7e06dd78")
 		(property "Reference" "C7"
 			(at 431.8 195.58 0)
 			(effects
@@ -12096,10 +12096,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "166df624-0e82-4e06-bd03-9b1310fdd6dd")
+			(uuid "8c29e023-e292-4a1a-b4d0-596a04d1b229")
 		)
 		(pin "2"
-			(uuid "20533aa9-4f6e-4d6b-ab11-070d843f1df0")
+			(uuid "01666ad7-03e7-48ee-9557-d27215f996a9")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -12118,7 +12118,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "b3fc1fb1-853b-4454-b51d-4cca515f53ac")
+		(uuid "116d1d86-1d68-4a23-a2e7-36f1006d1728")
 	)
 	(label "GND"
 		(at 431.8 194.31 270)
@@ -12128,7 +12128,7 @@
 			)
 			(justify right)
 		)
-		(uuid "24199c97-b28f-496b-be6e-3c914371998b")
+		(uuid "7f6316d0-017d-492b-bc3a-5a90280d7bf8")
 	)
 	(wire
 		(pts
@@ -12138,7 +12138,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "d1d1155d-5b4f-46e3-9194-7b61d1ec0c46")
+		(uuid "221c9409-7cdc-4940-b3fd-29d640c69a43")
 	)
 	(label "USB_5V"
 		(at 431.8 212.09 90)
@@ -12148,7 +12148,7 @@
 			)
 			(justify left)
 		)
-		(uuid "e4691417-5e5e-4a07-b61e-6c2a4187bf11")
+		(uuid "fc5eed0f-b7f6-470e-b8a6-aed172bf62c8")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -12158,7 +12158,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cb0490e9-afbb-4927-b9ef-897c5983739e")
+		(uuid "3031868f-45cf-4b2c-aa15-d8ce59ba3f14")
 		(property "Reference" "C8"
 			(at 444.5 195.58 0)
 			(effects
@@ -12194,10 +12194,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e61b4825-0518-4cac-a47d-5b8cd3ae0471")
+			(uuid "2b389747-a42d-4e6f-a50b-49a5c0a0c0b7")
 		)
 		(pin "2"
-			(uuid "76890426-b158-4152-8e9d-1fdd58fc50b4")
+			(uuid "8b137f31-d2b8-44cc-a2e4-fa8cc4950b64")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -12216,7 +12216,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "8c124bf1-beee-41a1-8816-c1b4748e3ed2")
+		(uuid "a92b83f4-221c-4340-95f0-f133d83b607d")
 	)
 	(label "GND"
 		(at 444.5 194.31 270)
@@ -12226,7 +12226,7 @@
 			)
 			(justify right)
 		)
-		(uuid "541b5f9a-5f20-40b3-8f25-8ca1f7baeb20")
+		(uuid "89b09c12-e762-4f96-8eba-dc1183eaf32a")
 	)
 	(wire
 		(pts
@@ -12236,7 +12236,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "71f32b76-5817-470a-a673-beceaa563775")
+		(uuid "5682b798-2d37-4924-84cd-e005fb249381")
 	)
 	(label "USB_5V"
 		(at 444.5 212.09 90)
@@ -12246,7 +12246,7 @@
 			)
 			(justify left)
 		)
-		(uuid "ec99f927-de82-4732-bca2-ff93fbe7cbec")
+		(uuid "b97f51a1-ec45-4fa3-b7c7-326b17fdf567")
 	)
 	(symbol
 		(lib_id "Transistor_BJT:Q_Dual_NPN_NPN_BRT_No_R2_E1B1C2E2B2C1")
@@ -12256,7 +12256,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b9f8a397-d842-4317-899e-96cf8d939608")
+		(uuid "a7739151-1987-47f4-9b33-24bf92cb82dd")
 		(property "Reference" "Q1"
 			(at 63.5 284.48 0)
 			(effects
@@ -12292,13 +12292,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "2795d16b-8cd9-438d-84b7-9355448590d2")
+			(uuid "2d3aa1cd-df4d-4e90-bc06-6ced2e8c8e03")
 		)
 		(pin "6"
-			(uuid "34036367-1b92-4068-92da-8c5f3527e65a")
+			(uuid "ed89cffa-b27d-4c3d-add0-aa3b72378b1c")
 		)
 		(pin "1"
-			(uuid "323cd368-79c2-4ca3-b3b1-a084acb4e17f")
+			(uuid "9d2911cd-d65b-4cc7-a313-4a58e0fa7b4f")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -12317,7 +12317,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "cb3f2e70-8228-400f-9962-877764d2edf2")
+		(uuid "3a29612a-3aef-43a5-9e1c-604f973b42da")
 	)
 	(label "DTR"
 		(at 49.53 292.1 180)
@@ -12327,7 +12327,7 @@
 			)
 			(justify right)
 		)
-		(uuid "6381cef0-d85e-4916-a1dc-1a3a2bf848b1")
+		(uuid "918cda44-d791-4b56-88f0-413b5dc09ea8")
 	)
 	(wire
 		(pts
@@ -12337,7 +12337,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "aea0c5ca-7c84-49ea-aea5-7ce032fa499a")
+		(uuid "2c606846-0042-492f-83fe-55ad66c43d31")
 	)
 	(label "EN"
 		(at 64.77 281.94 270)
@@ -12347,7 +12347,7 @@
 			)
 			(justify right)
 		)
-		(uuid "25cad669-81ce-4dd8-8f58-f3a6d88a9b35")
+		(uuid "90d9371d-ab0d-4faf-967c-167239179ec3")
 	)
 	(wire
 		(pts
@@ -12357,7 +12357,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "2543ecb2-dfc1-437c-a0a3-e056525a1fcb")
+		(uuid "5f41d1c2-4372-4b10-bd2d-2162f6b662f0")
 	)
 	(label "RTS"
 		(at 64.77 302.26 90)
@@ -12367,7 +12367,7 @@
 			)
 			(justify left)
 		)
-		(uuid "bc36885d-5ca8-4ede-a6f1-4cda116d4144")
+		(uuid "36920362-5bb4-4ca6-bbde-492e030f7aac")
 	)
 	(symbol
 		(lib_id "Transistor_BJT:Q_Dual_NPN_NPN_BRT_No_R2_E1B1C2E2B2C1")
@@ -12377,7 +12377,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6e1c4d9c-950b-42fc-8901-3fb76eb9cd5c")
+		(uuid "ee527d93-6f21-44d6-926d-d3e14e7d1c05")
 		(property "Reference" "Q1"
 			(at 88.9 284.48 0)
 			(effects
@@ -12413,13 +12413,13 @@
 			)
 		)
 		(pin "5"
-			(uuid "b3147187-f1ad-49b2-a2bc-251eac1b2058")
+			(uuid "8043b4a5-584c-40d6-9ea9-eb026bb47214")
 		)
 		(pin "3"
-			(uuid "faa8f600-cc66-4b53-8509-7a69ce7bbc33")
+			(uuid "ca6af291-6ca1-40d2-bb1e-f78dea8ab608")
 		)
 		(pin "4"
-			(uuid "80ad6523-bfde-44b6-a79b-35187e65f490")
+			(uuid "83e6f5af-8439-4585-8234-3bb03a35a291")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -12438,7 +12438,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "a35fce56-af00-4b69-84e3-d726d13306fe")
+		(uuid "957ec089-2fd4-4b75-8d59-908746a1754c")
 	)
 	(label "RTS"
 		(at 74.93 292.1 180)
@@ -12448,7 +12448,7 @@
 			)
 			(justify right)
 		)
-		(uuid "febdfe2e-53c2-4638-9222-3cf81f329169")
+		(uuid "260321fa-4e88-4da3-815d-50ba111698dd")
 	)
 	(wire
 		(pts
@@ -12458,7 +12458,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "49827f33-9e50-4112-836c-ef37ee30ff46")
+		(uuid "2c951f52-603a-4134-9ce4-31c8907ef183")
 	)
 	(label "BTN_SWAP"
 		(at 90.17 281.94 270)
@@ -12468,7 +12468,7 @@
 			)
 			(justify right)
 		)
-		(uuid "bd052647-5327-4d57-9d26-4537eadb6b44")
+		(uuid "a3e38441-dc12-4883-aa39-7f924c83ef61")
 	)
 	(wire
 		(pts
@@ -12478,7 +12478,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "b254c0ce-2a2e-4329-8b5f-25f456fe828b")
+		(uuid "8dfbd077-1ce2-4f16-bcce-89448619cad6")
 	)
 	(label "DTR"
 		(at 90.17 302.26 90)
@@ -12488,7 +12488,7 @@
 			)
 			(justify left)
 		)
-		(uuid "801d752f-fa3e-4512-a886-e755c238e688")
+		(uuid "2882b224-042c-4786-bf06-9d19720e2f65")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -12498,7 +12498,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "319b98f6-2dc6-45a9-ba35-caf323619587")
+		(uuid "4e7125f3-d731-4ae5-9f7a-e6733a680f1d")
 		(property "Reference" "R5"
 			(at 50.8 284.48 0)
 			(effects
@@ -12534,10 +12534,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb4af1ac-b15c-4f3c-865c-462ba176f647")
+			(uuid "8c688257-b866-4ad2-9fe0-e31525689b42")
 		)
 		(pin "2"
-			(uuid "64267f9a-8bee-47ae-8b71-10caa66410ed")
+			(uuid "d78ddff9-de34-4016-8379-b3471b0889de")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -12556,7 +12556,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "a5f723ac-352e-404c-9cc7-0a351a5de45f")
+		(uuid "c1d27967-e6a1-404d-a9ab-e0ed362990fc")
 	)
 	(label "3V3"
 		(at 50.8 283.21 270)
@@ -12566,7 +12566,7 @@
 			)
 			(justify right)
 		)
-		(uuid "afbc5a8d-f59a-4a52-8182-81b411ed47e2")
+		(uuid "2f58ba7d-4690-499f-8151-31258f2479ea")
 	)
 	(wire
 		(pts
@@ -12576,7 +12576,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "a7fece0f-3563-491e-b19c-98d0c5b475f4")
+		(uuid "a8e44c93-35b6-4766-a810-06d8670c6b92")
 	)
 	(label "EN"
 		(at 50.8 300.99 90)
@@ -12586,7 +12586,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2f9e0eb2-f872-4d72-8718-e468a53eaef5")
+		(uuid "cdf533b0-e279-4e74-b893-9ab156173be4")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -12596,7 +12596,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5bc1a7c9-361c-4061-9eab-45556e4a6919")
+		(uuid "b4b3f261-f302-4eb8-8042-c2689c0c07e9")
 		(property "Reference" "C2"
 			(at 101.6 284.48 0)
 			(effects
@@ -12632,10 +12632,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5163a135-fb96-4a0d-8df0-7403d690d96d")
+			(uuid "24f1dfdc-6172-4a70-b98f-eaba6174b8bf")
 		)
 		(pin "2"
-			(uuid "3ee7f6d0-bf95-4072-ab55-e530b84a1888")
+			(uuid "fbce74e5-56fb-4eff-9ce1-d1a6fe3a212a")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -12654,7 +12654,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "4386cbe7-4246-4daf-a41e-44cd1404cbb3")
+		(uuid "885f4281-bed3-403c-aa9d-4212db349675")
 	)
 	(label "EN"
 		(at 101.6 283.21 270)
@@ -12664,7 +12664,7 @@
 			)
 			(justify right)
 		)
-		(uuid "36c8798b-3f19-4613-a320-274bb7224e33")
+		(uuid "b7ed6b32-4523-4aab-bae9-416923636365")
 	)
 	(wire
 		(pts
@@ -12674,7 +12674,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "e14f4093-252e-4869-a116-a610e21d1de4")
+		(uuid "c50d740d-b67e-4db8-9a45-6cedc735beb8")
 	)
 	(label "GND"
 		(at 101.6 300.99 90)
@@ -12684,7 +12684,7 @@
 			)
 			(justify left)
 		)
-		(uuid "5dffaf6d-043b-4cc8-906e-d78f6ab1d2a8")
+		(uuid "48bbf596-b5ed-453f-b72f-7f9f4c6e4d0c")
 	)
 	(symbol
 		(lib_id "Device:D")
@@ -12694,7 +12694,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9191677f-7158-4e40-9ca6-86a0d5ef6e48")
+		(uuid "036c1651-601f-4f16-ad8e-93cb2bccc5f2")
 		(property "Reference" "D7"
 			(at 584.2 144.78 0)
 			(effects
@@ -12730,10 +12730,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f38a89dc-61fd-4523-b35c-accf3741c485")
+			(uuid "cb8e7ae1-9f2b-4698-84d7-1edab9cb2370")
 		)
 		(pin "2"
-			(uuid "85be6be9-0b58-4aa8-b52b-130e4d844478")
+			(uuid "169e8c34-db77-4468-9caa-030e75e14a7a")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -12752,7 +12752,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "1f78ca51-7f7c-4edc-8b45-d297bd3dbe7d")
+		(uuid "e7d03c57-d6d1-4721-80b8-69f30a196e73")
 	)
 	(label "PWR_SW_VCC"
 		(at 575.31 152.4 180)
@@ -12762,7 +12762,7 @@
 			)
 			(justify right)
 		)
-		(uuid "e724462a-e041-4a4f-a131-58018be470b5")
+		(uuid "c11a1016-46a2-4962-b734-0c1c0c4f342c")
 	)
 	(wire
 		(pts
@@ -12772,7 +12772,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "fe532faa-137d-4379-8686-1ecd14d2f487")
+		(uuid "1537b4b7-8a9b-4807-a950-f4fc57829cbe")
 	)
 	(label "USB_5V"
 		(at 593.09 152.4 0)
@@ -12782,7 +12782,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2947bec1-2ab7-4385-8fcd-6b083b947db9")
+		(uuid "b745666b-b0f2-46cc-9080-b464addde5ee")
 	)
 	(symbol
 		(lib_id "Device:D")
@@ -12792,7 +12792,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2623fe23-11bd-44ba-bce8-204fc48f185f")
+		(uuid "65213046-459e-4704-8b99-ff9a5edb97bf")
 		(property "Reference" "D8"
 			(at 584.2 125.73 0)
 			(effects
@@ -12828,10 +12828,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "276dfd79-1cfa-42b7-b9cf-76ce8ac25487")
+			(uuid "bead0277-7d4c-4663-85b3-9d11d2cd6fe3")
 		)
 		(pin "2"
-			(uuid "58fca670-e566-4656-88ef-05a5b12b03ba")
+			(uuid "aa53d947-6915-4f36-9b46-00ee538e6214")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -12850,7 +12850,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "7f33512d-ad1e-4a48-938a-f2ed37062ad5")
+		(uuid "805adeda-b34a-4a87-b46c-03d1a14f1bfc")
 	)
 	(label "PWR_SW_VCC"
 		(at 575.31 133.35 180)
@@ -12860,7 +12860,7 @@
 			)
 			(justify right)
 		)
-		(uuid "3269f388-9cdc-4012-8f28-31b7dfe5cb38")
+		(uuid "e31ed25a-e713-480d-b32b-705875db6f53")
 	)
 	(wire
 		(pts
@@ -12870,7 +12870,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "b9ab1b02-51fe-46f6-a2b2-9c7d453cb084")
+		(uuid "8260ccfd-4e09-49c0-bd8b-8ac3b8ed3dcf")
 	)
 	(label "SIO_5V"
 		(at 593.09 133.35 0)
@@ -12880,7 +12880,7 @@
 			)
 			(justify left)
 		)
-		(uuid "533b640e-54ea-4fde-9240-efa94bbb6086")
+		(uuid "97332e24-904d-4762-92d2-41cecb9eb116")
 	)
 	(symbol
 		(lib_id "Regulator_Linear:XC6220B331MR")
@@ -12890,7 +12890,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4c442cf5-c1b2-470e-87c5-2bf813bc6f2f")
+		(uuid "c692c7e2-2a90-484d-ae5f-5dd42edf9682")
 		(property "Reference" "U5"
 			(at 635 144.78 0)
 			(effects
@@ -12926,19 +12926,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "a420c63e-60a0-4de4-9bf1-2154969af1a6")
+			(uuid "6076aeb8-b01e-487a-9404-e9f8928ebf5d")
 		)
 		(pin "3"
-			(uuid "b38c94bb-203b-4a51-a5c3-114c01458979")
+			(uuid "f160ab99-5985-42f1-8843-1d7a74c73c56")
 		)
 		(pin "2"
-			(uuid "fb89b92d-c80c-431c-8357-e3135456b3e1")
+			(uuid "4e53d201-2e8a-4ade-b26a-6ae97b5ae9c0")
 		)
 		(pin "4"
-			(uuid "af8ed159-43c9-450a-89b4-8c9c68d8bf9e")
+			(uuid "befd1f61-bfba-43bd-9ec4-a8f8608c0c9c")
 		)
 		(pin "5"
-			(uuid "3af03290-0395-4cda-8ad8-8d44e25b771f")
+			(uuid "7e3c6d97-8484-4337-837b-4b3aadf7b6e7")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -12957,7 +12957,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "d8cac646-b7ff-4006-b6e1-4ff96b195099")
+		(uuid "cba19cd0-d0b4-4ce7-847f-9dc4b78be4b7")
 	)
 	(label "PWR_SW_VCC"
 		(at 617.22 149.86 180)
@@ -12967,7 +12967,7 @@
 			)
 			(justify right)
 		)
-		(uuid "de7a1231-319b-4390-a49d-6d2baaf469b3")
+		(uuid "2b4b0607-1515-4e45-8cb8-6a1010f84484")
 	)
 	(wire
 		(pts
@@ -12977,7 +12977,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "944666a8-169d-4021-ac12-d3a2195c4568")
+		(uuid "2bbc9bfd-465a-45ef-8905-bb3df8adb430")
 	)
 	(label "PWR_SW_EN"
 		(at 617.22 154.94 180)
@@ -12987,7 +12987,7 @@
 			)
 			(justify right)
 		)
-		(uuid "a9608b8d-d565-489e-9f57-7d72f3c96f1c")
+		(uuid "ded9176f-654e-49b6-9583-919fd56e2242")
 	)
 	(wire
 		(pts
@@ -12997,7 +12997,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "2a03d723-96fe-4da5-bd57-d2bbcdb4c628")
+		(uuid "e18c1465-ba62-4b55-8655-71b20ec1b74c")
 	)
 	(label "GND"
 		(at 635 167.64 90)
@@ -13007,11 +13007,11 @@
 			)
 			(justify left)
 		)
-		(uuid "c737a012-2a2e-4326-9239-a1e8ac271666")
+		(uuid "67e4a1a9-d18f-4e07-8f54-9764ee456c75")
 	)
 	(no_connect
 		(at 642.62 154.94)
-		(uuid "c79c36d1-46ba-4469-8d69-1465cfbcc038")
+		(uuid "1254d142-b195-4b87-92a5-45af8d19b8bf")
 	)
 	(wire
 		(pts
@@ -13021,7 +13021,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "73606c10-f5a6-45fb-b067-59409b47e87c")
+		(uuid "34a73165-18f9-4623-bb49-023c6b4b663f")
 	)
 	(label "3V3"
 		(at 652.78 149.86 0)
@@ -13031,7 +13031,7 @@
 			)
 			(justify left)
 		)
-		(uuid "f843b746-9394-423b-8536-6d087bbff6e3")
+		(uuid "514f0490-ebd6-4c74-b8b9-14a0b56bb93c")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -13041,7 +13041,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bcd27910-7261-4022-bcf6-afb0a6347d20")
+		(uuid "fe6ef6fe-2371-4e95-ad28-5c149a494fc2")
 		(property "Reference" "R22"
 			(at 635 119.38 0)
 			(effects
@@ -13077,10 +13077,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8c07ec92-5b31-47d8-9208-4749759b7065")
+			(uuid "095dcb2a-4fef-4d42-89b3-a48881892a18")
 		)
 		(pin "2"
-			(uuid "9bb20910-9548-46c6-bd52-aded8719a90c")
+			(uuid "289cdf0a-3758-45e9-971c-3df9908906c1")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -13099,7 +13099,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "fe77cd9d-2395-4e6e-8a48-ebc86ee2caf5")
+		(uuid "e9fbcdc5-750a-417e-bf58-4e1e2a032e0b")
 	)
 	(label "PWR_SW_EN"
 		(at 635 118.11 270)
@@ -13109,7 +13109,7 @@
 			)
 			(justify right)
 		)
-		(uuid "2949a5bc-a8e5-4573-9897-34fb4f27543c")
+		(uuid "df02df15-c214-44d6-b9d5-e4bf6ffb413c")
 	)
 	(wire
 		(pts
@@ -13119,7 +13119,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "1ee91ae4-768c-425b-97ec-591d3ef4d308")
+		(uuid "710818e8-73df-4ed8-8aef-7a5a569dfe13")
 	)
 	(label "GND"
 		(at 635 135.89 90)
@@ -13129,7 +13129,7 @@
 			)
 			(justify left)
 		)
-		(uuid "e6aeceda-59a1-4949-81bf-e8db9ee5e23e")
+		(uuid "3b998ea7-3ad3-4ffb-9d89-9b29362b7bcf")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -13139,7 +13139,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "45971c7f-dec1-4d02-8289-f0e3482ec68f")
+		(uuid "1d6fdd20-5e27-42ce-ab7c-321a7abb3a8d")
 		(property "Reference" "C10"
 			(at 609.6 144.78 0)
 			(effects
@@ -13175,10 +13175,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c22798ae-e3c4-462c-906a-0f06171eaf11")
+			(uuid "e0b11fc6-6ec1-423f-8913-878f94b1568e")
 		)
 		(pin "2"
-			(uuid "7ebd90b1-61e0-4e20-a0ec-2398189c50c1")
+			(uuid "d75b6fe6-5e01-480e-aaef-6d803ba07734")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -13197,7 +13197,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "e60f1c87-114a-42b9-896d-44389a515eb1")
+		(uuid "eab2a5d2-75c2-4b81-82f6-9e87f5c21529")
 	)
 	(label "PWR_SW_VCC"
 		(at 609.6 143.51 270)
@@ -13207,7 +13207,7 @@
 			)
 			(justify right)
 		)
-		(uuid "808b3241-1c28-4412-90b7-278e0ffcb990")
+		(uuid "ba1e0997-589a-41c0-8a1f-47293a517639")
 	)
 	(wire
 		(pts
@@ -13217,7 +13217,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "a15d6ffa-0811-40d8-83e2-c2842854c3ae")
+		(uuid "c59429e0-8481-45b3-bda9-0bd01b931397")
 	)
 	(label "GND"
 		(at 609.6 161.29 90)
@@ -13227,7 +13227,7 @@
 			)
 			(justify left)
 		)
-		(uuid "58ed1f4b-c3cc-48b0-b61d-8cf1e55efd2a")
+		(uuid "1261d351-9255-4bba-9c55-3e89c5d9804c")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -13237,7 +13237,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5876703c-55c7-468b-b5b5-e45007517f47")
+		(uuid "651b8b9f-d68f-4227-8669-4f84083a3218")
 		(property "Reference" "C11"
 			(at 660.4 144.78 0)
 			(effects
@@ -13273,10 +13273,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d9ba6a1a-aad0-454f-a8fa-e4fba8492acb")
+			(uuid "439fc987-5198-4084-904a-efe4370ca96c")
 		)
 		(pin "2"
-			(uuid "3544dbcd-2597-4a94-9a5f-d533f0c89e44")
+			(uuid "c1cc477d-d58c-4d50-aadf-b40796be00ad")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -13295,7 +13295,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "04698aee-2202-4a54-8523-e513ae7559f2")
+		(uuid "0b400724-438f-45df-892a-1db6a94bcf4a")
 	)
 	(label "3V3"
 		(at 660.4 143.51 270)
@@ -13305,7 +13305,7 @@
 			)
 			(justify right)
 		)
-		(uuid "37e99674-6ac8-4767-9dbe-ddecc1c61fbf")
+		(uuid "151d656a-4c15-482f-996d-bcaf23536426")
 	)
 	(wire
 		(pts
@@ -13315,7 +13315,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "457a0a74-f20a-4d41-b802-69e2697c2894")
+		(uuid "5f307320-9f93-48fb-943c-5ce68fc85099")
 	)
 	(label "GND"
 		(at 660.4 161.29 90)
@@ -13325,7 +13325,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2806a826-6c94-42d6-af4c-9f6432ba5f69")
+		(uuid "b225320d-0df3-4627-b87e-1dafba019b31")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -13335,7 +13335,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "29c201d4-5032-488b-8637-63fcc5453998")
+		(uuid "a8f3b9ef-96e8-4cba-a2e3-df0ffb53b4eb")
 		(property "Reference" "C12"
 			(at 596.9 125.73 0)
 			(effects
@@ -13371,10 +13371,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8f87e41c-32a8-436f-aa4b-5d8495a70722")
+			(uuid "fe82b416-0da4-4246-b356-16ca93c5a58f")
 		)
 		(pin "2"
-			(uuid "653a0a99-79c9-4c4a-ad3b-b5fd02c45ddc")
+			(uuid "3ec1f1c4-6918-41a8-9c51-49c9a91544bb")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -13393,7 +13393,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "baa5c08d-764f-4ee5-a667-1cf84e7c241a")
+		(uuid "4478fceb-0d73-4713-8648-307481ba1d6d")
 	)
 	(label "SIO_5V"
 		(at 596.9 124.46 270)
@@ -13403,7 +13403,7 @@
 			)
 			(justify right)
 		)
-		(uuid "3641942a-7847-4b3f-b66f-0a72fa2f9638")
+		(uuid "57bafc14-f281-4b1a-8145-e6254db65039")
 	)
 	(wire
 		(pts
@@ -13413,7 +13413,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "c90d2259-1d55-42dd-9869-06f9183bdaff")
+		(uuid "f650599b-4312-4444-8e7f-08a3cbd23015")
 	)
 	(label "GND"
 		(at 596.9 142.24 90)
@@ -13423,7 +13423,7 @@
 			)
 			(justify left)
 		)
-		(uuid "b9cbf7b4-403b-48c4-a12d-6c4c5d0f5940")
+		(uuid "2f139fe0-99e1-4996-833f-5c7a75e0810e")
 	)
 	(symbol
 		(lib_id "Device:Q_NMOS")
@@ -13433,7 +13433,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "32f6bad7-f6a7-454b-99cc-689cd98363a5")
+		(uuid "8a5a1811-fffc-4f5e-bc90-8138511e276d")
 		(property "Reference" "Q3"
 			(at 685.8 144.78 0)
 			(effects
@@ -13469,13 +13469,13 @@
 			)
 		)
 		(pin "G"
-			(uuid "8a8b2980-47d8-4ea7-a8bc-9c6dd280a372")
+			(uuid "79ce51bc-2147-4a28-b4e0-73d38595b095")
 		)
 		(pin "D"
-			(uuid "79fe08a1-3a60-4846-8d9c-9cfe0582ea55")
+			(uuid "bf909983-5b36-4610-973a-6074704c02cd")
 		)
 		(pin "S"
-			(uuid "3dae52a6-f6be-43a6-a8fb-743e0873674f")
+			(uuid "2f521736-d994-4c33-adac-cfd9b50acd95")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -13494,7 +13494,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "e5a82c6a-7862-4b1c-8902-d7a13103ce61")
+		(uuid "31e3f40c-106f-4720-946e-c539ebaeb985")
 	)
 	(label "Q3_GATE"
 		(at 675.64 152.4 180)
@@ -13504,7 +13504,7 @@
 			)
 			(justify right)
 		)
-		(uuid "108370db-ca80-463a-a92f-b2852c714621")
+		(uuid "36a2a924-8c0c-4e79-ad0a-40b120507b8e")
 	)
 	(wire
 		(pts
@@ -13514,7 +13514,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "df43048f-0604-487a-8bf1-530a54490cbd")
+		(uuid "06e06d0f-c915-45bc-bae1-32c73c4b3cf5")
 	)
 	(label "Q2_GATE"
 		(at 688.34 142.24 270)
@@ -13524,7 +13524,7 @@
 			)
 			(justify right)
 		)
-		(uuid "c105f679-4f55-4899-850f-bb66f9b42650")
+		(uuid "8ed30ca0-9da5-4e16-94cd-4ca6daf191a5")
 	)
 	(wire
 		(pts
@@ -13534,7 +13534,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "cef1c1ce-0dd5-4eac-bead-14a02880f9bb")
+		(uuid "05bad98d-dc79-4e4b-9a78-1617b422f245")
 	)
 	(label "GND"
 		(at 688.34 162.56 90)
@@ -13544,7 +13544,7 @@
 			)
 			(justify left)
 		)
-		(uuid "bf2de93f-9aba-4e8a-8acc-68d3d00a6543")
+		(uuid "d071b650-b762-48a9-99db-c36467653e1a")
 	)
 	(symbol
 		(lib_id "Device:Q_PMOS")
@@ -13554,7 +13554,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3a375737-69b1-4c78-9057-39afaca3a8f1")
+		(uuid "ce33cb3e-c975-4932-a26c-aa11a2038ed6")
 		(property "Reference" "Q2"
 			(at 711.2 144.78 0)
 			(effects
@@ -13590,13 +13590,13 @@
 			)
 		)
 		(pin "G"
-			(uuid "3d357ba4-ecc4-4968-b719-379971516686")
+			(uuid "a0dca915-979a-4dd8-a7c4-75376aacbb9b")
 		)
 		(pin "D"
-			(uuid "438dc345-976f-443b-9d91-8f243f6e411c")
+			(uuid "e1e7af0f-1c36-4dee-a72b-b20d13b6b361")
 		)
 		(pin "S"
-			(uuid "f7d9e2db-ab85-4bd5-9691-aab86692c4db")
+			(uuid "84ea5634-761d-4af6-a369-102da358d030")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -13615,7 +13615,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "e7e842fe-4c34-4c98-9508-da6e1de9aa28")
+		(uuid "e640a736-8a80-4d10-a055-62705071ab6d")
 	)
 	(label "Q2_GATE"
 		(at 701.04 152.4 180)
@@ -13625,7 +13625,7 @@
 			)
 			(justify right)
 		)
-		(uuid "6c57f01b-1072-4a25-adcb-769db3256def")
+		(uuid "1f95c389-13dd-49b0-9265-0361aa5adb8a")
 	)
 	(wire
 		(pts
@@ -13635,7 +13635,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "643aeceb-7bcf-40f1-a807-e14cc2738194")
+		(uuid "93b0eb13-4846-4895-97b0-d7a48d4643ce")
 	)
 	(label "VCC_BUF"
 		(at 713.74 142.24 270)
@@ -13645,7 +13645,7 @@
 			)
 			(justify right)
 		)
-		(uuid "ea414588-788c-43a3-a763-e3d0f2d68c8e")
+		(uuid "1793efe7-45ef-4ddb-bd8e-df9696856f67")
 	)
 	(wire
 		(pts
@@ -13655,7 +13655,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "bebd650b-f577-41e7-a76b-7798a06aa2e0")
+		(uuid "a7b56c39-116a-4d15-9aa1-1ec2cbf44d1b")
 	)
 	(label "PWR_SW_VCC"
 		(at 713.74 162.56 90)
@@ -13665,7 +13665,7 @@
 			)
 			(justify left)
 		)
-		(uuid "fe82db6a-882f-4064-892e-6c6d0151a3cf")
+		(uuid "bc98adb6-eab5-4d61-8d4c-ed94802d5c51")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -13675,7 +13675,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bb2d8b1e-1b67-4d5f-880b-42d0dcb327d3")
+		(uuid "a95c09df-78d1-41f1-aca7-8255d5b31c4a")
 		(property "Reference" "R20"
 			(at 698.5 144.78 0)
 			(effects
@@ -13711,10 +13711,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "043fb668-6830-40b5-a62b-533621793de8")
+			(uuid "0f6784b0-9a0f-43e4-958b-7a0fbb586566")
 		)
 		(pin "2"
-			(uuid "74870fae-6dd5-4cb5-94bf-6eb02066d1bf")
+			(uuid "30d4504d-bfa7-466d-8666-d74173b8d9c7")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -13733,7 +13733,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "dc9611d1-f8bb-4793-8b41-940f43a5f17e")
+		(uuid "2174a8b5-9174-4af2-825c-e87bfd768a33")
 	)
 	(label "Q2_GATE"
 		(at 698.5 143.51 270)
@@ -13743,7 +13743,7 @@
 			)
 			(justify right)
 		)
-		(uuid "48aa75eb-da38-4dfc-9f4f-117ddff8cd1a")
+		(uuid "5471ec71-6574-49b5-b91c-acdecbdab1a0")
 	)
 	(wire
 		(pts
@@ -13753,7 +13753,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "bfa6cc97-3e37-47d0-9388-cfc92bd13208")
+		(uuid "5d9ca546-ff49-41dc-a7c7-145033cd9298")
 	)
 	(label "PWR_SW_VCC"
 		(at 698.5 161.29 90)
@@ -13763,7 +13763,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c30090fe-576e-48b7-bde9-fae1886e5178")
+		(uuid "8bdd7184-90e5-44fb-afaa-fc3d08986114")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -13773,7 +13773,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a2aed5ce-26fd-497f-993b-327575d60ea3")
+		(uuid "e3819855-64cf-4f3d-829f-b6aea8f27544")
 		(property "Reference" "R21"
 			(at 685.8 119.38 0)
 			(effects
@@ -13809,10 +13809,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f0e1359-dee7-4a55-9680-2b82035311e6")
+			(uuid "38bdc427-6530-4ea5-bed2-b1d2edcaa079")
 		)
 		(pin "2"
-			(uuid "7ee83b27-e34d-44d5-941e-805902fa853f")
+			(uuid "dbbcbcb7-7f7b-435c-9b72-62bbfda3f9ac")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -13831,7 +13831,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "85ea024d-9b31-4ad6-9089-2bc8e1919142")
+		(uuid "074be6dd-3869-418c-a6ef-2a6b9eafaa30")
 	)
 	(label "3V3"
 		(at 685.8 118.11 270)
@@ -13841,7 +13841,7 @@
 			)
 			(justify right)
 		)
-		(uuid "96f0613e-a480-40f7-977c-784a315ad491")
+		(uuid "d17892f2-9fce-41de-b37e-79c801625870")
 	)
 	(wire
 		(pts
@@ -13851,7 +13851,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "2e531f18-ad6c-45c9-9b88-dfce6ca86899")
+		(uuid "0f9430e3-6fa9-4dcf-a36a-60d18b9fc283")
 	)
 	(label "Q3_GATE"
 		(at 685.8 135.89 90)
@@ -13861,7 +13861,7 @@
 			)
 			(justify left)
 		)
-		(uuid "6ca488c1-6e01-44bc-8b87-fd2a594eb223")
+		(uuid "ca06a458-ef75-4598-95c2-349f74c50797")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -13871,7 +13871,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6ec2d424-898c-4d95-8b06-25f697884663")
+		(uuid "3b2d214c-ffe1-4f8d-9faa-7ed54533d5a3")
 		(property "Reference" "R17"
 			(at 787.4 144.78 0)
 			(effects
@@ -13907,10 +13907,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b0770731-0c1b-4e76-9a10-7ffa08800378")
+			(uuid "17d42873-5197-4ac4-8816-4b316e580ce0")
 		)
 		(pin "2"
-			(uuid "4b82c3f5-15a3-442b-86b7-1168aa9b6aa9")
+			(uuid "9e5eef15-a06c-4930-a81c-abe12a7dfd13")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -13929,7 +13929,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "b0035f45-e258-46ec-b9d2-46917f4a6f6f")
+		(uuid "17cbc27c-28bc-46c8-8bc3-46e17494c705")
 	)
 	(label "IO19/SPI_MISO"
 		(at 787.4 143.51 270)
@@ -13939,7 +13939,7 @@
 			)
 			(justify right)
 		)
-		(uuid "9599eb3f-61d9-4f09-a292-9602e3fcb356")
+		(uuid "5b6dbb77-23be-44da-9d63-1739502368c3")
 	)
 	(wire
 		(pts
@@ -13949,7 +13949,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "c973e37f-815a-4e8b-8834-69586ceaf6d7")
+		(uuid "ace7306a-4017-401e-99fa-b30f3b2b13cb")
 	)
 	(label "3V3"
 		(at 787.4 161.29 90)
@@ -13959,7 +13959,7 @@
 			)
 			(justify left)
 		)
-		(uuid "ea2bd99d-ce38-484b-b9bb-845961384bd0")
+		(uuid "4d9491d4-8070-4776-a664-43ad336af232")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -13969,7 +13969,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dcf60328-f88c-422a-9ba6-a7a5d5a642d0")
+		(uuid "16ba2926-1ef8-47a4-94df-e04dd4a005c8")
 		(property "Reference" "R18"
 			(at 800.1 144.78 0)
 			(effects
@@ -14005,10 +14005,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f55f532-f203-4cda-a19e-33bc0311b320")
+			(uuid "712a6b7e-088c-46e1-a14d-3c2f0e303d90")
 		)
 		(pin "2"
-			(uuid "ccd4888c-06b8-44ab-a9db-f640e81b6aca")
+			(uuid "b625d3e2-6b21-4717-a46a-79d5ebf0164e")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -14027,7 +14027,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "12fab802-13d8-46df-bbb0-f236d8ca8e4e")
+		(uuid "95cb4000-dac5-4e4f-8bec-34093a2d2415")
 	)
 	(label "IO23/SPI_MOSI"
 		(at 800.1 143.51 270)
@@ -14037,7 +14037,7 @@
 			)
 			(justify right)
 		)
-		(uuid "1f94fb32-9bbc-453e-aa0d-4cde258397ce")
+		(uuid "cefd0709-dca9-4e6a-b2d2-25720338ce3a")
 	)
 	(wire
 		(pts
@@ -14047,7 +14047,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "07074228-6f88-4103-a596-90ccec0073bb")
+		(uuid "b715b236-1dc2-4a12-966b-f8e2b5fc2b14")
 	)
 	(label "3V3"
 		(at 800.1 161.29 90)
@@ -14057,7 +14057,7 @@
 			)
 			(justify left)
 		)
-		(uuid "e7a5127f-9887-4f7b-a32c-7c07cb313249")
+		(uuid "af4a6244-f16e-4959-a47d-0dcdca3d7958")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -14067,7 +14067,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e25e12cf-aa09-4b93-8c90-e9ffc01f9d0a")
+		(uuid "0de6a030-7665-49cc-a365-360272d8a948")
 		(property "Reference" "R19"
 			(at 812.8 144.78 0)
 			(effects
@@ -14103,10 +14103,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "53aa4e87-07cc-4959-aa7a-6b27c8243703")
+			(uuid "df924b82-932c-42ca-b7c5-8a0281c9a6e3")
 		)
 		(pin "2"
-			(uuid "f0900568-259e-457c-aecc-b7f9e0d3e8b7")
+			(uuid "6dcb139e-3101-45ac-84e0-b73520e697ed")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -14125,7 +14125,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "3006e57d-05af-4fdd-a87e-99eb331f1cb2")
+		(uuid "e3308936-1ad9-42b5-ae90-c63eca9e850d")
 	)
 	(label "IO5/SPI_CS"
 		(at 812.8 143.51 270)
@@ -14135,7 +14135,7 @@
 			)
 			(justify right)
 		)
-		(uuid "315ab647-2346-4894-b1ff-503339f3516b")
+		(uuid "4eec45b9-34d3-4133-a0b1-f68168288c72")
 	)
 	(wire
 		(pts
@@ -14145,7 +14145,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "b27295df-32c4-41d5-af8c-dc7cf71e4aba")
+		(uuid "5b01e596-ff4e-4362-8b21-be5b7c75b471")
 	)
 	(label "3V3"
 		(at 812.8 161.29 90)
@@ -14155,7 +14155,7 @@
 			)
 			(justify left)
 		)
-		(uuid "70cb1163-367d-470f-800a-ab35a4df22d6")
+		(uuid "d00be89d-5aed-4397-8263-7572e1ec9628")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -14165,7 +14165,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5e1da19c-7718-4b6b-a0e6-58bd8f7497a8")
+		(uuid "b20a12ba-0ee0-47fa-9ec8-2c23e24a8dbb")
 		(property "Reference" "R23"
 			(at 825.5 144.78 0)
 			(effects
@@ -14201,10 +14201,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fba68ba9-ee3b-48b9-ae16-b6184f021ab4")
+			(uuid "1fd7e64e-e880-4536-8294-f6a7fef3460e")
 		)
 		(pin "2"
-			(uuid "9cc62898-ed68-431c-9124-e8d0db3e0d49")
+			(uuid "de2b3f16-9e0e-4a4f-a5c9-0957970e623b")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -14223,7 +14223,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "ec1bc6c6-67f7-4897-a442-5ab7faec88f6")
+		(uuid "e26fa66a-8421-498c-b69b-2b5afc072d81")
 	)
 	(label "IO15/TDO"
 		(at 825.5 143.51 270)
@@ -14233,7 +14233,7 @@
 			)
 			(justify right)
 		)
-		(uuid "90ab57f7-8aac-45a4-ad10-74b0813888cf")
+		(uuid "0fad8c8a-370d-45af-bf1f-8373c583e094")
 	)
 	(wire
 		(pts
@@ -14243,7 +14243,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "92986d6c-de7c-442b-be2f-777dab9a72d7")
+		(uuid "bcbad59e-294f-4007-a1c6-cd29a893345f")
 	)
 	(label "3V3"
 		(at 825.5 161.29 90)
@@ -14253,7 +14253,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c5ec7e91-e6d0-4eb8-acc4-97d9d34c1a9c")
+		(uuid "0dbd4ee7-a874-4587-a5aa-a667935382d3")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -14263,7 +14263,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2c6fb3e3-3146-4e85-81d6-96ae60234ed2")
+		(uuid "7979b2ec-293b-4844-93ef-51226906630e")
 		(property "Reference" "R27"
 			(at 838.2 144.78 0)
 			(effects
@@ -14299,10 +14299,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "485280a6-1401-4990-8d9b-93c4e9cf3507")
+			(uuid "90115ee3-4376-4d6e-822b-e2eea2fc9873")
 		)
 		(pin "2"
-			(uuid "442f7f7d-e5d7-4b10-b7da-22ba3334f80f")
+			(uuid "e4e767c2-a52d-469d-b4e5-2e4826372510")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -14321,7 +14321,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "74a56547-b41b-4400-841f-eca9a4b71d35")
+		(uuid "058b53d0-6d69-457d-baf4-13c249e2dd82")
 	)
 	(label "SD_DAT1"
 		(at 838.2 143.51 270)
@@ -14331,7 +14331,7 @@
 			)
 			(justify right)
 		)
-		(uuid "c6382d44-126c-47f9-8d7e-a84de8bd44c8")
+		(uuid "2f14b11e-07e2-4fad-90e9-41d0eabf0138")
 	)
 	(wire
 		(pts
@@ -14341,7 +14341,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "7b60d637-2840-4a9b-bc69-118c8f35aad8")
+		(uuid "739ce330-88f6-44e1-a79f-d718e7d94411")
 	)
 	(label "3V3"
 		(at 838.2 161.29 90)
@@ -14351,7 +14351,7 @@
 			)
 			(justify left)
 		)
-		(uuid "90c07ef0-672f-4608-8fbf-d8095380e260")
+		(uuid "a7f65ab6-e066-4335-88d5-f9a35375f1c1")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -14361,7 +14361,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bc8ec6b0-41d3-4b9c-aad1-a8dc4b6499d4")
+		(uuid "539fb18f-1108-4179-b389-9686841683c0")
 		(property "Reference" "R28"
 			(at 850.9 144.78 0)
 			(effects
@@ -14397,10 +14397,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "72218ee2-7df0-47de-920d-1e466c3e4ddb")
+			(uuid "b40b56e7-0641-48c4-a60c-d53935bc9e39")
 		)
 		(pin "2"
-			(uuid "6719f332-7a1e-433f-b223-eb7ad6b9615a")
+			(uuid "6cc5aa10-1e56-4f0a-8405-bccc52c55c67")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -14419,7 +14419,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "2e130689-8b39-4fc2-88f2-8b8dcbe8aad7")
+		(uuid "734417c9-17ba-4085-9c0d-c2e224b94537")
 	)
 	(label "SD_DAT2"
 		(at 850.9 143.51 270)
@@ -14429,7 +14429,7 @@
 			)
 			(justify right)
 		)
-		(uuid "db5e3983-8a87-42e1-b7fe-3a1274b345ac")
+		(uuid "bc37b6ea-31a0-4c9c-8a02-a86510d4e1fd")
 	)
 	(wire
 		(pts
@@ -14439,7 +14439,7 @@
 			(width 0)
 			(type solid)
 		)
-		(uuid "a804eded-e9d8-4c0f-a98d-887472ad71e7")
+		(uuid "ac9574f9-c59a-4abf-9875-a2ad9bbd397d")
 	)
 	(label "3V3"
 		(at 850.9 161.29 90)
@@ -14449,7 +14449,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2ebbfdb4-5338-4cf6-a8d9-815a21d89384")
+		(uuid "7fdd2ad4-70ca-4ba6-9201-fbafce97c2b3")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -14459,7 +14459,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d5a2fc04-a8e7-4e05-993d-4a1cc107bdea")
+		(uuid "e2af979b-87a3-44ea-8dc5-e2bfeb652553")
 		(property "Reference" "#FLG1"
 			(at 584.2 167.64 0)
 			(effects
@@ -14495,7 +14495,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "804f75b7-1fcc-4e6e-a867-917a7a0734eb")
+			(uuid "8e4e0b27-5f1a-4e6b-ba4f-b13ccf8cea6c")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -14514,7 +14514,7 @@
 			)
 			(justify left)
 		)
-		(uuid "cef886f6-a261-426e-a837-ea47ab5d4f15")
+		(uuid "9108c5c0-a60e-408e-b2ba-490056a9d78c")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -14524,7 +14524,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "82e85726-3a4b-4fc3-a251-6ac5114fa745")
+		(uuid "fe41155f-c838-42ed-875c-90b5025d3c16")
 		(property "Reference" "#FLG2"
 			(at 596.9 167.64 0)
 			(effects
@@ -14560,7 +14560,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3b3026f0-46ca-47f8-8799-83956417afc0")
+			(uuid "7c70d51a-da5d-4d96-a02f-4b1687823a60")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -14579,7 +14579,7 @@
 			)
 			(justify left)
 		)
-		(uuid "f64d6c82-fb2e-4d5f-bece-ad7cb7f4ad1e")
+		(uuid "1f14a01a-b745-4742-8654-004531ec52d4")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -14589,7 +14589,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cda3c336-8341-4974-ba1c-88f9a62c97c2")
+		(uuid "2619fab8-4647-4004-be2d-9ffd2b0868dc")
 		(property "Reference" "#FLG3"
 			(at 609.6 167.64 0)
 			(effects
@@ -14625,7 +14625,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "cfca062b-3454-454c-be8d-8f531bcd671e")
+			(uuid "b261b771-1cef-4c8a-abc4-b11b25bfeb27")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -14644,7 +14644,7 @@
 			)
 			(justify left)
 		)
-		(uuid "9ef4384f-4f05-42a8-ad39-0e1eb48a156e")
+		(uuid "884e8e02-fd30-42be-9c8f-13887716da9e")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -14654,7 +14654,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "034a501b-be42-4f4c-a5c8-9c107e2e919b")
+		(uuid "4203f236-2662-4769-a44a-45cd3adc641c")
 		(property "Reference" "#FLG4"
 			(at 622.3 167.64 0)
 			(effects
@@ -14690,7 +14690,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "77c1626a-552b-4b9b-bc0c-4944acd1f275")
+			(uuid "8c9353a9-edac-4204-8a5c-31e2ab2f63a1")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -14709,7 +14709,7 @@
 			)
 			(justify left)
 		)
-		(uuid "da488d69-1395-4712-89d2-8c504846245b")
+		(uuid "c398cdc8-6a25-4857-a0fa-86987bfc27ac")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -14719,7 +14719,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "597156fb-f1b6-42da-8122-9522acd123fa")
+		(uuid "a6855d50-4793-4714-b918-c887cd127912")
 		(property "Reference" "#FLG5"
 			(at 635 167.64 0)
 			(effects
@@ -14755,7 +14755,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "af08ffa9-3589-43c5-bca6-45ea899b056f")
+			(uuid "c7c6a8a0-fb74-4bc9-a86e-9133021255b2")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -14774,7 +14774,7 @@
 			)
 			(justify left)
 		)
-		(uuid "194f9cac-0780-4329-9530-6a3b0560f38f")
+		(uuid "787950ef-752a-4b16-a6dc-316384c87b31")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -14784,7 +14784,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f3949be4-6bd5-4d45-b499-31b67b782ac2")
+		(uuid "2e8b4904-8ae9-4e19-a502-64287706a63f")
 		(property "Reference" "#FLG6"
 			(at 647.7 167.64 0)
 			(effects
@@ -14820,7 +14820,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8e9e1cb7-b41c-48be-9707-8e59064dbc84")
+			(uuid "765da8a9-6461-4e0d-b05c-48f11ee9fdad")
 		)
 		(instances
 			(project "FN32ROV-XEBook-KiCad"
@@ -14839,7 +14839,7 @@
 			)
 			(justify left)
 		)
-		(uuid "0fc4a52d-5439-4316-aceb-04c2e36a4adb")
+		(uuid "ebe3f7ef-c6b6-487b-bdb9-e76c2c78affd")
 	)
 	(sheet_instances
 		(path "/"
