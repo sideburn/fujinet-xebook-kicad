@@ -1,0 +1,17 @@
+# KiCad backups and autosave
+*.bak
+*-bak
+_autosave-*
+*.kicad_sch-bak
+*.kicad_pcb-bak
+fp-info-cache
+*.lck
+*.000
+*.ratsnest
+
+# KiCad plot/output directories (regenerate via kicad-cli, don't commit)
+/gerbers/
+/plot/
+
+# macOS
+.DS_Store
