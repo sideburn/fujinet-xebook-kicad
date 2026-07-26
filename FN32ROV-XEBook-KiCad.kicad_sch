@@ -4169,6 +4169,276 @@
 				)
 				(embedded_fonts no)
 			)
+		(symbol "Transistor_BJT:Q_Dual_NPN_NPN_BRT_No_R2_E1B1C2E2B2C1"
+				(pin_names
+					(hide yes)
+				)
+				(exclude_from_sim no)
+				(in_bom yes)
+				(on_board yes)
+				(property "Reference" "Q"
+					(at 3.81 1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+				(property "Value" "Q_Dual_NPN_NPN_BRT_No_R2_E1B1C2E2B2C1"
+					(at 3.81 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+				(property "Footprint" ""
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(hide yes)
+					)
+				)
+				(property "Datasheet" "~"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(hide yes)
+					)
+				)
+				(property "Description" "Dual NPN bias resistor transistor without a base-emitter resistor, 6 pin package"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(hide yes)
+					)
+				)
+				(property "ki_keywords" "BJT"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(hide yes)
+					)
+				)
+				(symbol "Q_Dual_NPN_NPN_BRT_No_R2_E1B1C2E2B2C1_0_1"
+					(rectangle
+						(start -6.35 0.508)
+						(end -4.826 -0.508)
+						(stroke
+							(width 0)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(polyline
+						(pts
+							(xy -0.762 0) (xy -4.826 0)
+						)
+						(stroke
+							(width 0)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(polyline
+						(pts
+							(xy -0.635 1.905) (xy -0.635 -1.905)
+						)
+						(stroke
+							(width 0.508)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(polyline
+						(pts
+							(xy -0.635 0.635) (xy 1.27 2.54)
+						)
+						(stroke
+							(width 0)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(polyline
+						(pts
+							(xy -0.635 -0.635) (xy 1.27 -2.54)
+						)
+						(stroke
+							(width 0)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(polyline
+						(pts
+							(xy 0 -1.778) (xy 0.508 -1.27) (xy 1.016 -2.286) (xy 0 -1.778)
+						)
+						(stroke
+							(width 0)
+							(type default)
+						)
+						(fill
+							(type outline)
+						)
+					)
+				)
+				(symbol "Q_Dual_NPN_NPN_BRT_No_R2_E1B1C2E2B2C1_1_1"
+					(circle
+						(center 0 0)
+						(radius 2.8194)
+						(stroke
+							(width 0.254)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(pin input line
+						(at -8.89 0 0)
+						(length 2.54)
+						(name "B1"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "2"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+					(pin passive line
+						(at 1.27 5.08 270)
+						(length 2.54)
+						(name "C1"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "6"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+					(pin passive line
+						(at 1.27 -5.08 90)
+						(length 2.54)
+						(name "E1"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "1"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+				)
+				(symbol "Q_Dual_NPN_NPN_BRT_No_R2_E1B1C2E2B2C1_2_1"
+					(circle
+						(center 0 0)
+						(radius 2.8194)
+						(stroke
+							(width 0.254)
+							(type default)
+						)
+						(fill
+							(type none)
+						)
+					)
+					(pin input line
+						(at -8.89 0 0)
+						(length 2.54)
+						(name "B2"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "5"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+					(pin passive line
+						(at 1.27 5.08 270)
+						(length 2.54)
+						(name "C2"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "3"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+					(pin passive line
+						(at 1.27 -5.08 90)
+						(length 2.54)
+						(name "E2"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "4"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+				)
+				(embedded_fonts no)
+			)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
@@ -10929,6 +11199,444 @@
 			(justify left)
 		)
 		(uuid "ca90ba23-b092-49d2-b9df-603ae16e1b38")
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_Dual_NPN_NPN_BRT_No_R2_E1B1C2E2B2C1")
+		(at 63.5 292.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76fedb2e-2972-4e73-8d83-f2ffbf5720da")
+		(property "Reference" "Q1"
+			(at 63.5 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UMH3NTN"
+			(at 63.5 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 63.5 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b12d78f2-9015-48f2-837a-01df8e4af390")
+		)
+		(pin "6"
+			(uuid "5b05b8ea-af60-41dd-b33b-b7629c821729")
+		)
+		(pin "1"
+			(uuid "2686361e-a2aa-4780-8e6d-17dca96ae94b")
+		)
+		(instances
+			(project "FN32ROV-XEBook-KiCad"
+				(path "/4c3930ed-aadd-48ff-beab-e5d9c5d47b74"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 54.61 292.1) (xy 49.53 292.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "ee1c7e4d-f52a-4d9d-8352-f80589e3e2c6")
+	)
+	(label "RTS"
+		(at 49.53 292.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94059aad-3969-46ca-a3bf-e4cf7a8e8adf")
+	)
+	(wire
+		(pts
+			(xy 64.77 287.02) (xy 64.77 281.94)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "66773125-ec85-4cae-8a11-e955982eefea")
+	)
+	(label "EN"
+		(at 64.77 281.94 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b88d84d9-79d8-44f2-8ef3-cd6ed8e7310f")
+	)
+	(wire
+		(pts
+			(xy 64.77 297.18) (xy 64.77 302.26)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f24e3d64-fba5-46f3-8525-1b7f510a6f41")
+	)
+	(label "GND"
+		(at 64.77 302.26 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da65e36d-c207-4d26-8263-a1ee856bf5e4")
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_Dual_NPN_NPN_BRT_No_R2_E1B1C2E2B2C1")
+		(at 88.9 292.1 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de274fdb-7053-4760-b210-dd0e235663d6")
+		(property "Reference" "Q1"
+			(at 88.9 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UMH3NTN"
+			(at 88.9 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 88.9 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "b82dc654-fd8c-4f8f-9079-478bcb302e9f")
+		)
+		(pin "3"
+			(uuid "50b8252a-9c26-4906-bcfb-7945f0d4c3ad")
+		)
+		(pin "4"
+			(uuid "d9d94000-2350-4fcc-bfe8-a29700512016")
+		)
+		(instances
+			(project "FN32ROV-XEBook-KiCad"
+				(path "/4c3930ed-aadd-48ff-beab-e5d9c5d47b74"
+					(reference "Q1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 80.01 292.1) (xy 74.93 292.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "53d6c769-4a98-4284-9ba7-6bc1807dc975")
+	)
+	(label "DTR"
+		(at 74.93 292.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "23548a99-003d-4bf6-b367-030486015f59")
+	)
+	(wire
+		(pts
+			(xy 90.17 287.02) (xy 90.17 281.94)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "25701b07-f176-4040-8903-f38aac069dab")
+	)
+	(label "BTN_SWAP"
+		(at 90.17 281.94 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b15db1b7-c08c-4689-a9a5-6ade4a36425c")
+	)
+	(wire
+		(pts
+			(xy 90.17 297.18) (xy 90.17 302.26)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "aabf3011-e704-473a-a0c0-c992487bbc22")
+	)
+	(label "GND"
+		(at 90.17 302.26 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "867d28b5-77f7-464e-8305-463badcc8c4d")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 50.8 292.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f50c3401-1713-4246-ac50-2f6887f13357")
+		(property "Reference" "R5"
+			(at 50.8 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 50.8 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 50.8 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e679f64e-c0ae-4740-b257-96f67ffd4cdf")
+		)
+		(pin "2"
+			(uuid "b1725afa-9fd6-46fc-9f9b-5a3d31155fd2")
+		)
+		(instances
+			(project "FN32ROV-XEBook-KiCad"
+				(path "/4c3930ed-aadd-48ff-beab-e5d9c5d47b74"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 50.8 288.29) (xy 50.8 283.21)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "d1f592bb-1020-43ee-9f60-c5f919c28958")
+	)
+	(label "3V3"
+		(at 50.8 283.21 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a269036a-e998-4ce7-892e-31ef06332a18")
+	)
+	(wire
+		(pts
+			(xy 50.8 295.91) (xy 50.8 300.99)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "cd817aa5-4d0c-4419-9c0f-c241c22d5658")
+	)
+	(label "EN"
+		(at 50.8 300.99 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00445fb8-9da6-4ad1-8357-3e602e78e5b3")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 101.6 292.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3f07d80-2ab1-4891-814f-cb14469bb7ef")
+		(property "Reference" "C2"
+			(at 101.6 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uF 6.3V"
+			(at 101.6 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 101.6 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2f2c720-9044-4c0e-a1da-ad4db27727c5")
+		)
+		(pin "2"
+			(uuid "08f62744-e4db-4bee-9976-414641b150a0")
+		)
+		(instances
+			(project "FN32ROV-XEBook-KiCad"
+				(path "/4c3930ed-aadd-48ff-beab-e5d9c5d47b74"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 101.6 288.29) (xy 101.6 283.21)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b97aa01f-f04a-4fa0-a1a3-780059f393ce")
+	)
+	(label "EN"
+		(at 101.6 283.21 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95c942ba-e047-4f38-8383-a7df069b3496")
+	)
+	(wire
+		(pts
+			(xy 101.6 295.91) (xy 101.6 300.99)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a35a66ed-dda0-4cd6-b3f6-b7b2802d25ad")
+	)
+	(label "GND"
+		(at 101.6 300.99 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b37b6c3-499b-47f9-a4ba-88e61a4f1b70")
 	)
 	(sheet_instances
 		(path "/"
