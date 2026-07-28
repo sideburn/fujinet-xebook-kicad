@@ -9977,7 +9977,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K"
 			(at 162.56 124.46 90)
 			(effects
 				(font
@@ -11531,7 +11531,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K"
 			(at 100.33 124.46 90)
 			(effects
 				(font
@@ -13262,7 +13262,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K"
 			(at 50.8 281.94 90)
 			(effects
 				(font
@@ -14093,7 +14093,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K"
 			(at 58.42 124.46 90)
 			(effects
 				(font
@@ -14159,7 +14159,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K"
 			(at 377.19 238.76 90)
 			(effects
 				(font
@@ -14487,7 +14487,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K"
 			(at 53.34 269.24 90)
 			(effects
 				(font
