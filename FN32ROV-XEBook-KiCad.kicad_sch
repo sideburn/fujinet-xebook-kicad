@@ -3602,7 +3602,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ESP32-WROVER-E"
+			(property "Value" "ESP32-WROVER-IE-N16R8"
 				(at -30.48 22.86 0)
 				(effects
 					(font
@@ -11297,13 +11297,13 @@
 				)
 			)
 		)
-		(pin "G"
+		(pin "1"
 			(uuid "d1efa1e8-b1ed-44ea-90ad-966a7cad86d2")
 		)
-		(pin "D"
+		(pin "3"
 			(uuid "f1fbb730-e7d7-4be7-b54d-127027b7f6e0")
 		)
-		(pin "S"
+		(pin "2"
 			(uuid "6607ef0b-8ec5-4842-91b9-2836886433cb")
 		)
 		(instances
@@ -13945,7 +13945,7 @@
 				)
 			)
 		)
-		(property "Value" "ESP32-WROVER-E"
+		(property "Value" "ESP32-WROVER-IE-N16R8"
 			(at 153.67 199.39 0)
 			(effects
 				(font
@@ -14284,7 +14284,7 @@
 		(dnp no)
 		(uuid "c17733d4-8f28-4000-bdee-99d7dfa6db9b")
 		(property "Reference" "J_PWR1"
-			(at 152.4 68.58 0)
+			(at 152.4 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14292,7 +14292,7 @@
 			)
 		)
 		(property "Value" "PWR_SW_JST"
-			(at 152.4 83.82 0)
+			(at 152.4 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15341,13 +15341,13 @@
 				)
 			)
 		)
-		(pin "G"
+		(pin "1"
 			(uuid "aece96e9-6f53-4a08-88e2-91412c11c055")
 		)
-		(pin "D"
+		(pin "3"
 			(uuid "22ef53bc-24cd-48a5-8aa1-d2df7872e478")
 		)
-		(pin "S"
+		(pin "2"
 			(uuid "2d539335-5e1d-481d-a9a8-9c20054a5b72")
 		)
 		(instances
@@ -15776,22 +15776,22 @@
 		(dnp no)
 		(uuid "f7dc94a4-8110-423f-841f-7ca5c85b9352")
 		(property "Reference" "J_SD1"
-			(at 152.4 43.18 0)
+			(at 152.4 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SD_BREAKOUT"
-			(at 152.4 58.42 0)
+		(property "Value" "SD_JST"
+			(at 155.194 51.054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S7B-PH-K_1x07_P2.00mm_Horizontal"
 			(at 152.4 50.8 0)
 			(effects
 				(font

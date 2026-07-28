@@ -4,3 +4,8 @@
     (condition "A.memberOfFootprint('J2') || B.memberOfFootprint('J2')")
     (constraint hole_clearance (min 0.15mm))
 )
+
+(rule "SD1 microSD connector board-edge clearance"
+    (condition "A.memberOfFootprint('SD1')")
+    (constraint edge_clearance (min 0.2mm))
+)
