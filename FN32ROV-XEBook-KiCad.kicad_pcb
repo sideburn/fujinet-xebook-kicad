@@ -7831,9 +7831,10 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.7k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "04b57297-dd78-4445-b3e2-57760339dc31")
 			(effects
 				(font
@@ -9916,6 +9917,7 @@
 		(property "Value" "1k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "27f2f3d1-8ff0-49a1-8e54-59b3e42d8bef")
 			(effects
 				(font
