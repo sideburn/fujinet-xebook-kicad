@@ -3,7 +3,7 @@
 "C5,C6,C8,C9","0.1uF 6.3V","Capacitor_SMD:C_0402_1005Metric","",""
 "C12","47uF 10V","Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D","",""
 "D4-D6","ESD5Z5.0T1G","Diode_SMD:D_SOD-523","",""
-"D7,D8","PMEG2010ER,115","Diode_SMD:D_SOD-323","",""
+"D7,D8","PMEG2010BEA,115","Diode_SMD:D_SOD-323","",""
 "J2","USB-C 16P","LocalOverrides:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A","",""
 "J_BTN1","BTN_JST","Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal","",""
 "J_LED1","LED_JST","Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal","",""

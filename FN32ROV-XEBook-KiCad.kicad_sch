@@ -11035,7 +11035,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG2010ER,115"
+		(property "Value" "PMEG2010BEA,115"
 			(at 153.67 335.28 0)
 			(effects
 				(font
@@ -14851,7 +14851,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG2010ER,115"
+		(property "Value" "PMEG2010BEA,115"
 			(at 153.924 307.34 0)
 			(effects
 				(font
