@@ -17,3 +17,6 @@ fp-info-cache
 
 # macOS
 .DS_Store
+
+# Freerouting export (regenerate from the PCB when needed)
+*.dsn

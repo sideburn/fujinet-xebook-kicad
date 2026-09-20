@@ -3602,7 +3602,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ESP32-WROVER-IE-N16R8"
+			(property "Value" "ESP32-WROVER-E-N16R8"
 				(at -30.48 22.86 0)
 				(effects
 					(font
@@ -12277,7 +12277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LocalOverrides:IDC-Header_2x06_P2.54mm_Latch_Horizontal"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x06_P2.54mm_Vertical"
 			(at 50.8 50.8 0)
 			(effects
 				(font
@@ -13879,7 +13879,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "10K"
 			(at 304.8 281.94 90)
 			(effects
 				(font
@@ -13945,7 +13945,7 @@
 				)
 			)
 		)
-		(property "Value" "ESP32-WROVER-IE-N16R8"
+		(property "Value" "ESP32-WROVER-E-N16R8"
 			(at 153.67 199.39 0)
 			(effects
 				(font
@@ -15243,7 +15243,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "30k"
 			(at 241.3 281.94 90)
 			(effects
 				(font
