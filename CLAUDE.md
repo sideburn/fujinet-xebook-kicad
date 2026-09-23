@@ -116,7 +116,8 @@ reasoning about placement-head clearance.
 Dropping SIO pin 6 (the second GND) shifts every pin above it. Off-by-one from IDC pin 6
 upward — get this wrong when building the cable and you will feed +5V into a logic pin.
 There are **no per-pin silkscreen labels on the board**; the only silk is the reference
-designator. This table is the authoritative mapping:
+designator (the sole exception is TP1, which prints its net name). This table is the
+authoritative mapping:
 
 | IDC pin | Net | Atari SIO pin | Direction / notes |
 |---|---|---|---|
@@ -129,7 +130,7 @@ designator. This table is the authoritative mapping:
 | 7 | SIO_MCTL | **8** | U3 pin 3 (2A, in); R24 2k pull-down |
 | 8 | SIO_PROC | **9** | U3 pin 6 (3Y, out) |
 | 9 | SIO_5V | **10** | board supply in — C12 47uF bulk, D8 OR-ing diode, R4, R16 |
-| 10 | SIO_AUDIN | **11** | C3 → R8 → ESP32 IO25 (DAC) |
+| 10 | SIO_AUDIN | **11** | C3 → R8 → ESP32 IO25 (DAC); also brought out to **TP1** |
 | 11 | SIO_INT | **13** | U3 pin 8 (4Y, out) |
 | 12 | *not connected* | — | see below |
 
@@ -530,6 +531,27 @@ kicad-cli pcb export drill   -o <out>/ --format excellon --excellon-separate-th 
 
 The drill map files (`*-drl_map.gbr`) are generated for reference but **excluded from the
 zip** — the 1.0 zip contained 12 files and didn't include them.
+
+### TP1 — SIO audio take-off for PokeyMax
+
+Added 2026-09-22. A 2.0mm through-hole pad (1.0mm drill,
+`TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm`) on `SIO_AUDIN` at **(80.475, 56.475)** —
+in the open area right of J_SIO1, centred in a GND stitching-via cell, above the USB-C
+connector. Routed back to J_SIO1 pad 10 with three F.Cu segments. Silkscreens `SIO_AUDIN`
+(the reference is set not to print). Marked *exclude from BOM* and *exclude from position
+files*, so the BOM stays at 30 rows and the pick-and-place at 60 placements — both are
+byte-identical to the 1.1 export, and the PCBWay BOM needs no revision.
+
+**Why it exists:** on a PokeyMax-equipped XEBook the amp takes L/R from PokeyMax J2 pins
+2/3, bypassing the motherboard mixer, so FujiNet's S.A.M. disk-swap speech only reaches the
+speakers if SIO audio is wired into PokeyMax J2 pin 4. Previously that meant tacking a wire
+onto the back of the IDC header pin. Note the trap this pad avoids: the wire goes to **IDC
+pin 10**, not pin 11 — pin 11 is SIO_INT, and wiring it there gives crackling and popping
+with no speech, while a finger-on-the-wire hum test still passes.
+
+Clearances: 0.82mm to the four nearest GND vias, 1.1mm from each via column along the
+route. DRC after the change is clean for TP1 (0 violations involving it, 0 unconnected,
+0 schematic-parity).
 
 ### Deliberate deviations from FN32ROV-1.7.1 (all verified correct)
 
