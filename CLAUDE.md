@@ -681,3 +681,22 @@ route. DRC after the change is clean for TP1 (0 violations involving it, 0 uncon
   design too. Matches upstream; leave it.
 - **ERC `lib_symbol_mismatch` on `Q_NMOS`/`Q_PMOS`** — cached pin numbering verified as
   G=1/S=2/D=3, correct for SOT-23. Cosmetic.
+
+## Fab package 1.2 (2026-10-15)
+
+`Fab/Gerbers-FN32ROV-XEBook-1.2/` + `FN32ROV-XEBook-1.2-Gerbers.zip`. Adds the pin-1
+silkscreen markers on J_BTN1, J_LED1 and J_SD1. Generated with `kicad-cli` 9.0.7.
+
+**Exported without `--subtract-soldermask` (`%LPC`=0), unlike 1.1.** The 1.1 package had
+soldermask subtraction (`%LPC`=1, 44 apertures); 1.2 matches the convention used by the SD,
+LED and button bar boards. Both fabs strip silk off pads regardless, but note this board does
+have silk overlapping pads, so the clipping now happens at the fab rather than in the file.
+
+Copper, paste, mask, drill and outline are unchanged from 1.1 apart from that and the new
+text. BOM and CPL were carried over byte-identical, since no component moved.
+
+DRC: 0 unconnected, 0 schematic parity issues, and one pre-existing `courtyards_overlap`
+between C12 and J_SIO1 — present before this change and on both fabricated batches.
+
+Filenames are versioned deliberately: see [[fujinet-1-1-batch-missing-tp1]] for why reusing
+a zip name cost a batch.
